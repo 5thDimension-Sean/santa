@@ -1,12 +1,15 @@
 """CP-SAT large-neighbourhood search over value DAGs (Santa 2026).
 
-Modes:  exp0 (bank-only full rebuild), exp1 (positive control), lns (priority run).
+Modes: exp0 through exp6, suite (all gates in order), publish (dual replay).
 Never writes submission.csv or banks; outputs go to experiments/ and submission-cpsat*.csv.
 """
-import argparse, csv, json, os, pickle, random, sys, time
-from collections import Counter, defaultdict
+import pickle, sys, time
+import subprocess
+import hashlib
+from near_reductions import canonical, convergents
+from collections import Counter, defaultdict, deque
 from pathlib import Path
-from multiprocessing import Pool
+
 
 import numpy as np
 
@@ -91,7 +94,7 @@ def choose_D(p, g, strategy, rng, bank_rec, size=(10, 25)):
     cons = consumers_of(g)
     vals = list(g)
     targets = set(p.targets)
-    if strategy == "all":
+    if strategy in ("all", "global"):
         return set(vals)
     if strategy == "output":
         t = rng.choice([v for v in vals if v in targets] or vals)
@@ -131,15 +134,44 @@ def grow(g, cons, D, target, rng, prefer=()):
 # ---------------------------------------------------------- candidate generation
 class Cands:
     """Candidate value -> {recipe: source-tag}."""
-    def __init__(self, limit, starts_kept):
+    def __init__(self, limit, starts_kept, max_values=5000, max_recipes=50000):
+        self.max_values = max_values
+        self.max_recipes = max_recipes
+        self.count = 0
         self.rec = defaultdict(dict)
         self.limit = limit
         self.known = starts_kept  # K: kept values + starts
 
     def add(self, v, op, a, b, tag):
-        if v in self.known or not (1 <= v <= self.limit) or v == a or v == b: return
-        if op in "+*" and a > b: a, b = b, a
-        self.rec[v].setdefault((op, a, b), tag)
+        if not (0 < a <= self.limit and 0 < b <= self.limit and 0 < v <= self.limit):
+            return
+        if op not in OPS or (op == "/" and a % b) or OPS[op](a, b) != v:
+            return
+        if v in self.known or v in (a, b) or self.count >= self.max_recipes:
+            return
+        if v not in self.rec and len(self.rec) >= self.max_values:
+            return
+        recipe = canonical((op, a, b))
+        if recipe not in self.rec[v]:
+            self.rec[v][recipe] = tag
+            self.count += 1
+
+    def prune(self, required):
+        """Keep two layers of alternatives plus the support of their concrete chains."""
+        queue = deque((v, 0) for v in required)
+        kept = {}
+        while queue:
+            v, depth = queue.popleft()
+            if v in kept or v not in self.rec:
+                continue
+            rules = self.rec[v]
+            if depth > 2:
+                rules = {r: tag for r, tag in rules.items() if tag != "closure"}
+            kept[v] = rules
+            for _, left, right in rules:
+                queue.extend((operand,depth+1) for operand in {left,right} if operand not in kept)
+        self.rec = kept
+        self.count = sum(map(len,kept.values()))
 
 
 def one_step_hits(X, A, Usorted, limit):
@@ -165,7 +197,7 @@ def one_step_hits(X, A, Usorted, limit):
         idx = np.searchsorted(Ua, B); idx[idx >= len(Ua)] = len(Ua) - 1
         for xi, b in zip(X[ok][Ua[idx] == B], B[Ua[idx] == B]):
             out.append((int(xi), "*", int(a), int(b)))
-        ok = X * a <= limit
+        ok = X <= limit // a
         B = X[ok] * a
         idx = np.searchsorted(Ua, B); idx[idx >= len(Ua)] = len(Ua) - 1
         for xi, b in zip(X[ok][Ua[idx] == B], B[Ua[idx] == B]):
@@ -188,48 +220,52 @@ def pair_closure(A, limit, cap=400_000):
             if s <= limit: res.setdefault(s, ("+", a, b))
             if a * b <= limit: res.setdefault(a * b, ("*", b, a))
             if a != b: res.setdefault(a - b, ("-", a, b))
-            if a % b == 0 and a != b: res.setdefault(a // b, ("/", a, b))
+            if a % b == 0: res.setdefault(a // b, ("/", a, b))
         if len(res) > cap: break
     return res
 
 
-def generate(p, K, R, bank_vals_rec, orig_rec, args, rng):
+def generate(p, K, R, bank_vals_rec, orig_rec, args, rng, global_search=False):
     """Return Cands and source counters. K: dict kept+starts value->recipe|None."""
     limit = p.limit
-    C = Cands(limit, set(K))
-    src = Counter()
+    C = Cands(limit, set(K), args.max_values, args.max_recipes)
     # 1: original recipes of D, 2: bank recipes of the whole puzzle
     for v, r in orig_rec.items():
         C.add(v, *r[:1], r[1], r[2], "orig")
     for v, recs in bank_vals_rec.items():
         for r in recs:
             C.add(v, r[0], r[1], r[2], "bank")
-    Kl = sorted(K)
+    Kl = sorted(set(K) | set(orig_rec)) if global_search else sorted(K)
     # pool U = K + current candidate values
     def U():
         return sorted(set(K) | set(C.rec))
     Rl = sorted(R)
     # 4: hubs -- values one step from K voted by how many r in R have a cheap route through them
+    one = pair_closure(Kl, limit)
     if args.hubs:
-        one = pair_closure(Kl if len(Kl) <= 250 else rng.sample(Kl, 250), limit)
         Uset = set(U())
         hubs = np.array([h for h in one if h not in Uset or h in C.rec], dtype=np.int64)
         votes = Counter()
         if len(hubs):
             Us = np.asarray(sorted(Uset), dtype=np.int64)
+            cheap_steps = np.asarray(sorted(set(one) | Uset), dtype=np.int64)
             for r in Rl:
+                matched = np.zeros(len(hubs), dtype=bool)
+                def present(values, pool):
+                    idx = np.minimum(np.searchsorted(pool, values), len(pool)-1)
+                    return pool[idx] == values
                 for B in (r - hubs, hubs - r, r + hubs):
-                    m = B >= 1
-                    idx = np.searchsorted(Us, B[m]); idx[idx >= len(Us)] = len(Us) - 1
-                    for h in hubs[m][Us[idx] == B[m]]: votes[int(h)] += 1
-                if r > 1:
-                    m = (r % hubs == 0)
-                    B = r // hubs[m]
-                    idx = np.searchsorted(Us, B); idx[idx >= len(Us)] = len(Us) - 1
-                    for h in hubs[m][Us[idx] == B]: votes[int(h)] += 1
+                    matched |= present(B, Us)
+                matched |= (r % hubs == 0) & present(r // hubs, Us)
+                # Count each port once, including inexpensive scaled-offset routes.
+                q = (r + hubs//2)//hubs
+                valid = (q >= 1) & (q <= limit//hubs)
+                scaled = q[valid]*hubs[valid]
+                matched[valid] |= present(q[valid], Us) & present(abs(r-scaled), cheap_steps)
+                votes.update(map(int, hubs[matched]))
         for h, n in votes.most_common(args.hubs):
             op, a, b = one[h]
-            C.add(h, op, a, b, "hub"); src["hub_values"] += 1
+            C.add(h, op, a, b, "hub")
     # 5: residual intermediates x with r = x op h, h in K or candidate (cheap), x one step from U
     if args.residual:
         Hs = sorted(set(Kl) | {v for v, rr in C.rec.items() if any(t == "hub" for t in rr.values())})
@@ -241,7 +277,7 @@ def generate(p, K, R, bank_vals_rec, orig_rec, args, rng):
                                     (r // h if h > 1 and r % h == 0 else 0, "*", "x", h),
                                     (r * h if r * h <= limit else 0, "/", "x", h),
                                     (h // r if r > 0 and h % r == 0 and h != r else 0, "/", h, "x")):
-                    if x >= 1 and x not in K and x != r:
+                    if 1 <= x <= limit and x not in K and x != r:
                         newx.append((x, r, op, a, b))
         xs = sorted({t[0] for t in newx})
         if xs:
@@ -255,32 +291,77 @@ def generate(p, K, R, bank_vals_rec, orig_rec, args, rng):
                     aa = x if a == "x" else a; bb = x if b == "x" else b
                     C.add(r, op, aa, bb, "residual")
                     for rec in good[x][:6]:
-                        C.add(x, *rec, "residual"); src["residual_values"] += 0
+                        C.add(x, *rec, "residual")
                     budget -= 1
-    # direct one-step recipes into R and candidates from K-side operands
+    # For a reduced fraction n/d, build d*r = n*h +/- correction.
+    cheap = set(K) | C.rec.keys() | one.keys()
+    def relation(r, h, n, d, tag):
+        scaled, product = r*d, n*h
+        correction = abs(scaled - product)
+        if n < 1 or max(scaled, product) > limit:
+            return
+        parts = [v for v in (n, d) if v != 1]
+        if correction:
+            parts.append(correction)
+        if any(v not in cheap for v in parts):
+            return
+        for v in parts:
+            if v in one:
+                C.add(v, *one[v], tag)
+        if n != 1:
+            C.add(product, "*", h, n, tag)
+        if correction:
+            C.add(scaled, "+" if product < scaled else "-", product, correction, tag)
+        if d != 1:
+            C.add(r, "/", scaled, d, tag)
+
+    for r in Rl:
+        if args.ratio:
+            for h in sorted(set(p.targets) & (set(K) | R) - {r}):
+                for d in range(1, 51):
+                    relation(r, h, (r*d + h//2)//h, d, "ratio")
+        if args.residual:
+            for h in Hs:
+                relation(r, h, (r + h//2)//h, 1, "residual")
+                for n, d in convergents(r, h, 12):
+                    relation(r, h, n, d, "residual")
+
+    if args.native_source:
+        native_chains(C, args, Kl, Rl)
     Ul = U()
-    tgt = sorted(set(Rl) | set(C.rec))
-    for x, op, a, b in one_step_hits(tgt, Kl if len(Kl) <= 300 else rng.sample(Kl, 300), Ul, limit):
+    for x, op, a, b in one_step_hits(Rl, Kl, Ul, limit):
         C.add(x, op, a, b, "closure")
-    # 6: near-ratio relations between R values
-    if args.ratio:
-        for i, t1 in enumerate(Rl):
-            for t2 in Rl[i + 1:]:
-                hi, lo = (t2, t1) if t2 > t1 else (t1, t2)
-                for bq in range(1, 51):
-                    a = round(hi * bq / lo)
-                    if a < 1: continue
-                    # hi*bq = a*lo + c  ->  hi = (a*lo + c)/bq ; c small
-                    c = hi * bq - a * lo
-                    if abs(c) > 10_000: continue
-                    # emit only if cheap pieces exist later via closure; recorded as no-op tag
+    for x, op, a, b in one_step_hits(sorted(C.rec), Kl, Ul, limit):
+        C.add(x, op, a, b, "closure")
+    C.prune(R)
     return C
+
+
+def native_chains(C, args, kept, targets):
+    if not targets:
+        return
+    payload = " ".join(map(str, [args.native_source, C.limit, len(kept), len(targets),
+                                 args.chain_cap, *kept, *targets]))
+    try:
+        run = subprocess.run([args.helper], input=payload.encode(), capture_output=True,
+                             timeout=args.native_seconds, check=True)
+        output = run.stdout
+    except subprocess.TimeoutExpired as exc:
+        # The helper flushes completed witnesses individually.
+        output = exc.stdout or b""
+        args.native_timeout = True
+    for line in output.split(b"\n")[:-1]:
+        words = line.decode().split()
+        for i in range(0, len(words), 4):
+            value, op, a, b = words[i:i+4]
+            C.add(int(value), op, int(a), int(b), args.native_source)
 
 
 # ---------------------------------------------------------------- CP-SAT model
 def solve_model(p, K, cands, R, hint, tl, nogoods=(), log=None):
     """K: kept value->recipe (None for starts). cands: value->{recipe:tag}. Returns (selected recipes, status, obj)."""
     from ortools.sat.python import cp_model
+    hint = {v: canonical(r) for v, r in hint.items()}
     Kset = set(K)
     # prune: forward-feasible
     avail = set(Kset); rec = {v: dict(r) for v, r in cands.items()}
@@ -330,7 +411,7 @@ def solve_model(p, K, cands, R, hint, tl, nogoods=(), log=None):
                     m.Add(lvl[v] >= lvl[o] + 1).OnlyEnforceIf(y)
                 elif o in K:
                     s = kl(o)
-                    m.Add(lvl[v] >= (s + 1 if isinstance(s, int) else 0)).OnlyEnforceIf(y) if isinstance(s, int) else m.Add(lvl[v] >= s + 1).OnlyEnforceIf(y)
+                    m.Add(lvl[v] >= s + 1).OnlyEnforceIf(y)
         m.Add(sum(yl) == x[v])
     for r in R:
         if r in x: m.Add(x[r] == 1)
@@ -342,7 +423,7 @@ def solve_model(p, K, cands, R, hint, tl, nogoods=(), log=None):
                 if u not in x: return None, "KEPT_NEEDS_MISSING", None
                 m.Add(x[u] == 1)
                 m.Add(klvl[v] >= lvl[u] + 1) if not isinstance(klvl[v], int) else None
-    m.Minimize(1000 * sum(x.values()) + sum(y for (v, r), y in ys.items() if hint.get(v) != r))
+    m.Minimize((1 + len(x)) * sum(x.values()) + sum(y for (v, r), y in ys.items() if hint.get(v) != r))
     for ng in nogoods:
         lits = [ys[k] for k in ng if k in ys]
         if len(lits) == len(ng): m.AddBoolOr([l.Not() for l in lits])
@@ -368,7 +449,46 @@ def solve_model(p, K, cands, R, hint, tl, nogoods=(), log=None):
 
 
 # --------------------------------------------------------------- scheduling
-def schedule(p, chosen_rec, rank):
+def repeated_value_schedule(p, rules, reference):
+    """Split live intervals at repeated definitions in the incumbent's order."""
+    reference_regs = list(p.starts) + [None] * (p.registers-len(p.starts))
+    latest = {v: i for i, v in enumerate(p.starts)}
+    steps = []
+    for op, a, b, dst in reference:
+        value = OPS[op](reference_regs[a], reference_regs[b])
+        reference_regs[dst] = value
+        if value not in rules:
+            continue
+        selected, left, right = rules[value]
+        if left not in latest or right not in latest:
+            return None
+        steps.append((selected, latest[left], latest[right]))
+        latest[value] = len(p.starts) + len(steps)-1
+    if not rules.keys() <= latest.keys():
+        return None
+    uses = Counter(slot for _, left, right in steps for slot in (left, right))
+    registers = {i:i for i in range(len(p.starts)) if uses[i]}
+    free = [i for i in range(p.registers) if i not in registers]
+    program = []
+    for i, (op, left, right) in enumerate(steps, len(p.starts)):
+        a, b = registers[left], registers[right]
+        for slot in (left, right):
+            uses[slot] -= 1
+            if not uses[slot]:
+                free.append(registers.pop(slot))
+        if not free:
+            return None
+        d = free.pop()
+        program.append([op, a, b, d])
+        if uses[i]:
+            registers[i] = d
+        else:
+            free.append(d)
+    replay(p, program)
+    return program
+
+
+def schedule(p, chosen_rec, rank, reference=None):
     """chosen_rec: value -> (op,a,b). Returns program or None (<=registers)."""
     starts = set(p.starts)
     users = defaultdict(list)
@@ -419,6 +539,8 @@ def schedule(p, chosen_rec, rank):
                 replay(p, prog); return prog
             except ValueError:
                 pass
+    if reference is not None:
+        return repeated_value_schedule(p, chosen_rec, reference)
     return None
 
 
@@ -436,31 +558,30 @@ def neighbourhood(p, prog, strategy, bank_rec, args, rng, seconds, row):
     K = {v: None for v in p.starts}
     K.update({v: r for v, r in g.items() if v not in D})
     row.update(strategy=strategy, D=len(D), R=len(R))
-    orig_rec = {v: g[v] for v in D}
+    orig_rec = {v: canonical(g[v]) for v in D}
     t0 = time.perf_counter()
-    C = generate(p, K, R, bank_rec, orig_rec, args, rng)
+    C = generate(p, K, R, bank_rec, orig_rec, args, rng, strategy == "global")
     gen_t = time.perf_counter() - t0
-    srcs = Counter(t for rs in C.rec.values() for t in rs.values())
+    srcs = Counter(t for rs in C.rec.values() for t in set(rs.values()))
     row.update(cands=len(C.rec), recipes=sum(map(len, C.rec.values())),
                src="|".join(f"{k}:{v}" for k, v in sorted(srcs.items())), gen_s=round(gen_t, 1))
-    # cap
-    if row["recipes"] > args.max_recipes:
-        row["reason"] = "too_many_recipes"; return None, None
-    keptn = len(K) - len(p.starts)
+    keptn = len(K) - len(set(p.starts))
     nogoods = []
-    best = None
     for attempt in range(4):
-        chosen, status, obj = solve_model(p, K, C.rec, R, orig_rec, max(1.0, seconds - gen_t), nogoods)
+        chosen, status, obj = solve_model(p, K, C.rec, R, orig_rec, max(0.01, seconds - (time.perf_counter() - t0)), nogoods)
         row.update(status=status, obj=obj)
         if chosen is None:
             row["reason"] = status; return None, None
+        row["selected_sources"] = dict(Counter(tag for _, tag in chosen.values()))
         total = keptn + obj
         if total >= len(prog):
             row["reason"] = "no_saving" ; return None, chosen
         rec = {v: r for v, r in g.items() if v not in D}
         rec.update({v: r for v, (r, t) in chosen.items()})
-        new = schedule(p, rec, rank)
+        new = schedule(p, rec, rank, prog)
         if new is not None and len(new) < len(prog):
+            row["selected_values"] = {str(v): t for v, (r, t) in chosen.items()
+                                      if v not in orig_rec or orig_rec[v] != r}
             tags = sorted({t for v, (r, t) in chosen.items() if v not in orig_rec or orig_rec[v] != r})
             row.update(accepted=1, new_len=len(new), reason="", used_sources="|".join(tags))
             return new, chosen
@@ -470,23 +591,28 @@ def neighbourhood(p, prog, strategy, bank_rec, args, rng, seconds, row):
 
 
 # ------------------------------------------------------------------ driver
-CACHE = Path(os.environ.get("CPSAT_CACHE", str(WORK / "bank_cache.pkl")))
-
-
-def load_banks(puzzles):
-    if CACHE.exists():
-        return pickle.load(open(CACHE, "rb"))
+def prepare_banks(puzzles):
+    files = [ROOT / name for name in BANK_FILES] + [BASE]
+    fingerprint = hashlib.sha256()
+    for path in files:
+        fingerprint.update(path.read_bytes())
+    cache = WORK / ("banks-" + fingerprint.hexdigest()[:16])
+    cache.mkdir(exist_ok=True, parents=True)
+    ready = cache / "complete"
+    if ready.exists():
+        return cache
     from optimize import read_bank
-    rec = {k: defaultdict(set) for k in puzzles}
-    for f in BANK_FILES + ["experiments/cp-sat-rebuild.csv"]:
-        bank = read_bank(str(ROOT / f), puzzles)
-        for k, prog in bank.items():
-            g, _ = prog_graph(puzzles[k], prog)
-            for v, r in g.items(): rec[k][v].add(r)
-    rec = {k: dict(v) for k, v in rec.items()}
-    CACHE.parent.mkdir(exist_ok=True, parents=True)
-    pickle.dump(rec, open(CACHE, "wb"))
-    return rec
+    recipes = {k: defaultdict(set) for k in puzzles}
+    for path in files:
+        for k, prog in read_bank(path, puzzles).items():
+            graph, _ = prog_graph(puzzles[k], prog)
+            for v, rule in graph.items():
+                recipes[k][v].add(canonical(rule))
+    for k, rules in recipes.items():
+        with (cache / (k + ".pkl")).open("wb") as stream:
+            pickle.dump(dict(rules), stream)
+    ready.touch()
+    return cache
 
 
 def read_progs(path, puzzles):
@@ -504,146 +630,22 @@ def full_rebuild(p, prog, bank_rec, args, rng, seconds, row):
     for v, rs in bank_rec.items():
         for r in rs: C.add(v, r[0], r[1], r[2], "bank")
     for v, r in g.items(): C.add(v, *r, "orig")
-    row.update(strategy="all", D=len(g), R=len(R), cands=len(C.rec), recipes=sum(map(len, C.rec.values())))
+    row.update(src="bank:" + str(len(C.rec)), strategy="all", D=len(g), R=len(R), cands=len(C.rec), recipes=sum(map(len, C.rec.values())))
+    deadline = time.monotonic() + seconds
     nogoods = []
     for _ in range(4):
-        chosen, status, obj = solve_model(p, K, C.rec, R, g, seconds, nogoods)
+        chosen, status, obj = solve_model(p, K, C.rec, R, g, max(.01, deadline - time.monotonic()), nogoods)
         row.update(status=status, obj=obj)
         if chosen is None: return None
-        new = schedule(p, {v: r for v, (r, t) in chosen.items()}, rank)
-        if new is not None: return new
-        row["reason"] = "unscheduled"
+        new = schedule(p, {v: r for v, (r, t) in chosen.items()}, rank, prog)
+        if new is not None and len(new) <= len(prog):
+            row.pop("reason", None)
+            return new
+        row["reason"] = "unscheduled" if new is None else "rematerialization_cost"
         nogoods.append([(v, r) for v, (r, t) in chosen.items()])
     return None
 
 
-def exp0_job(a):
-    key, seconds = a
-    puzzles = load_puzzles(str(ROOT / "puzzles.csv"))
-    bank_rec = load_banks(puzzles)[key]
-    base = read_progs_cache()[key]
-    p = puzzles[key]
-    row = dict(id=key, base=len(base)); t0 = time.perf_counter()
-    new = full_rebuild(p, base, bank_rec, argparse.Namespace(), random.Random(1), seconds, row)
-    row["time"] = round(time.perf_counter() - t0, 1)
-    row["new_len"] = len(new) if new else None
-    return row, new
-
-
-_BASE = None
-def read_progs_cache():
-    global _BASE
-    if _BASE is None:
-        puzzles = load_puzzles(str(ROOT / "puzzles.csv"))
-        _BASE = read_progs(BASE, puzzles)
-    return _BASE
-
-
-def pin(i):
-    try: os.sched_setaffinity(0, {i % os.cpu_count()})
-    except Exception: pass
-
-
-def init_worker(cores):
-    import multiprocessing
-    idx = multiprocessing.current_process()._identity[0] - 1
-    try: os.sched_setaffinity(0, {cores[idx % len(cores)]})
-    except Exception: pass
-
-
-def lns_job(a):
-    key, budget, args, base_prog = a
-    puzzles = load_puzzles(str(ROOT / "puzzles.csv"))
-    p = puzzles[key]
-    bank_rec = load_banks(puzzles)[key]
-    rng = random.Random(hash((key, args.seed)) & 0xFFFFFFFF)
-    prog = base_prog; rows, imps = [], []
-    strategies = ["output", "hub", "region", "disagree"]
-    t_start = time.perf_counter(); it = 0
-    while time.perf_counter() - t_start < budget:
-        strat = strategies[it % len(strategies)]; it += 1
-        row = dict(id=key, strategy=strat, accepted=0)
-        t0 = time.perf_counter()
-        try:
-            new, _ = neighbourhood(p, prog, strat, bank_rec, args, rng, args.nb_seconds, row)
-        except Exception as e:  # keep the job alive; log the failure
-            new = None; row["reason"] = f"error:{type(e).__name__}:{e}"[:120]
-        row["time"] = round(time.perf_counter() - t0, 1)
-        if new is not None:
-            replay(p, new)
-            imps.append(dict(id=key, old=len(prog), new=len(new), strategy=strat, sources=row.get("used_sources", "")))
-            prog = new
-        rows.append(row)
-    return key, prog, rows, imps
-
-
-def write_csv(path, rows, fields=None):
-    if not rows: return
-    fields = fields or sorted({k for r in rows for k in r})
-    with open(path, "w", newline="") as f:
-        w = csv.DictWriter(f, fields); w.writeheader(); w.writerows(rows)
-
-
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["exp0", "exp1", "lns"])
-    ap.add_argument("--workers", type=int, default=8)
-    ap.add_argument("--cores", default="0-7")
-    ap.add_argument("--ids", default="")
-    ap.add_argument("--seconds", type=float, default=60)
-    ap.add_argument("--budget", type=float, default=600)
-    ap.add_argument("--nb-seconds", type=float, default=30, dest="nb_seconds")
-    ap.add_argument("--hubs", type=int, default=200)
-    ap.add_argument("--residual", type=int, default=1)
-    ap.add_argument("--ratio", type=int, default=0)
-    ap.add_argument("--max-residual", type=int, default=3000, dest="max_residual")
-    ap.add_argument("--max-recipes", type=int, default=50000, dest="max_recipes")
-    ap.add_argument("--dmin", type=int, default=10)
-    ap.add_argument("--dmax", type=int, default=25)
-    ap.add_argument("--seed", type=int, default=1)
-    ap.add_argument("--top", type=int, default=20)
-    ap.add_argument("--skip", type=int, default=0)
-    ap.add_argument("--tag", default="run")
-    args = ap.parse_args()
-    lo, _, hi = args.cores.partition("-"); cores = list(range(int(lo), int(hi or lo) + 1))
-    puzzles = load_puzzles(str(ROOT / "puzzles.csv"))
-    WORK.mkdir(exist_ok=True, parents=True)
-    load_banks(puzzles)
-    base = read_progs_cache()
-    ids = args.ids.split(",") if args.ids else list(puzzles)
-    if args.mode == "exp0":
-        out = WORK / "exp0.jsonl"
-        done = {json.loads(l)["id"] for l in open(out)} if out.exists() else set()
-        todo = [(k, args.seconds) for k in ids if k not in done]
-        with Pool(args.workers, init_worker, (cores,)) as pool, open(out, "a") as f:
-            for row, new in pool.imap_unordered(exp0_job, todo):
-                f.write(json.dumps(row) + "\n"); f.flush()
-        rows = [json.loads(l) for l in open(out)]
-        ok = sum(1 for r in rows if r["new_len"] == r["base"]); better = sum(1 for r in rows if r["new_len"] and r["new_len"] < r["base"])
-        print(f"exp0: {len(rows)} puzzles, matched {ok}, better {better}, worse/none {len(rows)-ok-better}")
-        return
-    ranking = sorted(((len(base[k]) - len(set(puzzles[k].targets) - set(puzzles[k].starts)), k) for k in puzzles), reverse=True)
-    if args.ids: order = ids
-    else: order = [k for _, k in ranking][args.skip:args.skip + args.top]
-    ck = WORK / f"{args.tag}-progs.json"
-    cur = {k: base[k] for k in puzzles}
-    if ck.exists(): cur.update(json.load(open(ck)))
-    logf, impf = EXP / "cpsat-lns-log.csv", EXP / "cpsat-lns-improvements.csv"
-    jobs = [(k, args.budget, args, cur[k]) for k in order]
-    allrows, allimps = [], []
-    with Pool(args.workers, init_worker, (cores,)) as pool:
-        for key, prog, rows, imps in pool.imap_unordered(lns_job, jobs):
-            for r in rows: r["tag"] = args.tag
-            allrows += rows; allimps += imps
-            if imps:
-                cur[key] = prog
-                json.dump({k: v for k, v in cur.items() if len(v) < len(base[k])}, open(ck, "w"))
-            write_csv(EXP / f"cpsat-lns-log-{args.tag}.csv", allrows)
-            write_csv(EXP / f"cpsat-lns-improvements-{args.tag}.csv", allimps)
-            print(key, "rows", len(rows), "improvements", len(imps), flush=True)
-    saved = sum(len(base[k]) - len(cur[k]) for k in puzzles)
-    print("total saved", saved)
-
-
 if __name__ == "__main__":
+    from cpsat_experiments import main
     main()
