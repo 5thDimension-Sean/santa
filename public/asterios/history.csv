@@ -1,0 +1,364 @@
+version,date_utc,total,delta,change,credit
+v1,2026-11-19,141339,0,best public programs re-verified + analysis + experiment log,"Tony Li, konbu17, Elias T.-H. Shieh, Mizero Lucky Gall, thisray, Nilanjan_Saha123, Atakan Aldemir, Angel Jacinto Sanchez Ruiz"
+v4,2026-11-19,141330,-9,per-puzzle merge of the newest public programs (3 better than the best single public file),"Ertugrul Ozer, Roman Rozen, Atakan Aldemir, Nilanjan_Saha123 and the earlier sources"
+v5,2026-11-19,141329,-1,our first own gain: scored_0744 276 -> 275 with the helper-group joint rebuild,"ours (engine: Nilanjan_Saha123 suffix rebuilder, Apache-2.0)"
+v6,2026-11-19,141308,-21,merge of the newest public programs + scored_0590 139 -> 138 (graph passes re-run on the merged set),"Roman Rozen, Ertugrul Ozer, Pablo Diego Pereira, Nilanjan_Saha123 (passes)"
+v7,2026-11-19,138456,-2852,"per-puzzle merge of the newest public programs (19 notebooks, 6 datasets), every program re-verified","suka, Bikram Basnet, Mudit Chaturvedi, Rishabh Bafna, alex chilton, Pratham Jain, Roman Rozen and the earlier sources"
+v8,2026-11-19,138410,-46,"merge of the newest public programs (138,440) + Atakan Aldemir's multiplier-frontier optimizer re-run on all puzzles of the merged set (17 puzzles, -30)","Atakan Aldemir (optimizer), Mizero Lucky Gall, Pratham Jain, Roman Rozen, Ertugrul Ozer"
+v9,2026-11-19,138370,-40,"merge of the newest public programs (Atakan Aldemir 138,385, Rudolph, IceFire, Hanif, Starter) + 7 more instructions from re-running Atakan's optimizer on 5 puzzles","Atakan Aldemir, alex chilton, Roman Rozen, Hanif Noer Rofiq, Ertugrul Ozer"
+v10,2026-11-19,138365,-5,"merge of Atakan Aldemir's newest programs (138,382) + 2 more instructions from re-running his optimizer on 2 puzzles",Atakan Aldemir
+v11,2026-11-19,138356,-9,newest public programs merged per puzzle,"Kozykorpesh, Mizero Lucky Gall, prvsiyan, Ángel Jacinto Sánchez Ruiz"
+v12,2026-11-19,138346,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Atakan Aldemir, Ángel Jacinto Sánchez Ruiz"
+v13,2026-11-19,138287,-59,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Mizero Lucky Gall
+v14,2026-11-19,138275,-12,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Ertuğrul Özer, Mizero Lucky Gall, Ángel Jacinto Sánchez Ruiz"
+v15,2026-11-19,138216,-59,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Ertuğrul Özer, Mizero Lucky Gall, Ángel Jacinto Sánchez Ruiz"
+v16,2026-11-19,138214,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Atakan Aldemir, Roman Rozen"
+v17,2026-11-19,138206,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Mizero Lucky Gall, Roman Rozen, Ángel Jacinto Sánchez Ruiz"
+v18,2026-11-19,138204,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Atakan Aldemir, Ertuğrul Özer, Ángel Jacinto Sánchez Ruiz"
+v19,2026-11-19,138198,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, Roman Rozen"
+v20,2026-11-19,138195,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v21,2026-11-19,138186,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Atakan Aldemir, prvsiyan"
+v22,2026-11-19,138176,-10,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v23,2026-11-19,138169,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,prvsiyan
+v24,2026-11-19,138158,-11,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall, Roman Rozen"
+v25,2026-11-19,138080,-78,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Pratham Jain"
+v26,2026-11-19,138051,-29,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, Roman Rozen"
+v27,2026-11-19,138030,-21,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Pratham Jain"
+v28,2026-11-19,138025,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v29,2026-11-19,137941,-84,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Pratham Jain"
+v30,2026-11-19,137933,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v31,2026-11-19,137926,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall"
+v32,2026-11-19,137921,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v33,2026-11-19,137917,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, prvsiyan"
+v34,2026-11-19,137885,-32,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Ángel Jacinto Sánchez Ruiz"
+v35,2026-11-19,137872,-13,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain"
+v36,2026-11-19,137864,-8,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Rishabh Bafna, Roman Rozen, prvsiyan"
+v37,2026-11-19,137856,-8,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Arlene, Ertuğrul Özer, Pratham Jain, Roman Rozen, prvsiyan"
+v38,2026-11-19,137838,-18,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v39,2026-11-19,137827,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v40,2026-11-19,137807,-20,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v41,2026-11-19,137793,-14,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Dariush Afshar, Ertuğrul Özer, Pratham Jain, Roman Rozen, prvsiyan"
+v42,2026-11-19,137782,-11,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, prvsiyan, Ángel Jacinto Sánchez Ruiz"
+v43,2026-11-19,137768,-14,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v44,2026-11-19,137757,-11,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Hanif Noer Rofiq, Nilanjan_Saha123, Roman Rozen"
+v45,2026-11-19,137744,-13,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain"
+v46,2026-11-19,137720,-24,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v47,2026-11-19,137717,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen"
+v48,2026-11-19,137711,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v49,2026-11-19,137706,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Kozykorpesh, Mizero Lucky Gall, Nilanjan_Saha123, Sargis Khachatryan, alex chilton, prvsiyan"
+v50,2026-11-19,137701,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Hanif Noer Rofiq, Roman Rozen, alex chilton"
+v51,2026-11-20,136950,-751,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v52,2026-11-20,136897,-53,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Roman Rozen, alex chilton"
+v53,2026-11-20,136813,-84,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Hanif Noer Rofiq, Roman Rozen"
+v54,2026-11-20,136777,-36,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v55,2026-11-20,136767,-10,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Roman Rozen
+v56,2026-11-20,136762,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v57,2026-11-20,136678,-84,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v58,2026-11-20,136673,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen"
+v59,2026-11-20,136669,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Roman Rozen
+v60,2026-11-20,136664,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Navneet Prabhat"
+v61,2026-11-20,136213,-451,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen, alex chilton, goodpjw2008"
+v62,2026-11-20,136204,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v63,2026-11-20,136196,-8,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, alex chilton"
+v64,2026-11-20,136190,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen"
+v65,2026-11-20,136185,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v66,2026-11-20,136181,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v67,2026-11-20,136173,-8,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, alex chilton"
+v68,2026-11-20,136112,-61,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008"
+v69,2026-11-20,136103,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, Sung Heo"
+v70,2026-11-20,136098,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, alex chilton"
+v71,2026-11-20,136091,-7,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sung Heo"
+v72,2026-11-20,136072,-19,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Nilanjan_Saha123, Roman Rozen"
+v73,2026-11-20,136069,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v74,2026-11-20,136064,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v75,2026-11-20,136061,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Roman Rozen, alex chilton"
+v76,2026-11-20,136058,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Roman Rozen"
+v77,2026-11-20,136053,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen"
+v78,2026-11-20,135946,-107,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mobeen Fatima"
+v79,2026-11-20,135942,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, goodpjw2008"
+v80,2026-11-20,135939,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, alex chilton"
+v81,2026-11-20,135933,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v82,2026-11-20,135929,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen"
+v83,2026-11-20,135913,-16,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen, goodpjw2008"
+v84,2026-11-20,135909,-4,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Roman Rozen, alex chilton"
+v85,2026-11-20,135904,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v86,2026-11-20,135900,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall, Roman Rozen"
+v87,2026-11-20,135896,-4,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"De DQ, Ertuğrul Özer, Nilanjan_Saha123, Sung Heo"
+v88,2026-11-20,135891,-5,newest public programs merged per puzzle + 4 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Sung Heo, alex chilton"
+v89,2026-11-20,135851,-40,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall, Pratham Jain, Roman Rozen, Sung Heo, goodpjw2008"
+v90,2026-11-20,135848,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen, Sung Heo"
+v91,2026-11-20,135819,-29,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Pratham Jain, Roman Rozen"
+v92,2026-11-20,135816,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v93,2026-11-20,135809,-7,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Pratham Jain, Roman Rozen, alex chilton"
+v94,2026-11-20,135806,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"De DQ, Roman Rozen"
+v95,2026-11-20,135803,-3,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Navneet Prabhat, Roman Rozen, wang Jakie"
+v96,2026-11-20,135782,-21,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sung Heo, alex chilton"
+v97,2026-11-20,135761,-21,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Sung Heo, wang Jakie"
+v98,2026-11-20,135596,-165,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, wang Jakie"
+v99,2026-11-20,135592,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Arlene, Bikram Basnet, E-Max AI, Sung Heo"
+v100,2026-11-20,135589,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen"
+v101,2026-11-20,135451,-138,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Sung Heo, alex chilton, wang Jakie"
+v102,2026-11-20,135440,-11,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall, Roman Rozen, goodpjw2008"
+v103,2026-11-20,134638,-802,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Hanif Noer Rofiq, Mizero Lucky Gall, alex chilton, Ángel Jacinto Sánchez Ruiz, 守银摄金难铜"
+v104,2026-11-20,134634,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Roman Rozen, alex chilton"
+v105,2026-11-20,134616,-18,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Chaitanya Jamble, E-Max AI, Mizero Lucky Gall"
+v106,2026-11-20,134578,-38,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, alex chilton"
+v107,2026-11-20,134568,-10,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mizero Lucky Gall"
+v108,2026-11-20,134556,-12,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v109,2026-11-20,134542,-14,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Chaitanya Jamble, E-Max AI, Ertuğrul Özer, Roman Rozen, goodpjw2008"
+v110,2026-11-20,134519,-23,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Hanif Noer Rofiq, Juna1013"
+v111,2026-11-20,134508,-11,newest public programs merged per puzzle + 5 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Juna1013, Roman Rozen"
+v112,2026-11-20,134501,-7,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, Sung Heo, alex chilton"
+v113,2026-11-20,134494,-7,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Chaitanya Jamble, E-Max AI, Sung Heo"
+v114,2026-11-20,134485,-9,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen"
+v115,2026-11-20,134463,-22,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Hanif Noer Rofiq, Roman Rozen, Sung Heo"
+v116,2026-11-20,134459,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, Sung Heo"
+v117,2026-11-20,134437,-22,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Roman Rozen, Sung Heo"
+v118,2026-11-20,134322,-115,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Hanif Noer Rofiq, Mizero Lucky Gall, Pablo Diego Pereira"
+v119,2026-11-20,134316,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Saqib Ishtiaq, alex chilton"
+v120,2026-11-20,134307,-9,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen"
+v121,2026-11-20,134298,-9,newest public programs merged per puzzle + 5 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen"
+v122,2026-11-20,134289,-9,newest public programs merged per puzzle + 9 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Roman Rozen, Sung Heo, alex chilton"
+v123,2026-11-20,134189,-100,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Sung Heo, goodpjw2008"
+v124,2026-11-20,134185,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall, Roman Rozen, alex chilton"
+v125,2026-11-20,133992,-193,newest public programs merged per puzzle + 3 more instructions from re-running Atakan Aldemir's optimizer,"Bikram Basnet, E-Max AI, Mizero Lucky Gall, Pratham Jain, Roman Rozen, Saqib Ishtiaq, alex chilton, goodpjw2008"
+v126,2026-11-20,133983,-9,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v127,2026-11-20,133969,-14,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall, Rishabh Bafna, SIDHAARTH SHREE"
+v128,2026-11-20,133966,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v129,2026-11-20,133956,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v130,2026-11-20,133938,-18,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v131,2026-11-20,133935,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v132,2026-11-20,133932,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v133,2026-11-20,133925,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall"
+v134,2026-11-20,133923,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall"
+v135,2026-11-20,133918,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall"
+v136,2026-11-20,133907,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, alex chilton"
+v137,2026-11-21,133902,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v138,2026-11-21,133897,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v139,2026-11-21,133888,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ángel Jacinto Sánchez Ruiz"
+v140,2026-11-21,133875,-13,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Hanif Noer Rofiq, alex chilton, Ángel Jacinto Sánchez Ruiz"
+v141,2026-11-21,133873,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ángel Jacinto Sánchez Ruiz
+v142,2026-11-21,133858,-15,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, wang Jakie"
+v143,2026-11-21,133856,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v144,2026-11-21,133853,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,prvsiyan
+v145,2026-11-21,133845,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Sung Heo, prvsiyan"
+v146,2026-11-21,133840,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer"
+v147,2026-11-21,133834,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, prvsiyan"
+v148,2026-11-21,133831,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v149,2026-11-21,133824,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v150,2026-11-21,133812,-12,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pratham Jain, goodpjw2008"
+v151,2026-11-21,133804,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Sung Heo"
+v152,2026-11-21,133802,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Sung Heo, alex chilton"
+v153,2026-11-21,133794,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v154,2026-11-21,133787,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v155,2026-11-21,133785,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v156,2026-11-21,133779,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v157,2026-11-21,133771,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v158,2026-11-21,132996,-775,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v159,2026-11-21,132952,-44,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v160,2026-11-21,132949,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"alex chilton, goodpjw2008"
+v161,2026-11-21,132947,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v162,2026-11-21,132922,-25,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Hanif Noer Rofiq, Pardheev Krishna, Sung Heo"
+v163,2026-11-21,132917,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Mizero Lucky Gall"
+v164,2026-11-21,132914,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v165,2026-11-21,132910,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v166,2026-11-21,132908,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, alex chilton, goodpjw2008"
+v167,2026-11-21,132903,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Hanif Noer Rofiq, Mizero Lucky Gall, Pardheev Krishna"
+v168,2026-11-21,132897,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Nevska, Sung Heo, goodpjw2008"
+v169,2026-11-21,132893,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Sung Heo
+v170,2026-11-21,132714,-179,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ishan Karnick, Pardheev Krishna, goodpjw2008"
+v171,2026-11-21,132711,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v172,2026-11-21,132706,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Try"
+v173,2026-11-21,132701,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, goodpjw2008"
+v174,2026-11-21,132693,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Hanif Noer Rofiq, Try"
+v175,2026-11-21,132690,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Arlene, Mizero Lucky Gall, goodpjw2008"
+v176,2026-11-21,132687,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, goodpjw2008"
+v177,2026-11-21,132677,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Mizero Lucky Gall"
+v178,2026-11-21,132673,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, Try"
+v179,2026-11-21,132671,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Hanif Noer Rofiq, Jakie Wang"
+v180,2026-11-21,132646,-25,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v181,2026-11-21,132643,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Adaptive Agent Systems, Navneet Prabhat, goodpjw2008"
+v182,2026-11-21,132639,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Hanif Noer Rofiq, Mizero Lucky Gall"
+v183,2026-11-21,132637,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v184,2026-11-21,132635,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, goodpjw2008"
+v185,2026-11-21,132626,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, alex chilton"
+v186,2026-11-21,132621,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v187,2026-11-21,132617,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v188,2026-11-21,132615,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Mizero Lucky Gall, Pardheev Krishna"
+v189,2026-11-21,132611,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Mizero Lucky Gall
+v190,2026-11-21,132607,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v191,2026-11-21,132605,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v192,2026-11-21,132591,-14,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ishan Karnick
+v193,2026-11-21,132586,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v194,2026-11-21,132583,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Sargis Khachatryan
+v195,2026-11-21,132578,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Saqib Ishtiaq, goodpjw2008"
+v196,2026-11-21,132573,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Speedy Gonzales, goodpjw2008"
+v197,2026-11-21,132565,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v198,2026-11-21,132563,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v199,2026-11-21,132554,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ishan Karnick
+v200,2026-11-21,132545,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, goodpjw2008"
+v201,2026-11-21,132539,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v202,2026-11-21,132528,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Pardheev Krishna, goodpjw2008"
+v203,2026-11-21,132505,-23,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Adaptive Agent Systems, Ertuğrul Özer, Pardheev Krishna, Sung Heo, alex chilton, goodpjw2008"
+v204,2026-11-21,132502,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Sargis Khachatryan
+v205,2026-11-21,132497,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v206,2026-11-21,132492,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan, goodpjw2008"
+v207,2026-11-21,132482,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan, goodpjw2008"
+v208,2026-11-21,132476,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, Sargis Khachatryan, Try, goodpjw2008"
+v209,2026-11-21,132472,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v210,2026-11-21,132466,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan, goodpjw2008"
+v211,2026-11-21,132456,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"E-Max AI, Ertuğrul Özer, Pardheev Krishna, goodpjw2008"
+v212,2026-11-21,132376,-80,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, 奶龙"
+v213,2026-11-21,132373,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v214,2026-11-21,132367,-6,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v215,2026-11-21,132364,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v216,2026-11-21,132360,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v217,2026-11-21,132355,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v218,2026-11-21,132353,-2,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v219,2026-11-21,132348,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v220,2026-11-21,132344,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v221,2026-11-21,132337,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"goodpjw2008, 奶龙"
+v222,2026-11-21,132335,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,E-Max AI
+v223,2026-11-21,132315,-20,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Pardheev Krishna, goodpjw2008"
+v224,2026-11-21,132313,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008"
+v225,2026-11-21,132310,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Adaptive Agent Systems, goodpjw2008"
+v226,2026-11-21,132308,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v227,2026-11-21,132304,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008"
+v228,2026-11-21,132300,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008"
+v229,2026-11-21,132296,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v230,2026-11-21,132292,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v231,2026-11-21,132288,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v232,2026-11-21,132281,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Nevska"
+v233,2026-11-21,132273,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008, 奶龙"
+v234,2026-11-21,132269,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v235,2026-11-22,132265,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, 奶龙"
+v236,2026-11-22,132261,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v237,2026-11-22,132257,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v238,2026-11-22,132252,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sung Heo, goodpjw2008"
+v239,2026-11-22,132248,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v240,2026-11-22,132244,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v241,2026-11-22,132240,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, alex chilton"
+v242,2026-11-22,132238,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick"
+v243,2026-11-22,132236,-2,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v244,2026-11-22,132234,-2,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v245,2026-11-22,132232,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v246,2026-11-22,132230,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v247,2026-11-22,132228,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008"
+v248,2026-11-22,132226,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, alex chilton, goodpjw2008"
+v249,2026-11-22,132219,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ishan Karnick
+v250,2026-11-22,132217,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, alex chilton, goodpjw2008"
+v251,2026-11-22,132215,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008, prvsiyan"
+v252,2026-11-22,132208,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, goodpjw2008"
+v253,2026-11-22,132206,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v254,2026-11-22,132202,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v255,2026-11-22,132200,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v256,2026-11-22,132194,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008"
+v257,2026-11-22,132189,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v258,2026-11-22,132187,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v259,2026-11-22,132183,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008"
+v260,2026-11-22,132178,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008"
+v261,2026-11-22,132173,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v262,2026-11-22,132168,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, alex chilton, goodpjw2008"
+v263,2026-11-22,132164,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v264,2026-11-22,132160,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sung Heo, goodpjw2008, 奶龙"
+v265,2026-11-22,132153,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, goodpjw2008"
+v266,2026-11-22,132148,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v267,2026-11-22,132143,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v268,2026-11-22,132139,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v269,2026-11-22,132134,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v270,2026-11-22,132129,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v271,2026-11-22,132124,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v272,2026-11-22,132115,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, Sung Heo, goodpjw2008"
+v273,2026-11-22,132110,-5,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008"
+v274,2026-11-22,132105,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v275,2026-11-22,132101,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v276,2026-11-22,132084,-17,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, alex chilton, goodpjw2008"
+v277,2026-11-22,132079,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Pardheev Krishna
+v278,2026-11-22,132074,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v279,2026-11-22,132068,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v280,2026-11-22,132054,-14,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, goodpjw2008"
+v281,2026-11-22,132039,-15,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, alex chilton, goodpjw2008, 奶龙"
+v282,2026-11-22,132029,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v283,2026-11-22,131953,-76,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Cornelius Kristianto, ENES ÖZDOĞAN, Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, Pratham Jain, Speedy Gonzales, Sung Heo, alex chilton, goodpjw2008, 奶龙, 永雏塔菲"
+v284,2026-11-22,131946,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008, 永雏塔菲"
+v285,2026-11-22,131911,-35,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, alex chilton, goodpjw2008, 奶龙, 永雏塔菲"
+v286,2026-11-22,131030,-881,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, Sung Heo, VELVRIN, alex chilton, goodpjw2008, 奶龙, 永雏塔菲"
+v287,2026-11-22,131020,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, goodpjw2008, 永雏塔菲"
+v288,2026-11-22,131010,-10,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"ENES ÖZDOĞAN, Ertuğrul Özer, Pardheev Krishna, goodpjw2008"
+v289,2026-11-22,131000,-10,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna, Try, goodpjw2008"
+v290,2026-11-22,130996,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Pardheev Krishna"
+v291,2026-11-22,130980,-16,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Adaptive Agent Systems, Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, alex chilton, goodpjw2008"
+v292,2026-11-22,130974,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, alex chilton, goodpjw2008"
+v293,2026-11-22,130971,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, alba"
+v294,2026-11-22,130963,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan, goodpjw2008"
+v295,2026-11-22,130952,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan, alex chilton, goodpjw2008"
+v296,2026-11-22,130941,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, Pardheev Krishna, Sargis Khachatryan, alex chilton, goodpjw2008, 永雏塔菲"
+v297,2026-11-22,130925,-16,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Mukharbek Organokov, Pardheev Krishna, Sargis Khachatryan, alex chilton, goodpjw2008"
+v298,2026-11-23,130911,-14,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, alex chilton, goodpjw2008"
+v299,2026-11-23,130903,-8,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"goodpjw2008, 永雏塔菲"
+v300,2026-11-23,130896,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Pardheev Krishna, goodpjw2008"
+v301,2026-11-23,130885,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, Pardheev Krishna, Sung Heo, alex chilton, goodpjw2008"
+v302,2026-11-23,130877,-8,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Pardheev Krishna, goodpjw2008"
+v303,2026-11-23,130865,-12,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, Pardheev Krishna, alex chilton, goodpjw2008"
+v304,2026-11-23,130202,-663,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Areeb Ali, Ishan Karnick, Pardheev Krishna, Sung Heo, alex chilton, goodpjw2008, tkm2261, 奶龙"
+v305,2026-11-23,130200,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, goodpjw2008"
+v306,2026-11-23,130193,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, Ishan Karnick, Pardheev Krishna, Try, alex chilton, goodpjw2008"
+v307,2026-11-23,130133,-60,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, Ishan Karnick, Sung Heo, alex chilton, goodpjw2008, jazivxt, 奶龙"
+v308,2026-11-23,130131,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v309,2026-11-23,130131,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,奶龙
+v310,2026-11-23,130127,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Kevin Smith, goodpjw2008, 奶龙"
+v311,2026-11-23,130123,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ishan Karnick, Try, goodpjw2008, 奶龙"
+v312,2026-11-23,130121,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v313,2026-11-23,130117,-4,newest public programs merged per puzzle + 2 more instructions from re-running Atakan Aldemir's optimizer,"Areeb Ali, Ishan Karnick, Sargis Khachatryan, goodpjw2008, 奶龙"
+v314,2026-11-23,130115,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,goodpjw2008
+v315,2026-11-25,128139,-1976,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"111, Adaptive Agent Systems, Aman Atar, Areeb Ali, ByteTraveller, Daniel Korbelainen, Den Pugovkin, E-Max AI, ENES ÖZDOĞAN, Ertuğrul Özer, Georgy Mamarin, Igor Zharov, Ishan Karnick, Kevin Smith, Kou, Mikhail Proselkov, Navneet Prabhat, Pratham Jain, Ross Wade, Ryo, Sargis Khachatryan, Sung Heo, Tamerlan Omralinov, Try, ZhuRunda, alex chilton, goodpjw2008, prvsiyan, wilan, 奶龙, 永雏塔菲"
+v316,2026-11-25,128135,-4,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Elias T.-H. Shieh, Ertuğrul Özer, Ishan Karnick, alex chilton, goodpjw2008"
+v317,2026-11-26,128097,-38,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Elias T.-H. Shieh, Ertuğrul Özer, Ishan Karnick, Ross Wade, alex chilton, goodpjw2008"
+v318,2026-11-26,127968,-129,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Aman Atar, Byer, ByteTraveller, E-Max AI, Elias T.-H. Shieh, Ertuğrul Özer, Igor Zharov, Ishan Karnick, Navneet Prabhat, Ross Wade, Sargis Khachatryan, Sefa Çiçek, Sung Heo, Victor Barbarich, alex chilton, goodpjw2008, zhaozi, 奶龙"
+v319,2026-11-26,127966,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v320,2026-11-26,127838,-128,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Omprakash Patra"
+v321,2026-11-26,127831,-7,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ross Wade, alex chilton"
+v322,2026-11-26,127831,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Priyanshu RAJ, Ross Wade"
+v323,2026-11-26,127837,6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v324,2026-11-26,127837,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v325,2026-11-26,127837,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v326,2026-11-26,127837,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v327,2026-11-26,127837,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v328,2026-11-26,127826,-11,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ross Wade
+v329,2026-11-26,127814,-12,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ross Wade
+v330,2026-11-26,127801,-13,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Sargis Khachatryan
+v331,2026-11-26,127801,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan"
+v332,2026-11-26,127801,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan"
+v333,2026-11-26,127801,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Sargis Khachatryan"
+v334,2026-11-26,127798,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ross Wade, Sargis Khachatryan, Дворкин Евгений Владимирович"
+v335,2026-11-26,127797,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Sargis Khachatryan
+v336,2026-11-26,127796,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v337,2026-11-26,127795,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v338,2026-11-26,127794,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Try
+v339,2026-11-26,127774,-20,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Elias T.-H. Shieh, Ertuğrul Özer"
+v340,2026-11-26,127773,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v341,2026-11-26,127772,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, alex chilton"
+v342,2026-11-26,127733,-39,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Victor Barbarich, Дворкин Евгений Владимирович, 奶龙"
+v343,2026-11-26,127712,-21,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, OpPrime"
+v344,2026-11-26,127691,-21,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, OpPrime, 奶龙"
+v345,2026-11-26,127682,-9,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,OpPrime
+v346,2026-11-26,127677,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, OpPrime, 奶龙"
+v347,2026-11-26,127674,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, OpPrime"
+v348,2026-11-26,127671,-3,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, 奶龙"
+v349,2026-11-26,127670,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v350,2026-11-26,127669,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, 奶龙"
+v351,2026-11-26,127668,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v352,2026-11-26,127663,-5,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Victor Barbarich"
+v353,2026-11-26,127662,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v354,2026-11-26,127661,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v355,2026-11-26,127647,-14,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Дворкин Евгений Владимирович"
+v356,2026-11-26,127645,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick"
+v357,2026-11-26,127644,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Asterios Panoras
+v358,2026-11-26,127554,-90,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"CYPHERION, Ertuğrul Özer"
+v359,2026-11-26,127552,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"OpPrime, Victor Barbarich"
+v360,2026-11-26,127552,0,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, OpPrime"
+v361,2026-11-27,127550,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,Ertuğrul Özer
+v362,2026-11-27,127544,-6,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Elias T.-H. Shieh, Ertuğrul Özer, goodpjw2008"
+v363,2026-11-27,127542,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Elias T.-H. Shieh, Ertuğrul Özer, Ishan Karnick, goodpjw2008"
+v364,2026-11-27,127540,-2,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"OpPrime, goodpjw2008"
+v365,2026-11-27,127539,-1,newest public programs merged per puzzle + 1 more instructions from re-running Atakan Aldemir's optimizer,"Ertuğrul Özer, Ishan Karnick, Victor Barbarich, goodpjw2008"

@@ -1,0 +1,7 @@
+device,seconds,puzzles,verified_saved,all_outputs,frontier_exhausted,total_max_outputs,total_required_outputs
+cpu,1,91,0,0,4,281,2708
+cpu,10,91,0,1,8,613,2708
+cpu,60,91,0,3,26,1449,2708
+gpu,1,91,0,0,4,245,2708
+gpu,10,91,0,1,7,471,2708
+gpu,60,91,0,3,15,1188,2708

@@ -1,0 +1,5 @@
+id,cut,old,injected_score,deleted,required_outputs,max_rebuilt,expanded,seconds,score,savings
+scored_0379,checkpoint-difference,109,108,19,7,6,164,10.020548700005747,,0
+scored_0051,shared-descendants,273,,12,5,0,5,0.33594810000795405,,0
+scored_0218,shared-descendants,271,,12,3,0,3,0.18748239999695215,,0
+scored_0183,shared-descendants,271,,12,5,3,38,10.356343799998285,,0

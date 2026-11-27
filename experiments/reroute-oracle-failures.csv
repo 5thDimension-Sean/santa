@@ -1,0 +1,1019 @@
+id,target,case_reason,shallow_calls,leaf_calls,length_rejections,register_rejections,unchanged_neutral,budget_rejections,patch_over_allowance,operand_missing,circular_recipes,operands_in_snapshot,operands_within_one
+scored_0031,198967129356722291,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0031,284725086146238089,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0031,665425339867652795,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0031,770582393783472537,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0048,29803082,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0048,40528991,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0048,40530298,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0048,57714200,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0048,57714444,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0048,115428471,patch over allowance,1,0,0,0,0,0,46,0,0,0,1
+scored_0048,188364046,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0048,313924703,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0048,486359536,patch over allowance,1,0,0,0,0,0,48,0,0,0,1
+scored_0048,214289371396,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0048,256391398570,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,323379942844,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,493663575407,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,495549771892,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,832069443702,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,859640775320,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0048,961877490426,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0048,5923398979680,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0049,301687525,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0049,476103396,register pressure,2,0,0,5,0,0,1632,0,0,0,2
+scored_0049,2623660160,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0049,3243497224,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0049,5199116480,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0049,6116601600,patch over allowance,2,0,0,0,0,0,1863,0,0,0,2
+scored_0049,164983171291,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0049,419088471561,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0049,534545823407,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0052,2136,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0052,124239,patch over allowance,1,0,0,0,0,0,142,0,0,0,1
+scored_0052,186048,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0052,292160,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0052,310177,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0052,672791,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0052,2081854,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0052,7393555,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0052,916273620,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0052,1260781200,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0052,1485268880,patch over allowance,1,0,0,0,0,0,62,0,0,0,1
+scored_0052,4401227070,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0052,25856762000,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0057,205947938534710,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0057,233565585601164,register pressure,2,0,0,2,0,0,4268,0,0,1,2
+scored_0057,376300240915847,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0057,408531690869220,register pressure,1,0,0,2,0,0,2,0,0,1,1
+scored_0057,473742638497643,register pressure,1,0,0,2,0,0,0,0,0,0,1
+scored_0057,545245951115665,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0057,599069046283830,register pressure,1,1,0,1,0,0,0,0,0,0,1
+scored_0057,660244775638595,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0057,673108898759528,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0057,701866353064663,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0057,793202322095744,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0057,859237591427085,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0057,870825546109348,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0084,540958,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0084,6367984,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0105,61055526,register pressure,2,0,0,2,0,0,1046,0,2,1,2
+scored_0105,142476111,register pressure,1,0,0,6,0,0,24,0,0,1,1
+scored_0105,654451692,register pressure,2,0,0,2,0,0,1755,0,2,1,2
+scored_0105,18775986230,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0105,157763061917,register pressure,2,0,0,2,0,0,1976,0,2,1,2
+scored_0105,186635626451,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0105,252419099734,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0105,339984222007,register pressure,1,0,0,2,0,0,4,0,0,0,1
+scored_0105,604971330719,patch over allowance,1,0,0,0,0,0,6,0,0,1,1
+scored_0105,697594009898,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0105,725914214978,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0105,745268575544,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0105,846408229846,register pressure,1,0,0,6,0,0,42,0,0,1,1
+scored_0138,48711,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0138,193905,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0138,2106017,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0138,3157149,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0138,17276396,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0138,17892800,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0138,71479792,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0138,382721885,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0138,5713360360,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0142,2287692,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0142,33855190,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0142,63503803,patch over allowance,1,0,0,0,0,0,22,0,0,0,1
+scored_0142,109385038,patch over allowance,1,0,0,0,0,0,116,0,0,0,1
+scored_0142,1192555872,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0142,9359789209,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0142,21928460389,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0142,22782625067,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0142,157103141904,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0142,656009760684,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0144,1388888,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0144,2837472,patch over allowance,1,0,0,0,0,0,44,0,0,1,1
+scored_0144,4256202,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0144,8937559,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0144,15277996,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0144,21364512,patch over allowance,1,0,0,0,0,0,62,0,0,0,1
+scored_0144,25000348,patch over allowance,1,0,0,0,0,0,26,0,0,1,1
+scored_0144,25000355,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0144,87501207,patch over allowance,1,0,0,0,0,0,16,0,0,0,1
+scored_0144,112158292,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0144,143001348,patch over allowance,1,0,0,0,0,0,198,0,0,0,1
+scored_0144,200295200,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0144,250263468,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0144,442652188,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0144,1177099446,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0144,5432008714,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0144,8631614159,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0144,75334359072,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0162,548864808031,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0162,767178808699,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0162,767178810408,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0162,855835190471,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0162,855835194191,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0162,1097729613676,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0162,5709839407911,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0162,9206145711310,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0162,16877550343737,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0162,17806503305497,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0162,19759133070640,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0162,118554798298680,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0162,354315768367716,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0162,1139972475323257,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0162,2697685250440254,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0162,465968574379561800,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0165,283932770580267199,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0165,506001218987341656,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0165,659970338130656531,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0165,682279030697159446,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0165,779023446181417692,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0165,796685722936352898,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0165,860308024318089036,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0188,11110,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0188,45352,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0188,45884,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0188,241840,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0188,599553,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0188,3014006,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0188,3568782,patch over allowance,1,0,0,0,0,0,22,0,0,0,1
+scored_0188,3728214,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0188,4087860,patch over allowance,1,0,0,0,0,0,54,0,0,1,1
+scored_0188,6548499,patch over allowance,1,0,0,0,0,0,12,0,0,1,1
+scored_0188,38155595,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0188,71441684,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0188,1244461074,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0188,1871701049,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0205,925635,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0205,1384984,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0205,1587054,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0205,1918282,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0205,4489901,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0205,5381476,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0205,17586920,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0205,31795803,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0205,59254639,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0205,4962835160,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0205,66624709112,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0205,69713903325,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0205,345971492675,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0205,759672404042160,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0229,1152948,budget,2,0,0,0,0,2,0,0,0,2,2
+scored_0229,104628369637,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0230,203532185839575,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0230,219690085486791,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0230,362304333813738,register pressure,1,1,19,2,0,0,0,0,0,0,1
+scored_0230,515698876092840,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0230,525149886847433,register pressure,2,0,0,2,0,0,4771,0,2,1,2
+scored_0230,579677458687913,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0230,587570606088534,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0230,590740041940388,register pressure,2,0,0,4,0,0,830,0,4,0,2
+scored_0230,765264911518518,register pressure,2,0,0,4,0,0,1008,0,3,0,2
+scored_0230,776317061198747,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0230,832515211020867,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0230,895469959123594,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0238,22800593,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0238,74476952,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0238,166723530476,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0238,321368114762,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0238,378529500034,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0238,771972537567,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0238,918034629038,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0245,668263,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,973647,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,1340406,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,1341505,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0245,1460418,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,1497059,patch over allowance,1,0,0,0,0,0,68,0,0,1,1
+scored_0245,1498749,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,1947348,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0245,2010651,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,3651349,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0245,3652249,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0245,5246422,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0245,9739992,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0245,29531839,patch over allowance,1,0,0,0,0,0,60,0,0,0,1
+scored_0245,36510542,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0245,37484210,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0245,52165780,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0245,130693147,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0245,2757281868,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0245,12949092184,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0245,33315192288,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0268,29712810631410,register pressure,2,0,0,2,0,0,2245,0,0,1,2
+scored_0268,467350832685788002,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0268,482351363603674357,register pressure,2,0,0,4,0,0,1388,0,0,0,2
+scored_0268,843081114010226707,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0268,847627547663566397,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0270,2646996,patch over allowance,2,0,0,0,0,0,2474,0,0,0,2
+scored_0270,2647967,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0270,2649274,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,5100890,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0270,5930061,patch over allowance,1,0,0,0,0,0,50,0,0,0,1
+scored_0270,11943361,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0270,16172642,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0270,16172687,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0270,16172819,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0270,16173845,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0270,16174969,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0270,45178126,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0270,49834448,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,372728555,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,441711448,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0270,3008249211,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,9250768813,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0270,13663204412,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0270,131146450952,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,468504916930,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0270,21040760410780,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0291,234160462673,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0291,258812940005,register pressure,1,0,0,6,0,0,12,0,0,1,1
+scored_0291,320586918614,register pressure,2,0,0,4,0,0,1286,0,0,0,2
+scored_0291,492062164764,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0291,681111248447,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0291,714100186684,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0291,817508676712,register pressure,2,0,0,4,0,0,643,0,0,0,2
+scored_0291,8919379151288,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0296,67758,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0296,143443,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0296,973638,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0296,9901934,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0296,36205050,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0316,502564,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0316,984074,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0316,1624962,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0316,16884195,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0316,25459209,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0316,312010656,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0316,936623698,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0316,1069289640,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0316,1763196176,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0321,127075134228274801,patch over allowance,1,0,0,0,0,0,111,0,0,0,1
+scored_0321,169834044983981283,length,1,1,13,0,0,0,0,0,0,0,1
+scored_0321,223789454888276408,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0321,233474552440568228,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0321,258315018273000708,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0321,334076311382301341,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0321,412505979665350492,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0321,605332875419279800,register pressure,1,0,0,2,0,0,0,0,0,0,1
+scored_0321,764525167802422324,register pressure,2,0,0,4,0,0,974,0,4,0,2
+scored_0321,796894392400264552,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0321,824921968941184584,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0321,907158267660328191,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0334,303963292106760436,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0334,608965474532966650,register pressure,1,1,0,12,0,0,0,0,0,1,1
+scored_0334,632577363492209857,register pressure,1,1,0,1,0,0,0,0,0,1,1
+scored_0334,831911681771406543,length,1,1,11,0,0,0,0,0,0,0,1
+scored_0375,1509559185,register pressure,2,0,0,2,0,0,2225,0,2,1,2
+scored_0375,2290085071,register pressure,2,0,0,2,0,0,6068,0,2,1,2
+scored_0375,28616431998,patch over allowance,2,0,0,0,0,0,5119,0,0,0,2
+scored_0375,49702223901,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0375,77473247787,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0375,7198726723082,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0375,25510796055548,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0375,210918619330764,register pressure,2,0,0,5,0,0,2766,0,2,1,2
+scored_0375,224079934188756,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0375,369427778785345,register pressure,1,1,0,1,0,0,0,0,0,1,1
+scored_0375,482980324284031,length,1,1,9,0,0,0,0,0,0,0,1
+scored_0375,575202160011737,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0375,641484188600112,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0375,663401025947673,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0375,3505528058820108,length,1,1,11,0,0,0,0,0,0,0,1
+scored_0375,888895250141184264,patch over allowance,1,0,0,0,0,0,14,0,0,0,1
+scored_0379,92818019,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0379,747018334,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0379,168556460436,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0379,1421827874246,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0391,736066556109,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0391,1301429554203,register pressure,2,0,0,2,0,0,2372,0,0,1,2
+scored_0391,266793058600742,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0391,312412213850838894,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0391,900076231823158621,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0391,909358155828362841,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0391,911040648676848492,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0424,746344133684,unchanged neutral,2,0,0,0,1194,0,1762,0,0,0,2
+scored_0424,637072083862582,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0424,1408777557683724,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0424,174917241477468323,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0429,12553,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0429,53146,patch over allowance,1,0,0,0,0,0,37,0,0,1,1
+scored_0429,116445,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0429,167274,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,235873,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0429,281656,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,1227790,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,1557728,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,86973383,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,173881884,patch over allowance,1,0,0,0,0,0,41,0,0,1,1
+scored_0429,202365152,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0429,695291696,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0429,4797768743,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0429,13202784562,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0429,51209937171,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0429,1450327940680,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0433,1741085,patch over allowance,1,0,0,0,0,0,63,0,0,0,1
+scored_0433,2023819,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0433,2902636,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0433,3374438,patch over allowance,1,0,0,0,0,0,121,0,0,0,1
+scored_0433,4046424,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0433,6631732,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0433,6742250,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0433,7082006,patch over allowance,1,0,0,0,0,0,24,0,0,0,1
+scored_0433,47017260,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0433,145848252,patch over allowance,1,0,0,0,0,0,116,0,0,1,1
+scored_0433,148416422,patch over allowance,1,0,0,0,0,0,18,0,0,1,1
+scored_0433,951966238,patch over allowance,1,0,0,0,0,0,31,0,0,0,1
+scored_0433,1331701220,patch over allowance,1,0,0,0,0,0,35,0,0,0,1
+scored_0433,2489430784,patch over allowance,1,0,0,0,0,0,52,0,0,0,1
+scored_0433,3807857308,patch over allowance,1,0,0,0,0,0,404,0,0,0,1
+scored_0433,7482862118,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0433,8734052532,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0433,46119982296,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0433,13199342134787200,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0438,173314377631,patch over allowance,1,0,0,0,0,0,668,0,0,0,1
+scored_0438,1676655121738,patch over allowance,1,0,0,0,0,0,14,0,0,0,1
+scored_0438,4471080329840,register pressure,1,0,0,20,0,0,186,0,0,1,1
+scored_0438,5959450021948,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0438,96850571857808,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0438,104543140154852,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0438,156156508699174,register pressure,1,0,0,2,0,0,2,0,0,1,1
+scored_0438,101148512837791194,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0438,195169655088934243,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0438,594010940967723894,patch over allowance,1,0,0,0,0,0,3,0,0,0,1
+scored_0438,883814279128321310,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0450,443124108988005827,register pressure,2,0,0,4,0,0,1083,0,4,0,2
+scored_0450,449754210843978005,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0450,621076564760200537,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0450,643221489396108382,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0451,227185,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0451,664968,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0451,1161809,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0451,1362183,patch over allowance,1,0,0,0,0,0,40,0,0,1,1
+scored_0451,1659702,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0451,1936284,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0451,1987863,patch over allowance,1,0,0,0,0,0,174,0,0,0,1
+scored_0451,2733260,patch over allowance,1,0,0,0,0,0,78,0,0,1,1
+scored_0451,3977115,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0451,128890480,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0451,1308614410,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0451,2726292120,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0451,18012775024,patch over allowance,2,0,0,0,0,0,906,0,0,0,2
+scored_0451,18781040160,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0451,4803275842240,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0456,861041,patch over allowance,1,0,0,0,0,0,122,0,0,1,1
+scored_0456,1365097,patch over allowance,1,0,0,0,0,0,20,0,0,0,1
+scored_0456,2573414,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0456,2775938,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0456,2778633,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0456,2783761,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0456,4167063,patch over allowance,1,0,0,0,0,0,239,0,0,0,1
+scored_0456,6951116,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0456,27976584,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0456,71545224,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0456,259509142,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0456,387850618,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0456,2179852416,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0456,8648658852,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0456,18254228651,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0456,69124063232,patch over allowance,2,0,0,0,0,0,1008,0,0,0,2
+scored_0456,232517591040,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0457,26842919,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0457,426075083,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0457,426075125,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0457,6248771892,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0457,18746316511,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0457,37792618040,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0457,37792618636,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0457,135261799031,patch over allowance,1,0,0,0,0,0,6,0,0,1,1
+scored_0457,149970657120,patch over allowance,1,0,0,0,0,0,19,0,0,1,1
+scored_0457,1006052114579,patch over allowance,2,0,0,0,0,0,2195,0,0,0,2
+scored_0457,2018353437401,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0457,4036706630608,patch over allowance,1,0,0,0,0,0,18,0,0,0,1
+scored_0457,10141019573440,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0457,22088583256013,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0457,161843199767620,patch over allowance,1,0,0,0,0,0,18,0,0,1,1
+scored_0463,81162,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0463,86503,patch over allowance,1,0,0,0,0,0,21,0,0,0,1
+scored_0463,119675,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0463,173087,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0463,264729,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0463,374079,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0463,424603,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0463,1298003,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0463,1674225,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0463,2234644,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0463,7269609,patch over allowance,2,0,0,0,0,0,483,0,0,0,2
+scored_0463,68152140,patch over allowance,1,0,0,0,0,0,59,0,0,0,1
+scored_0463,173018400,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0463,216158098,patch over allowance,1,0,0,0,0,0,30,0,0,0,1
+scored_0463,2029860352,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0463,2383720318,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0463,188849243520,patch over allowance,1,0,0,0,0,0,30,0,0,0,1
+scored_0468,6790640,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0468,811537714,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0468,302578177307,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0468,332360162702,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0468,450902931605,register pressure,1,0,0,6,0,0,22,0,0,0,1
+scored_0468,477151555811,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0468,586379671004,register pressure,2,0,0,4,0,0,739,0,0,0,2
+scored_0468,794919196165,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0468,834101434888,register pressure,2,0,0,2,0,0,1786,0,0,1,2
+scored_0468,847081878549,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0471,108016,patch over allowance,1,0,0,0,0,0,48,0,0,0,1
+scored_0471,226987,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0471,287920,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0471,329105,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0471,329310,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0471,2445521,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0471,5676476,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0471,65037745,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0471,296919863,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0471,599679360,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,187,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0474,3901,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,7692,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,12506,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0474,13616,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,39608,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,182088,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0474,233983,patch over allowance,1,0,0,0,0,0,28,0,0,1,1
+scored_0474,389480,patch over allowance,1,0,0,0,0,0,30,0,0,1,1
+scored_0474,1422345,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0474,2535422,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0474,3858280,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0474,9602294,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0474,9622074,patch over allowance,1,0,0,0,0,0,195,0,0,1,1
+scored_0474,30326784,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0474,51241984,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0474,438009899,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0474,50214159224,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0475,124411637620,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0475,9661835509254,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0475,43405853299067,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0475,294397556068153,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0475,653280433741768,register pressure,1,1,0,3,0,0,0,0,0,1,1
+scored_0475,670752486074507,register pressure,1,1,0,1,0,0,0,0,0,1,1
+scored_0475,731199752294412,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0476,71643001990,budget,2,0,0,0,0,2,0,0,0,2,2
+scored_0476,71643002364,register pressure,2,0,0,2,0,0,4052,0,0,1,2
+scored_0476,123220225749,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0476,253722157225,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0476,716430021660,register pressure,1,0,0,10,0,0,216,0,0,1,1
+scored_0476,1327677734568,register pressure,1,0,0,2,0,0,0,0,0,1,1
+scored_0476,13554224834036,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0476,616957461941619488,register pressure,1,1,0,3,0,0,0,0,0,1,1
+scored_0476,729015806164858572,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0476,834081004925357139,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0476,854330006645432749,register pressure,1,1,0,1,0,0,0,0,0,0,1
+scored_0478,147228980924,patch over allowance,1,0,0,0,0,0,26,0,0,0,1
+scored_0478,228740767736,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0478,394825725982,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0478,439150549437,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0478,512478507252,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0484,154853802,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0484,211305049,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0484,269906242,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0484,875223170,patch over allowance,1,0,0,0,0,0,78,0,0,0,1
+scored_0484,983192965,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0484,1121584715,patch over allowance,1,0,0,0,0,0,288,0,0,0,1
+scored_0484,1148520882,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0484,5972874452,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0484,24230433136,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0484,635857765179,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0486,37540,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,56951,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,94642,patch over allowance,1,0,0,0,0,0,66,0,0,0,1
+scored_0486,122154,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0486,137006,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,242713,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0486,325351,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,360315,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0486,456661,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0486,549631,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,924892,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0486,6702520,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0486,765867340,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0486,56457264864,patch over allowance,1,0,0,0,0,0,22,0,0,1,1
+scored_0486,945199238672,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0486,10825515458956,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0503,3299,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0503,18822,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0503,70860,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0503,71949,patch over allowance,1,0,0,0,0,0,288,0,0,1,1
+scored_0503,89469,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0503,733247,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0503,10037538,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0503,11286848,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0503,55381504,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0503,115934656,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0506,1125927,patch over allowance,1,0,0,0,0,0,441,0,0,0,1
+scored_0506,1859208,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0506,1957559,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0506,35226439,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0506,37066533,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0506,68434092,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0506,120772084,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0506,232564548,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0506,349329172,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0506,504706647,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0506,1300766040,patch over allowance,1,0,0,0,0,0,216,0,0,0,1
+scored_0506,7344764910,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0506,3117444638427,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0509,10062278,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0509,19711572,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0509,57054513,patch over allowance,1,0,0,0,0,0,44,0,0,0,1
+scored_0509,343421150,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0509,729845613,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0509,1243596376,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0509,1432412616,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0509,1803939247,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0509,7049246038,patch over allowance,1,0,0,0,0,0,16,0,0,0,1
+scored_0509,12891523849,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0509,134328926448,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0509,6531603065536,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0509,14687665321824,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0509,92493855316185,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0510,6518,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,15298,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,21879,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,68775,patch over allowance,1,0,0,0,0,0,9,0,0,1,1
+scored_0510,432815,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0510,897404,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,1760644,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,2034826,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0510,2617171,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,5941096,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0510,22753201,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0510,60569943,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0510,1774399179,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0510,3598405631,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0516,602719961,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0516,668366220,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0516,53186662032,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0516,164934663855,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0516,318973190387,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0516,582220552532,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0516,896140581740,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0562,8942,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0562,8966,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0562,17059,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0562,17919,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0562,26997,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0562,33986,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0562,41664,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0562,77316,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0562,79494,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,107723,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,171900,patch over allowance,1,0,0,0,0,0,38,0,0,1,1
+scored_0562,207373,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0562,292174,patch over allowance,1,0,0,0,0,0,40,0,0,1,1
+scored_0562,351710,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,456670,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,908884,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0562,1106064,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0562,1493844,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,3065968,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0562,28326608,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0562,47517509,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0562,190838206,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0562,785704768,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0562,1067118924,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0562,2017389564,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0562,2532451680,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0563,11860,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0563,18833,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0563,51330,patch over allowance,1,0,0,0,0,0,87,0,0,0,1
+scored_0563,55470,patch over allowance,1,0,0,0,0,0,231,0,0,0,1
+scored_0563,192821,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0563,195070,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0563,200914,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0563,294528,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0563,358378,patch over allowance,1,0,0,0,0,0,46,0,0,0,1
+scored_0563,993487,patch over allowance,1,0,0,0,0,0,52,0,0,1,1
+scored_0563,2583361,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0563,5657496,patch over allowance,1,0,0,0,0,0,169,0,0,1,1
+scored_0563,49145649,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0563,235152004,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0568,48512694,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0568,48514143,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0568,48514144,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0568,68141403,patch over allowance,1,0,0,0,0,0,175,0,0,0,1
+scored_0568,83028028,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0568,485149644,patch over allowance,1,0,0,0,0,0,261,0,0,0,1
+scored_0568,4814035712,patch over allowance,1,0,0,0,0,0,16,0,0,1,1
+scored_0568,12468062254,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0568,342577924253,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0568,79453288445440,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0568,87720657038848,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0568,734809217297475,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0570,16331,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0570,17078,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,23958,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0570,25024,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,32659,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0570,34042,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,41004,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0570,42886,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0570,50969,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,56724,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0570,82532,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0570,121562,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0570,141882,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,1032066,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0570,2554692,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0570,13102320,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0570,27373500,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0570,38951080,patch over allowance,1,0,0,0,0,0,115,0,0,0,1
+scored_0570,71097136,patch over allowance,1,0,0,0,0,0,12,0,0,0,1
+scored_0570,12229040208,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0588,26926397,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0588,46087140,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0588,61339779,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0588,61340257,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0588,61342669,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0588,20562560000,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0588,334647729168,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0588,547572650130,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0588,647407422772,register pressure,1,0,0,6,0,0,20,0,0,1,1
+scored_0591,1523413,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0591,1994014,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,2685750,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,3580278,patch over allowance,1,0,0,0,0,0,182,0,0,0,1
+scored_0591,3856645,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,3856676,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,3992380,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0591,5371171,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0591,6853759,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0591,37593103,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0591,51890713,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0591,58645312,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0591,70961597,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,212885977,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0591,425774273,patch over allowance,1,0,0,0,0,0,22,0,0,1,1
+scored_0591,1144647797,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0591,3433943792,patch over allowance,1,0,0,0,0,0,6,0,0,1,1
+scored_0591,112565121246204,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0592,207217111706,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0592,207217112090,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0592,29863191573880,patch over allowance,2,0,0,0,0,0,867,0,0,0,2
+scored_0592,1034865142611836,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0592,319304719427862920,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0592,570142157064762805,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0592,734262255594989925,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0592,932171090985092784,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0592,935040897056304187,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0601,281517,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0601,422885,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0601,570961,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0601,1144274,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0601,1160136,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0601,4147427,patch over allowance,1,0,0,0,0,0,6,0,0,1,1
+scored_0601,24837258,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0601,213389400,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0601,2539551512,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0601,26414296806,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0624,85613,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0624,102781,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0624,279507,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0624,492056,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0624,2957218,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0624,42889315,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0624,1117885104,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0624,41269027672,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0624,4889593956480,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0626,5144184828,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0626,5362779849,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0626,2299477238624,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0626,135255623005606,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0626,534256235268246,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0626,535924549745258,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0626,598775842816798,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0626,708728712128372,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0626,5005333215887472,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0667,101118275877,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0667,229331608554,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0667,5490773413674,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0667,14834587284637,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0667,36673655819328,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0667,835483955827840,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0675,127166519,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0675,2258399173,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0675,2258400172,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0675,274228175216,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0675,477926125915,patch over allowance,1,0,0,0,0,0,734,0,0,1,1
+scored_0675,1151785794706,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0675,7168891868336,patch over allowance,1,0,0,0,0,0,157,0,0,0,1
+scored_0675,14815709842327,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0675,487577693774209,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0707,6797,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0707,10842,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0707,12191,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0707,15441,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,16545,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0707,18996,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,23353,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0707,29884,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,30382,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0707,39059,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0707,84650,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,1666602,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,3868293,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,5608194,patch over allowance,1,0,0,0,0,0,8,0,0,1,1
+scored_0707,11061841,patch over allowance,1,0,0,0,0,0,383,0,0,0,1
+scored_0707,12400280,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0707,56425068,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0707,60514977,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0710,2431326,patch over allowance,1,0,0,0,0,0,157,0,0,1,1
+scored_0710,2526847,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0710,2766531,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0710,5207485,patch over allowance,2,0,0,0,0,0,1090,0,0,0,2
+scored_0710,5532345,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0710,56658208,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0710,105303882,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0710,143741382,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0710,1010395516,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0710,2980065600,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0710,365667326640,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0710,10444581692160,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0711,1247,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0711,158760,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0732,2874027,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0732,4579087,patch over allowance,2,0,0,0,0,0,2297,0,0,0,2
+scored_0732,27486120,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0732,31546783,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0732,833376161,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0732,1481687640,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0732,8012724902784,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0739,1520348,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0739,25866178,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0739,990017168,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0739,2256970274,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0739,213719447763,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0739,281684602342,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0739,737169653787,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0739,821332128287,length,1,1,24,0,0,0,0,0,0,0,1
+scored_0747,7674193,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0747,23160246,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0747,231611700,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0747,391105544641,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0747,435204676483,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0747,469287971063,register pressure,2,0,0,2,0,0,3348,0,0,1,2
+scored_0747,480147444943,register pressure,1,0,0,6,0,0,0,0,0,1,1
+scored_0747,806752296824,register pressure,1,0,0,6,0,0,0,0,0,1,1
+scored_0747,851632538558,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0760,2194708,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0760,2195769,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0760,4393558,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0760,11017865,patch over allowance,1,0,0,0,0,0,36,0,0,0,1
+scored_0760,50893455,patch over allowance,2,0,0,0,0,0,530,0,0,0,2
+scored_0760,382789999,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0760,3311604960,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0785,107416,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0785,157417,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0785,165128,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0785,217414,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0785,220597,patch over allowance,1,0,0,0,0,0,169,0,0,0,1
+scored_0785,326032,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0785,811188,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0785,2737223,patch over allowance,1,0,0,0,0,0,10,0,0,0,1
+scored_0785,148874584,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0785,283428244,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0785,1195804425,patch over allowance,1,0,0,0,0,0,34,0,0,0,1
+scored_0785,1112433591617,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0804,228622,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0804,1101261,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0804,1949896,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0804,2918988,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0804,4777924,patch over allowance,1,0,0,0,0,0,114,0,0,0,1
+scored_0804,5845508,patch over allowance,1,0,0,0,0,0,83,0,0,0,1
+scored_0804,28093216,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0804,29146558,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0804,30099840,patch over allowance,1,0,0,0,0,0,38,0,0,1,1
+scored_0804,38177976,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0804,49011776,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0804,90918215,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0804,155857892,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0804,6744390973,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0811,14069,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0811,37541,patch over allowance,1,0,0,0,0,0,68,0,0,0,1
+scored_0811,41947,patch over allowance,1,0,0,0,0,0,88,0,0,0,1
+scored_0811,43924,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0811,44186,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0811,129117,patch over allowance,1,0,0,0,0,0,202,0,0,0,1
+scored_0811,254175,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0811,305773,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0811,627316,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0811,3974004,patch over allowance,1,0,0,0,0,0,66,0,0,1,1
+scored_0811,4297529,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0811,4539257,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0811,636399036,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0811,925921790,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0811,971655074,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0824,1869008,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0824,1975004,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0824,1976775,patch over allowance,1,0,0,0,0,0,6,0,0,1,1
+scored_0824,2225506,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0824,2974723,patch over allowance,1,0,0,0,0,0,21,0,0,0,1
+scored_0824,5925228,patch over allowance,2,0,0,0,0,0,1264,0,0,0,2
+scored_0824,33679452,patch over allowance,1,0,0,0,0,0,16,0,0,1,1
+scored_0824,36624778176,patch over allowance,1,0,0,0,0,0,17,0,0,0,1
+scored_0824,98884344128952,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0834,111308943136567,register pressure,1,0,0,2,0,0,0,0,0,0,1
+scored_0834,149326944152626,register pressure,1,0,0,2,0,0,2,0,0,0,1
+scored_0834,240298309652358,register pressure,2,0,0,4,0,0,859,0,0,0,2
+scored_0834,337305026666557,register pressure,2,0,0,4,0,0,983,0,0,0,2
+scored_0834,454475227986648,register pressure,1,0,0,2,0,0,0,0,0,0,1
+scored_0834,485625712498084,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0834,597655751908746,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0834,639248631354786,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0834,702924776375572,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0834,716794070742964,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0834,806841966782457,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,0,1
+scored_0835,241831,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0835,335485,patch over allowance,1,0,0,0,0,0,34,0,0,0,1
+scored_0835,561785,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0835,620665,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0835,896605,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0835,12074762,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0835,149648304,patch over allowance,1,0,0,0,0,0,20,0,0,1,1
+scored_0835,285121826,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0835,1140572160,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0835,1413929090,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0835,11905773044,patch over allowance,1,0,0,0,0,0,36,0,0,1,1
+scored_0835,12724957752,patch over allowance,1,0,0,0,0,0,43,0,0,0,1
+scored_0835,13687797617,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0835,27570741120,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0838,142674427224,patch over allowance,1,0,0,0,0,0,4,0,0,0,1
+scored_0838,144212091310,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0838,405531344713,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0838,460802494474,length,1,1,1,0,0,0,0,0,0,0,1
+scored_0838,473078610032,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0846,747763,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0846,1495636,patch over allowance,1,0,0,0,0,0,109,0,0,0,1
+scored_0846,3912109,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0846,3912744,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0846,4486563,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0846,6480383,patch over allowance,1,0,0,0,0,0,38,0,0,1,1
+scored_0846,7042569,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0846,13958010,patch over allowance,1,0,0,0,0,0,78,0,0,0,1
+scored_0846,26380165,patch over allowance,1,0,0,0,0,0,121,0,0,0,1
+scored_0846,28264080,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0846,47107690,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0846,150743334,patch over allowance,2,0,0,0,0,0,1208,0,0,0,2
+scored_0846,538735440,patch over allowance,1,0,0,0,0,0,6,0,0,0,1
+scored_0852,6245794092,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0852,19423863634,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0852,34030605324,patch over allowance,1,0,0,0,0,0,52,0,0,0,1
+scored_0852,557780470749,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0852,858404103000,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0852,1172677872115,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0852,3313455869388,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0852,62663499519506,patch over allowance,2,0,0,0,0,0,1013,0,0,0,2
+scored_0878,19981547,budget,2,0,0,0,0,2,0,0,0,2,2
+scored_0878,5536129170,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0878,263083812653,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0878,821877416831,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0878,843937341578,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0890,8021,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0890,11601,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0890,11622,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0890,37279,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0890,42374,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0890,101326,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0890,123860,patch over allowance,2,0,0,0,0,0,942,0,0,0,2
+scored_0890,140028,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0890,230670,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0890,376330,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0890,529430,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0890,594816,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0890,627323,patch over allowance,1,0,0,0,0,0,69,0,0,1,1
+scored_0890,721086,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0890,16165758,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0890,64806163,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0890,129611773,patch over allowance,1,0,0,0,0,0,54,0,0,0,1
+scored_0890,19433332080,patch over allowance,1,0,0,0,0,0,30,0,0,0,1
+scored_0891,196586,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0891,482672,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0891,493367,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0891,688144,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0891,1151178,patch over allowance,2,0,0,0,0,0,1707,0,0,0,2
+scored_0891,7731709,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0891,15442226,patch over allowance,1,0,0,0,0,0,42,0,0,0,1
+scored_0891,89459831,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0891,3572729756,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0891,6587496494,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0895,489892,patch over allowance,1,0,0,0,0,0,254,0,0,1,1
+scored_0895,2805575,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0895,2939429,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0895,4081337,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0895,4904041,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0895,4904988,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0895,37758456,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0895,49022349,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0895,145760671,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0895,277831632,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0895,538825024,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0895,1853740706,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0895,8946700985,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0907,199057,patch over allowance,1,0,0,0,0,0,38,0,0,0,1
+scored_0907,342808,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0907,917964,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0907,13582720,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0907,1421197312,patch over allowance,2,0,0,0,0,0,155,0,0,0,2
+scored_0907,4722286912,patch over allowance,1,0,0,0,0,0,20,0,0,0,1
+scored_0907,3502745442084,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0918,118521062640098,register pressure,1,0,0,2,0,0,2,0,0,1,1
+scored_0918,194497557185211,no residual witness in searched depth,1,1,0,0,0,0,0,0,0,1,1
+scored_0918,349589537266200,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0918,550762735444687,register pressure,1,0,0,2,0,0,0,0,0,0,1
+scored_0918,561617110187715,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0918,832446833448242,length,1,1,295,0,0,0,0,0,0,0,1
+scored_0918,868067935162589,register pressure,1,0,0,6,0,0,30,0,0,1,1
+scored_0918,928946829777091,register pressure,2,0,0,4,0,0,981,0,4,0,2
+scored_0918,981829120016108,register pressure,1,1,0,5,0,0,0,0,0,1,1
+scored_0924,1122714,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0924,1562639,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0924,2342596,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0924,3124765,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0924,3906958,patch over allowance,1,0,0,0,0,0,28,0,0,1,1
+scored_0924,4623089,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0924,4679197,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0924,18715302,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0924,25015645,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0924,28072532,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0924,534448104,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0924,2096113600,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0924,4868012661,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0924,50138288602,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0927,22721909,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0927,22722563,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0927,26936826,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0927,26937566,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0927,146923052,patch over allowance,1,0,0,0,0,0,8,0,0,0,1
+scored_0927,272671487,patch over allowance,1,0,0,0,0,0,564,0,0,0,1
+scored_0927,1333100535,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0927,1753630844,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0927,2137908348,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0927,10688659308,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0927,47031942054,patch over allowance,1,0,0,0,0,0,4,0,0,1,1
+scored_0927,552662092224,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0927,1070577053568,patch over allowance,1,0,0,0,0,0,31,0,0,0,1
+scored_0960,673379,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0960,935612,patch over allowance,1,0,0,0,0,0,69,0,0,1,1
+scored_0960,1176005,patch over allowance,1,0,0,0,0,0,16,0,0,0,1
+scored_0960,2691196,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0960,2807024,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0960,2821315,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0960,3274066,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0960,4678354,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0960,9123031,patch over allowance,1,0,0,0,0,0,2,0,0,0,1
+scored_0960,20174983,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0960,23546121,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0960,121111092,patch over allowance,1,0,0,0,0,0,88,0,0,0,1
+scored_0960,3278673521,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0960,12295305612,patch over allowance,1,0,0,0,0,0,72,0,0,1,1
+scored_0960,90162702960,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0973,490835,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0973,1058535,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0973,2456056,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0973,2708313,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0973,2911011,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0973,2945139,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0973,6093642,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0973,14828898,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0973,17796398,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0973,26505756,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0973,31188317,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0973,36853190,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0973,38657202,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0973,54336284,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0973,209573476,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0973,365937412,patch over allowance,1,0,0,0,0,0,10,0,0,1,1
+scored_0973,1491224650,patch over allowance,1,0,0,0,0,0,34,0,0,0,1
+scored_0973,2681125975,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0973,665963962392,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0988,59956912734,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0988,834622352507,patch over allowance,1,0,0,0,0,0,37,0,0,0,1
+scored_0988,834622359040,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0988,834622359325,budget,2,0,0,0,0,2,0,0,0,1,2
+scored_0988,910547260799,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0988,3640887919195,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0988,4439401883338,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,0,1
+scored_0988,5007734153170,budget,1,0,0,0,0,1,0,0,0,0,1
+scored_0988,5782586688708,patch over allowance,1,0,0,0,0,0,14,0,0,1,1
+scored_0988,6676978871313,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0988,11837114368403,no residual witness in searched depth,1,0,0,0,0,0,0,0,0,1,1
+scored_0988,17347760069355,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0988,20560308227616,budget,1,0,0,0,0,1,0,0,0,1,1
+scored_0988,99536064078151,budget,2,0,0,0,0,2,0,0,0,0,2
+scored_0988,9377816805971538,patch over allowance,1,0,0,0,0,0,2,0,0,1,1
+scored_0990,169970860950,register pressure,1,0,0,8,0,0,62,0,0,1,1
+scored_0990,341872469247,register pressure,2,0,0,2,0,0,2555,0,2,1,2
+scored_0990,361857752293,register pressure,2,0,0,2,0,0,3188,0,2,1,2
+scored_0990,405818697633,register pressure,2,0,0,2,0,0,1880,0,2,1,2
+scored_0990,501508897475,register pressure,1,0,0,6,0,0,30,0,0,1,1
+scored_0990,626989726151,register pressure,2,0,0,2,0,0,1894,0,2,1,2
+scored_0990,701192322503,register pressure,1,0,0,6,0,0,0,0,0,1,1
+scored_0990,715985929025,register pressure,1,0,0,6,0,0,0,0,0,1,1
+scored_0990,792687550505,register pressure,2,0,0,2,0,0,2644,0,2,1,2

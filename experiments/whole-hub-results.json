@@ -1,0 +1,40 @@
+{
+  "focal": {
+    "puzzles": 1,
+    "improved": 1,
+    "steps": 1,
+    "recovered": 1,
+    "historical_gap": 1,
+    "cpu_hours": 0.0009,
+    "max_cpu_seconds": 3.391,
+    "score": 108
+  },
+  "heldout": {
+    "puzzles": 90,
+    "improved": 0,
+    "steps": 0,
+    "recovered": 0,
+    "historical_gap": 129,
+    "cpu_hours": 0.5839,
+    "max_cpu_seconds": 180.016,
+    "score": 11427
+  },
+  "baseline": {
+    "puzzles": 1000,
+    "improved": 0,
+    "steps": 0,
+    "recovered": 0,
+    "historical_gap": 130,
+    "cpu_hours": 7.4561,
+    "max_cpu_seconds": 182.704,
+    "score": 127311
+  },
+  "eligible_failures": {
+    "no residual witness in searched depth": 226,
+    "budget": 449,
+    "patch over allowance": 256,
+    "register pressure": 79,
+    "length": 7,
+    "unchanged neutral": 1
+  }
+}

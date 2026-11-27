@@ -1,0 +1,676 @@
+utc,score,author,work,note
+2026-11-18 00:00,1490379,Kaggle,sample_submission.csv,baseline programs supplied with the data
+2026-11-18 03:05,191867,Tony Li,Elf Calculator With Register Reuse,backward beam over a two-step dictionary + register reuse
+2026-11-18 16:42,142940,konbu17,Santa 2026: Wider Dictionary + Portfolio,"wider dictionary, 50-setting portfolio, register-aware planner, re-allocation (~1100 CPU-hours)"
+2026-11-18 17:18,142856,Elias T.-H. Shieh,Verified Best Programs,"Mizero Lucky Gall's peephole pass, more beam settings, allocator restarts"
+2026-11-18 19:52,141376,Sargis Khachatryan,Elf Calc | Cross-Trace MILP + Arithmetic Cuts,cross-trace MILP recipe selection
+2026-11-18 19:55,141369,Nilanjan_Saha123,Best-of-Public Elf Optimizer,"graph rewrites, exact MILP, window optimizer, suffix target rebuilder"
+2026-11-18 21:46,141363,Angel Jacinto Sanchez Ruiz,Public Merge,per-puzzle merge of public files
+2026-11-18 22:16,141361,Nilanjan_Saha123,Best-of-Public Elf Optimizer,re-run on the newer public files
+2026-11-18 22:53,141339,Atakan Aldemir,Joint Recipes for Large Puzzles,"scaffold exchange: cut a shared helper with all its consumers, re-price jointly"
+2026-11-18 23:36,141336,Roman Rozen,Santa 2026 | IceFire Strong Start,strong-start portfolio
+2026-11-18 23:36,141333,Ertugrul Ozer,Santa 2026 | Deep Cone & Joint Scaffold Optimizer,deep cones + joint scaffold optimizer
+2026-11-19 00:00,141330,Asterios Panoras,this notebook (v6),per-puzzle merge of all public programs
+2026-11-19 01:00,141329,Asterios Panoras,this notebook (v8),merge + our helper-group joint rebuild (scored_0744 -1)
+2026-11-19 00:34,141312,Ertugrul Ozer,Santa 2026 | Starter Notebook!,starter + merged programs
+2026-11-19 00:36,141309,Roman Rozen,Santa 2026 | IceFire Strong Start,strong-start portfolio (new version)
+2026-11-19 01:00,141308,Asterios Panoras,this notebook (v11),merge + scored_0590 -1 (graph passes re-run)
+2026-11-19 05:26,139089,suka,"Santa 2026 | 139,089 Verified Portfolio","own search runs, many started from public programs (576 puzzles)"
+2026-11-19 09:05,138485,Bikram Basnet,Santa 2026 Arithmetic Graph Rewrites,"graph rewrites, dependency reversal, randomized search + joint recipe selection"
+2026-11-19 09:33,138460,Pratham Jain,Santa 2026 | Exact Portfolio Frontier,union + depth-5 chain search + MILP/CP-SAT
+2026-11-19 09:37,138456,Roman Rozen,Santa 2026 | IceFire Strong Start,CP-SAT recombination + register re-allocation
+2026-11-19 11:00,138456,Asterios Panoras,this notebook (v14),per-puzzle merge of all public programs
+2026-11-19 11:04,138440,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,merge + window/suffix polish
+2026-11-19 12:10,138410,Asterios Panoras,this notebook (v16),merge + Atakan Aldemir's multiplier-frontier optimizer on every puzzle (-30)
+2026-11-19 12:11,138385,Atakan Aldemir,Santa 2026 | Joint Recipes for Large Puzzles,multiplier frontier on more puzzles
+2026-11-19 12:40,138370,Asterios Panoras,this notebook (v19),merge + Atakan optimizer re-run on 5 puzzles (-7)
+2026-11-19 13:15,138382,Atakan Aldemir,Santa 2026 | Joint Recipes for Large Puzzles,"multiplier frontier, newer version"
+2026-11-19 13:30,138365,Asterios Panoras,this notebook (v21),merge + Atakan optimizer re-run on 2 puzzles (-2)
+2026-11-19 13:13,138358,Kozykorpesh,Santa LB [138358],newer public version
+2026-11-19 13:26,138356,Asterios Panoras,this notebook,public merge
+2026-11-19 13:31,138349,Ángel Jacinto Sánchez Ruiz,Public Merge,newer public version
+2026-11-19 13:38,138346,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 13:42,138289,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-19 13:49,138287,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 14:00,138277,Aman Atar,"Santa 2026: Fast Validator, EDA & SOTA Baseline",newer public version
+2026-11-19 14:04,138275,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 14:14,138218,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-19 14:19,138216,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 14:26,138216,Aman Atar,"Santa 2026: Fast Validator, EDA & SOTA Baseline",newer public version
+2026-11-19 14:34,138214,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 14:46,138208,Aman Atar,"Santa 2026: Fast Validator, EDA & SOTA Baseline",newer public version
+2026-11-19 14:48,138206,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 14:59,138206,Ángel Jacinto Sánchez Ruiz,Public Merge,newer public version
+2026-11-19 15:02,138204,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 15:08,138200,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 15:17,138198,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 15:31,138197,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 15:33,138195,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 15:37,138188,prvsiyan,Santa is not happy,newer public version
+2026-11-19 15:47,138186,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 15:50,138178,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 15:51,138176,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 15:53,138172,prvsiyan,Santa is not happy,newer public version
+2026-11-19 15:56,138169,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 16:11,138160,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 16:20,138158,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 16:22,138082,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 16:24,138080,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 16:33,138053,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-19 16:39,138051,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 16:40,138033,Pratham Jain,Santa 2026 | Exact Portfolio Frontier [138033],newer public version
+2026-11-19 16:43,138030,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 16:45,138027,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 16:48,138025,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 16:57,137946,Pratham Jain,Santa 2026 | Exact Portfolio Frontier [137946],newer public version
+2026-11-19 17:03,137941,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 17:04,137935,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 17:07,137933,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 17:06,137929,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-19 17:11,137926,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 17:13,137923,Pratham Jain,Santa 2026 | Exact Portfolio Frontier [137923],newer public version
+2026-11-19 17:16,137921,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 17:17,137919,prvsiyan,Santa is not happy,newer public version
+2026-11-19 17:20,137917,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 17:32,137887,Pratham Jain,Santa 2026 | Exact Portfolio Frontier [137887],newer public version
+2026-11-19 17:34,137885,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 17:44,137874,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 17:48,137872,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:00,137866,Rishabh Bafna,Arithmetic DAG Synthesis and Register Allocation,newer public version
+2026-11-19 18:03,137864,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:13,137858,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 18:18,137856,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:20,137840,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 18:23,137838,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:24,137830,E-Max AI,Elf Calculator | Residual Cut Search,newer public version
+2026-11-19 18:27,137827,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 18:29,137809,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 18:32,137807,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:39,137795,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 18:42,137793,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 18:48,137784,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 18:57,137782,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 19:07,137770,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 19:12,137768,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 19:23,137759,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 19:26,137757,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 19:28,137746,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 19:31,137744,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 19:40,137722,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 19:46,137720,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 20:03,137719,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 20:11,137717,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 20:18,137713,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 20:26,137711,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 21:08,137708,Sargis Khachatryan,Elf Calc | Paired Helpers and Target Scheduling,newer public version
+2026-11-19 21:29,137706,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 21:36,137703,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 21:50,137701,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 21:59,136952,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 22:05,136950,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 22:06,136900,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 22:21,136897,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 22:34,136816,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 22:38,136813,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-19 22:40,136780,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 22:43,136777,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 22:42,136770,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 22:48,136767,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 22:58,136764,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 23:03,136762,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 23:05,136681,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 23:09,136678,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 23:08,136675,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 23:14,136673,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-19 23:17,136671,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 23:31,136669,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 23:42,136666,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-19 23:47,136664,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-19 23:46,136215,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-19 23:53,136213,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 00:03,136207,E-Max AI,Santa 2026 Public Frontier 136207,newer public version
+2026-11-20 00:09,136204,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 00:18,136198,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 00:25,136196,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 00:26,136192,E-Max AI,Santa 2026 Public Frontier 136192,newer public version
+2026-11-20 00:30,136190,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 00:31,136187,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 00:36,136185,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 00:32,136184,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 00:41,136181,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 00:52,136175,E-Max AI,Santa 2026 Public Frontier 136175,newer public version
+2026-11-20 00:56,136173,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 00:57,136114,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:01,136112,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 01:02,136106,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:06,136103,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 01:17,136100,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:22,136098,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 01:24,136093,Sung Heo,Analysis | Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:27,136091,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 01:30,136076,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:33,136072,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 01:31,136071,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 01:38,136069,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 01:39,136066,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 01:44,136064,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 01:48,136063,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 01:59,136061,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:09,136060,Aman Atar,"Santa 2026: Fast Validator, EDA & SOTA Baseline",newer public version
+2026-11-20 02:15,136058,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:16,136055,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 02:20,136053,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:31,135948,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 02:36,135946,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:38,135944,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 02:42,135942,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:44,135941,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 02:47,135939,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 02:55,135935,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 03:03,135933,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 03:11,135931,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 03:19,135929,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 03:31,135916,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 03:34,135913,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 03:40,135912,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 03:50,135909,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 03:49,135907,E-Max AI,"Santa 2026 | Public Frontier | LB 135,907",newer public version
+2026-11-20 03:55,135904,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 04:01,135902,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 04:11,135900,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 04:14,135899,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 04:17,135896,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 04:22,135895,E-Max AI,"Santa 2026 | Public Frontier | LB 135,895",newer public version
+2026-11-20 04:33,135891,Asterios Panoras,this notebook,public merge + 4 from Atakan optimizer re-run
+2026-11-20 04:43,135854,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 04:50,135851,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 05:01,135850,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 05:06,135848,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 05:26,135824,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 05:33,135819,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 05:32,135818,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 05:39,135816,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 05:48,135811,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 05:55,135809,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 06:00,135808,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 06:11,135806,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 06:40,135805,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 06:47,135803,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 06:49,135785,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 06:55,135782,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 07:28,135763,Sung Heo,Analysis | Santa 2026,newer public version
+2026-11-20 07:32,135761,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 08:01,135598,wang Jakie,Santa 2026 | Arithmetic Recipe Pool and MILP,newer public version
+2026-11-20 08:09,135596,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 08:29,135594,Bikram Basnet,Santa 2026 Arithmetic Graph Rewrites,newer public version
+2026-11-20 08:36,135592,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 08:31,135591,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 08:42,135589,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 08:48,135457,wang Jakie,Santa 2026 | Arithmetic Recipe Pool and MILP,newer public version
+2026-11-20 08:59,135451,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 09:00,135442,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 09:56,135440,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 09:54,134640,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 10:04,134638,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 10:14,134636,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 10:20,134634,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 10:38,134618,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-20 10:48,134616,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 10:50,134580,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 10:54,134578,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 10:56,134570,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 11:01,134568,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 11:02,134559,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 11:08,134556,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 11:09,134546,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 11:15,134542,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 11:27,134523,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 11:31,134519,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 11:33,134513,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 11:37,134508,Asterios Panoras,this notebook,public merge + 5 from Atakan optimizer re-run
+2026-11-20 11:46,134503,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 11:54,134501,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 12:03,134496,E-Max AI,"Santa 2026 | Public Frontier | Score 134,496",newer public version
+2026-11-20 12:12,134494,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 12:21,134487,E-Max AI,"Santa 2026 | Public Frontier | Score 134,487",newer public version
+2026-11-20 12:28,134485,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 12:36,134465,E-Max AI,"Santa 2026 | Public Frontier | Score 134,465",newer public version
+2026-11-20 12:45,134463,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 12:54,134461,E-Max AI,"Santa 2026 | Public Frontier | Score 134,461",newer public version
+2026-11-20 13:03,134459,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 13:15,134439,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 13:20,134437,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 13:33,134325,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-20 13:38,134322,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 13:44,134318,E-Max AI,"Santa 2026 | Public Frontier | Score 134,318",newer public version
+2026-11-20 13:56,134316,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 13:56,134311,E-Max AI,"Santa 2026 | Public Frontier | Score 134,311",newer public version
+2026-11-20 14:13,134307,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 14:22,134301,Roman Rozen,Santa 2026 | IceFire Strong Start,newer public version
+2026-11-20 14:33,134298,Asterios Panoras,this notebook,public merge + 5 from Atakan optimizer re-run
+2026-11-20 14:44,134292,Sung Heo,Santa 2026 Verified Best-of Merge,newer public version
+2026-11-20 14:51,134289,Asterios Panoras,this notebook,public merge + 9 from Atakan optimizer re-run
+2026-11-20 14:59,134191,Sung Heo,Santa 2026 Verified Best-of Merge,newer public version
+2026-11-20 15:09,134189,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 15:19,134187,E-Max AI,"Santa 2026 | Public Frontier | Score 134,187",newer public version
+2026-11-20 15:26,134185,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 17:48,133995,E-Max AI,"Santa 2026 | Public Frontier | Score 133,995",newer public version
+2026-11-20 17:57,133992,Asterios Panoras,this notebook,public merge + 3 from Atakan optimizer re-run
+2026-11-20 18:15,133986,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 133,986",newer public version
+2026-11-20 18:26,133983,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-20 18:35,133970,E-Max AI,"Santa 2026 | Public Frontier | Score 133,970",newer public version
+2026-11-20 18:44,133969,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 18:43,133967,E-Max AI,"Santa 2026 | Public Frontier | Score 133,967",newer public version
+2026-11-20 19:02,133966,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 19:04,133958,E-Max AI,"Santa 2026 | Public Frontier | Score 133,958",newer public version
+2026-11-20 19:20,133956,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 19:25,133939,E-Max AI,"Santa 2026 | Public Frontier | Score 133,939",newer public version
+2026-11-20 19:33,133938,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 19:34,133936,E-Max AI,"Santa 2026 | Public Frontier | Score 133,936",newer public version
+2026-11-20 19:46,133935,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 19:43,133933,E-Max AI,"Santa 2026 | Public Frontier | Score 133,933",newer public version
+2026-11-20 20:00,133932,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 20:07,133926,E-Max AI,"Santa 2026 | Public Frontier | Score 133,926",newer public version
+2026-11-20 20:14,133925,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 20:13,133924,E-Max AI,"Santa 2026 | Public Frontier | Score 133,924",newer public version
+2026-11-20 20:28,133923,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 20:21,133920,E-Max AI,"Santa 2026 | Public Frontier | Score 133,920",newer public version
+2026-11-20 20:42,133918,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 20:47,133908,E-Max AI,"Santa 2026 | Public Frontier | Score 133,908",newer public version
+2026-11-20 20:55,133907,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 20:47,133903,E-Max AI,"Santa 2026 | Public Frontier | Score 133,903",newer public version
+2026-11-20 22:00,133902,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 21:59,133898,E-Max AI,"Santa 2026 | Public Frontier | Score 133,898",newer public version
+2026-11-20 22:12,133897,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 22:31,133889,E-Max AI,"Santa 2026 | Public Frontier | Score 133,889",newer public version
+2026-11-20 22:41,133888,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 22:39,133877,Ángel Jacinto Sánchez Ruiz,Public Merge,newer public version
+2026-11-20 22:54,133875,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 23:08,133874,Ángel Jacinto Sánchez Ruiz,Public Merge,newer public version
+2026-11-20 23:17,133873,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 23:20,133860,E-Max AI,"Santa 2026 | Public Frontier | Score 133,860",newer public version
+2026-11-20 23:35,133858,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 23:41,133857,E-Max AI,"Santa 2026 | Public Frontier | Score 133,857",newer public version
+2026-11-20 23:47,133856,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 23:38,133854,prvsiyan,Santa is not happy,newer public version
+2026-11-21 00:00,133853,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 00:12,133846,E-Max AI,"Santa 2026 | Public Frontier | Score 133,846",newer public version
+2026-11-21 00:18,133845,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 00:23,133841,E-Max AI,"Santa 2026 | Public Frontier | Score 133,841",newer public version
+2026-11-21 00:33,133840,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 00:37,133835,prvsiyan,Santa is not happy,newer public version
+2026-11-21 00:48,133834,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-20 23:41,133832,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 133,832",newer public version
+2026-11-21 01:03,133831,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 01:13,133825,E-Max AI,"Santa 2026 | Public Frontier | Score 133,825",newer public version
+2026-11-21 01:20,133824,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 01:34,133813,Pratham Jain,Santa 2026 | Exact Portfolio Frontier [133813],newer public version
+2026-11-21 01:47,133812,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 01:42,133806,E-Max AI,"Santa 2026 | Public Frontier | Score 133,806",newer public version
+2026-11-21 02:02,133804,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 02:06,133803,Sung Heo,Santa 2026 Verified Best-of Merge,newer public version
+2026-11-21 02:16,133802,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 02:09,133796,E-Max AI,"Santa 2026 | Public Frontier | Score 133,796",newer public version
+2026-11-21 02:31,133794,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 02:37,133788,E-Max AI,"Santa 2026 | Public Frontier | Score 133,788",newer public version
+2026-11-21 02:48,133787,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 02:55,133786,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 133,786",newer public version
+2026-11-21 03:05,133785,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 03:03,133780,E-Max AI,"Santa 2026 | Public Frontier | Score 133,780",newer public version
+2026-11-21 03:17,133779,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 03:26,133772,E-Max AI,"Santa 2026 | Public Frontier | Score 133,772",newer public version
+2026-11-21 03:34,133771,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 03:41,132997,Pardheev Krishna,Santa 2026 | 132997 validated programs,newer public version
+2026-11-21 03:46,132996,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 03:22,132954,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,954",newer public version
+2026-11-21 04:03,132952,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 04:18,132950,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,950",newer public version
+2026-11-21 04:26,132949,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 04:30,132948,Pardheev Krishna,"132,948 | Best Public Score | Santa 2026",newer public version
+2026-11-21 04:38,132947,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 04:44,132924,Pardheev Krishna,"🎄 132,924 | Best Public Score | Santa 2026",newer public version
+2026-11-21 04:50,132922,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 05:01,132918,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-21 05:08,132917,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 05:06,132916,Pardheev Krishna,"🎄 132,916 | Best Public Score | Santa 2026",newer public version
+2026-11-21 05:20,132914,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 05:31,132913,Pardheev Krishna,"🎄 132,913 | Best Public Score | Santa 2026",newer public version
+2026-11-21 05:37,132910,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 05:42,132909,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,909",newer public version
+2026-11-21 05:50,132908,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 05:50,132904,Pardheev Krishna,"🎄 132,904 | Best Public Score | Santa 2026",newer public version
+2026-11-21 06:02,132903,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 06:09,132899,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,899",newer public version
+2026-11-21 06:19,132897,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 06:29,132895,Sung Heo,Analysis | Santa 2026,newer public version
+2026-11-21 06:37,132893,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 06:40,132716,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,716",newer public version
+2026-11-21 06:49,132714,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 06:54,132712,E-Max AI,"Santa 2026 | Public Frontier | Score 132,712",newer public version
+2026-11-21 07:01,132711,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 07:05,132707,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,707",newer public version
+2026-11-21 07:14,132706,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 07:34,132702,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,702",newer public version
+2026-11-21 07:42,132701,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 07:50,132694,Hanif Noer Rofiq,Santa 2026 Elf Calculator - Verified Portfolio,newer public version
+2026-11-21 08:00,132693,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 08:02,132691,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,691",newer public version
+2026-11-21 08:12,132690,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 08:29,132688,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,688",newer public version
+2026-11-21 08:41,132687,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 08:43,132678,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,678",newer public version
+2026-11-21 08:53,132677,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 08:54,132675,Try,Santa 2026 Free Order CP SAT DAG Optimizer,newer public version
+2026-11-21 09:05,132673,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 09:01,132672,Hanif Noer Rofiq,Santa 2026 Elf Calculator - Verified Portfolio,newer public version
+2026-11-21 09:16,132671,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 09:28,132647,E-Max AI,"Santa 2026 | Public Frontier | Score 132,647",newer public version
+2026-11-21 09:34,132646,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 09:53,132644,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,645",newer public version
+2026-11-21 10:03,132643,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 10:06,132640,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-21 10:15,132639,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 10:11,132638,E-Max AI,"Santa 2026 | Public Frontier | Score 132,638",newer public version
+2026-11-21 10:28,132637,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 10:26,132636,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-21 10:36,132635,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 10:48,132627,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,627",newer public version
+2026-11-21 10:52,132626,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 11:01,132622,E-Max AI,"Santa 2026 | Public Frontier | Score 132,622",newer public version
+2026-11-21 11:10,132621,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 11:18,132619,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,619",newer public version
+2026-11-21 11:25,132617,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 12:03,132616,Pardheev Krishna,"🎄 132,616 | Best Public Score | Santa 2026",newer public version
+2026-11-21 12:09,132615,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 12:12,132612,Mizero Lucky Gall,Elf Calculator | Best-of-Public Merge + Polish,newer public version
+2026-11-21 12:18,132611,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 12:26,132608,E-Max AI,"Santa 2026 | Public Frontier | Score 132,608",newer public version
+2026-11-21 12:31,132607,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 12:36,132606,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,606",newer public version
+2026-11-21 12:41,132605,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 10:48,132594,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,594",newer public version
+2026-11-21 12:54,132591,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:02,132587,E-Max AI,"Santa 2026 | Public Frontier | Score 132,587",newer public version
+2026-11-21 13:05,132586,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:10,132584,Sargis Khachatryan,Elf Calc | Backward Frontier Rewrite,newer public version
+2026-11-21 13:12,132583,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:29,132580,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,580",newer public version
+2026-11-21 13:35,132578,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:40,132574,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,574",newer public version
+2026-11-21 13:47,132573,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:51,132566,E-Max AI,"Santa 2026 | Public Frontier | Score 132,566",newer public version
+2026-11-21 13:54,132565,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 13:52,132564,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,564",newer public version
+2026-11-21 14:01,132563,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 14:02,132557,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,557",newer public version
+2026-11-21 14:09,132554,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 14:14,132546,E-Max AI,"Santa 2026 | Public Frontier | Score 132,546",newer public version
+2026-11-21 14:16,132545,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 14:18,132542,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,543",newer public version
+2026-11-21 14:25,132539,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-21 14:35,132531,E-Max AI,"Santa 2026 | Public Frontier | Score 132,531",newer public version
+2026-11-21 14:39,132528,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 15:17,132507,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 15:24,132505,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-21 15:29,132503,Sargis Khachatryan,Elf Calc | Backward Frontier Rewrite,newer public version
+2026-11-21 15:30,132502,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 15:32,132498,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 15:38,132497,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 15:39,132493,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 15:45,132492,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 15:47,132483,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 15:53,132482,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 15:56,132477,Sargis Khachatryan,Elf Calc | Backward Frontier Rewrite,newer public version
+2026-11-21 16:01,132476,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:02,132473,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 16:08,132472,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:12,132467,Sargis Khachatryan,Elf Calc | Backward Frontier Rewrite,newer public version
+2026-11-21 16:17,132466,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:25,132457,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 16:28,132456,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:37,132377,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 16:39,132376,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:47,132374,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 16:50,132373,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 16:59,132369,Pardheev Krishna,"🎄 132,369 | Best Public Score | Santa 2026",newer public version
+2026-11-21 17:01,132367,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-21 17:09,132365,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 17:12,132364,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 17:14,132362,Pardheev Krishna,"🎄 132,362 | Best Public Score | Santa 2026",newer public version
+2026-11-21 17:23,132360,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 17:29,132358,Pardheev Krishna,"🎄 132,358 | Best Public Score | Santa 2026",newer public version
+2026-11-21 17:34,132355,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 17:42,132354,Pardheev Krishna,"🎄 132,354 | Best Public Score | Santa 2026",newer public version
+2026-11-21 17:57,132353,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-21 18:30,132349,Pardheev Krishna,"🎄 132,351 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 18:42,132348,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 18:43,132346,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,346",newer public version
+2026-11-21 18:50,132344,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:03,132338,奶龙,Santa 2026 | 132391-step Public Baseline,newer public version
+2026-11-21 19:05,132337,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:14,132336,E-Max AI,"Santa 2026 | Public Frontier | Score 132,336",newer public version
+2026-11-21 19:16,132335,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:22,132316,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,316",newer public version
+2026-11-21 19:25,132315,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:29,132314,Pardheev Krishna,"🎄 132,314 | Best Public Score | Santa 2026",newer public version
+2026-11-21 19:36,132313,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:41,132311,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,311",newer public version
+2026-11-21 19:48,132310,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 19:54,132309,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,309",newer public version
+2026-11-21 19:59,132308,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 20:06,132305,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,305",newer public version
+2026-11-21 20:11,132304,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 20:26,132301,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,301",newer public version
+2026-11-21 20:31,132300,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 20:38,132297,Pardheev Krishna,"🎄 132,298 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 20:42,132296,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 20:51,132295,Pardheev Krishna,"🎄 132,295 | Best Public Score | Santa 2026",newer public version
+2026-11-21 20:54,132292,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 21:16,132289,Pardheev Krishna,"🎄 132,289 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 21:18,132288,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 21:22,132282,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,282",newer public version
+2026-11-21 21:29,132281,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 21:33,132275,Pardheev Krishna,"🎄 132,275 | Best Public Score | Santa 2026",newer public version
+2026-11-21 21:40,132273,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 21:46,132270,Pardheev Krishna,"🎄 132,271 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 21:51,132269,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 21:57,132266,Pardheev Krishna,"🎄 132,267 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 22:03,132265,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 22:08,132262,Pardheev Krishna,"🎄 132,263 | Best Public Score | Santa 2026 (programs embedded in the notebook code)",newer public version
+2026-11-21 22:14,132261,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 22:20,132258,goodpjw2008,"Santa 2026 | LNS + CP-SAT Recombine | LB 132,258",newer public version
+2026-11-21 22:25,132257,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 22:36,132254,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 22:40,132252,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 22:46,132249,Pardheev Krishna,"🎄 132,249 | Best Public Score | Santa 2026",newer public version
+2026-11-21 22:51,132248,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 23:01,132245,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 23:03,132244,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 23:09,132241,Pardheev Krishna,"🎄 132,241 | Best Public Score | Santa 2026",newer public version
+2026-11-21 23:18,132240,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 23:26,132239,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-21 23:32,132238,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-21 23:33,132237,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-21 23:46,132236,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-21 23:47,132235,Ertuğrul Özer,Santa 2026 | Starter Notebook,newer public version
+2026-11-22 00:00,132234,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-22 00:14,132233,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,233",newer public version
+2026-11-22 00:16,132232,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 00:18,132231,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 00:30,132230,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 02:08,132229,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,229",newer public version
+2026-11-22 02:10,132228,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 02:13,132227,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,227",newer public version
+2026-11-22 02:17,132226,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 03:36,132220,Ishan Karnick,"Santa 2026 | Frontier Programs | 132,220",newer public version
+2026-11-22 03:39,132219,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 03:42,132218,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 03:46,132217,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 03:50,132216,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,216",newer public version
+2026-11-22 03:53,132215,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 03:59,132209,Pardheev Krishna,"🎄 132,209 | Best Public Score | Santa 2026",newer public version
+2026-11-22 04:01,132208,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:05,132207,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,207",newer public version
+2026-11-22 04:08,132206,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:12,132203,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,203",newer public version
+2026-11-22 04:15,132202,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:18,132201,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,201",newer public version
+2026-11-22 04:22,132200,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:28,132195,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 04:29,132194,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:35,132190,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 04:37,132189,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:41,132188,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,188",newer public version
+2026-11-22 04:44,132187,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:48,132184,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 04:51,132183,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 04:56,132179,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 04:58,132178,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:06,132174,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,174",newer public version
+2026-11-22 05:07,132173,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:12,132171,Pardheev Krishna,"🎄 132,171 | Best Public Score | Santa 2026",newer public version
+2026-11-22 05:14,132168,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:22,132165,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,165",newer public version
+2026-11-22 05:23,132164,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:27,132161,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,161",newer public version
+2026-11-22 05:32,132160,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:42,132154,Pardheev Krishna,"🎄 132,154 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 05:43,132153,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 05:52,132149,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,149",newer public version
+2026-11-22 05:55,132148,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 06:06,132144,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 06:09,132143,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 06:18,132140,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 06:21,132139,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 06:26,132135,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 06:32,132134,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 06:39,132130,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 06:43,132129,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 06:46,132125,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 06:54,132124,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 07:02,132116,Pardheev Krishna,"🎄 132,116 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 07:05,132115,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 07:16,132112,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,112",newer public version
+2026-11-22 07:19,132110,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-22 07:31,132106,Pardheev Krishna,"🎄 132,106 | Best Public Score | Santa 2026",newer public version
+2026-11-22 07:33,132105,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 07:41,132103,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 132,103",newer public version
+2026-11-22 07:45,132101,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-22 08:11,132085,Pardheev Krishna,"🎄 132,085 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 08:22,132084,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 08:37,132080,Pardheev Krishna,"🎄 132,080 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 08:39,132079,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 08:56,132075,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 08:59,132074,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 09:09,132069,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 09:11,132068,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 09:37,132055,Pardheev Krishna,"🎄 132,055 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 09:39,132054,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 10:15,132040,Pardheev Krishna,"🎄 132,040 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 10:20,132039,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 10:32,132030,Pardheev Krishna,"🎄 132,030 | Best Public Score | Santa 2026",newer public version
+2026-11-22 10:42,132029,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 12:55,131954,永雏塔菲,Santa 2026 Verified Merge,newer public version
+2026-11-22 13:10,131953,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 13:13,131948,永雏塔菲,Santa 2026 Verified Merge,newer public version
+2026-11-22 13:21,131946,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 15:20,131912,Pardheev Krishna,"🎄 131,912 | Best Public Score | Santa 2026",newer public version
+2026-11-22 15:35,131911,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 16:24,131032,Pardheev Krishna,"🎄 131,032 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 16:32,131030,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 16:48,131021,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 16:55,131020,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 17:01,131012,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 17:06,131010,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-22 17:39,131002,Pardheev Krishna,"🎄 131,002 | Best Public Score | Santa 2026",newer public version
+2026-11-22 17:46,131000,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 17:51,130997,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 17:56,130996,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 18:30,130981,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 130,981",newer public version
+2026-11-22 18:35,130980,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 18:53,130975,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 19:01,130974,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 19:01,130973,Pardheev Krishna,"🎄 130,973 | Best Public Score | Santa 2026",newer public version
+2026-11-22 19:12,130971,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 19:23,130964,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 19:29,130963,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 19:54,130953,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-22 20:02,130952,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 20:20,130943,Pardheev Krishna,"🎄 130,943 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 20:28,130941,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 21:28,130926,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 130,926",newer public version
+2026-11-22 21:44,130925,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 23:06,130912,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 130,912",newer public version
+2026-11-22 23:12,130911,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-22 23:35,130904,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 130,904 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-22 23:47,130903,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 00:35,130897,Pardheev Krishna,"🎄 130,897 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 00:43,130896,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 01:46,130886,Pardheev Krishna,"🎄 130,886 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 01:49,130885,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 02:40,130879,goodpjw2008,"Santa 2026 | Source-Aware Frontier | LB 130,879",newer public version
+2026-11-23 02:43,130877,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-23 03:18,130866,Pardheev Krishna,"🎄 130,866 | Best Public Score | Santa 2026 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 03:44,130865,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 05:53,130203,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,203",newer public version
+2026-11-23 06:00,130202,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 06:12,130201,Areeb Ali,"Santa 2026 | Every Value, Zero Savings (and Why)",newer public version
+2026-11-23 06:22,130200,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 06:53,130194,Pardheev Krishna,"🎄 130,194 | Best Public Score | Santa 2026",newer public version
+2026-11-23 07:01,130193,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 08:42,130134,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,134",newer public version
+2026-11-23 08:59,130133,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 09:00,130132,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,132",newer public version
+2026-11-23 09:10,130131,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 09:06,130132,奶龙,Santa 2026 | 132391-step Public Baseline,newer public version
+2026-11-23 09:14,130131,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 09:34,130128,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,128",newer public version
+2026-11-23 09:42,130127,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 10:00,130124,Try,Santa 2026 Free Order CP SAT DAG Optimizer,newer public version
+2026-11-23 10:11,130123,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 10:07,130122,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,123 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 10:23,130121,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 10:58,130119,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,119",newer public version
+2026-11-23 11:18,130117,Asterios Panoras,this notebook,public merge + 2 from Atakan optimizer re-run
+2026-11-23 11:14,130116,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 130,118 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 11:32,130115,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run
+2026-11-23 14:25,128513,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,513 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 15:25,128510,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,510",newer public version
+2026-11-23 15:55,128508,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,508 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-23 16:40,128507,Ishan Karnick,"Santa 2026 | Frontier Programs | 128,507",newer public version
+2026-11-23 17:54,128506,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,506",newer public version
+2026-11-23 19:39,128505,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,505",newer public version
+2026-11-23 20:31,128504,alex chilton,Rudolph the Red-Nosed Register Allocator,newer public version
+2026-11-24 00:00,128503,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-24 00:24,128502,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-24 01:46,128501,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-24 02:38,128500,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 03:57,128492,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 05:09,128491,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-24 08:44,128490,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 10:22,128488,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 11:01,128486,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 11:32,128485,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,485",newer public version
+2026-11-24 13:18,128482,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 13:45,128481,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 15:25,128324,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 16:19,128319,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 17:15,128311,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,311",newer public version
+2026-11-24 18:18,128308,Ertuğrul Özer,Santa 2026 | Starter Notebook!,newer public version
+2026-11-24 19:18,128298,Ertuğrul Özer,Santa 2026 | Starter Notebook! (programs read from the notebook code or its own dataset),newer public version
+2026-11-24 19:32,128297,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,297",newer public version
+2026-11-24 21:29,128295,Ishan Karnick,"Santa 2026 | Frontier Programs | 128,295",newer public version
+2026-11-24 22:44,128294,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,294",newer public version
+2026-11-24 23:26,128291,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,291",newer public version
+2026-11-24 23:58,128290,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,290 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-25 03:00,128282,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,282",newer public version
+2026-11-25 04:02,128252,Ishan Karnick,"Santa 2026 | Frontier Programs | 128,252",newer public version
+2026-11-25 06:14,128241,Ishan Karnick,"Santa 2026 | Frontier Programs | 128,241",newer public version
+2026-11-25 06:47,128239,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,239 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-25 10:52,128221,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,221",newer public version
+2026-11-25 11:43,128216,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,216",newer public version
+2026-11-25 13:53,128183,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,183",newer public version
+2026-11-25 15:31,128172,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,172",newer public version
+2026-11-25 17:48,128150,Ertuğrul Özer,"Santa 2026 | Multi-Engine Frontier | LB 128,150 (programs read from the notebook code or its own dataset)",newer public version
+2026-11-25 19:53,128140,goodpjw2008,"Santa 2026 | Fresh-Program Re-Search | LB 128,140",newer public version
+2026-11-25 20:12,128139,Asterios Panoras,this notebook,public merge + 1 from Atakan optimizer re-run

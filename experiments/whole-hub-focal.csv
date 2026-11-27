@@ -1,0 +1,2 @@
+id,original,final,saved,cpu_seconds,passes,singles,pairs,four_step_leaves,candidates,allocation_failures,accepted_hubs_and_new_values,historical_gap,recovered
+scored_0379,109,108,1,3.391,2,95,992,2,7,0,"[[787994, 11827, [948, 11827, 787994, 792686, 924143, 1712137, 93610705, 747018312, 168556463376]]]",1,1

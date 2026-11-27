@@ -1,0 +1,13 @@
+pass,gain,hours,runs
+converged · focus sweep 1.5k rounds,0,1.946,47
+fresh · Atakan optimizers,2,0.344,537
+fresh · WJ diverse multi-seed,60,5.439,365
+converged · Atakan long passes,1,0.458,34
+hot list · 20k rounds,18,15.219,57
+converged · deep sweep 20k rounds,53,40.188,305
+converged · Ross Wade slack annealing,5,4.014,34
+other lineages · triwalk (ours),57,3.097,28
+fresh · triwalk (ours),3,0.110,6
+fresh · Ross Wade slack annealing,0,0.033,2
+converged · triwalk (ours),17,0.440,4
+annealing · triwalk (ours),531,19.253,60

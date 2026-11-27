@@ -1,0 +1,1559 @@
+id,net_steps,target,true_op,a,b,legacy_backward_rank,new_backward_rank,passed_backward_beam_screen,oracle_result,old_exact_then_backward_rank,new_exact_then_backward_rank,legacy_direct,new_direct
+scored_0031,1,198967129356722291,-,198967129366225815,9503524,,,False,injected; no accepted repair,,,False,False
+scored_0031,1,284725086146238089,+,1619,284725086146236470,,35,False,injected; no accepted repair,,35,False,False
+scored_0031,1,601179780297801080,+,94708616703,601179685589184377,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0031,1,665425339867652795,-,665425339867654168,1373,,34,False,injected; no accepted repair,,34,False,False
+scored_0031,1,770582393783472537,-,818841441663272601,48259047879800064,,,False,injected; no accepted repair,,,False,False
+scored_0031,1,881668253060525190,+,184286060871576480,697382192188948710,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,29803082,+,75,29803007,,11,False,injected; no accepted repair,33,10,True,True
+scored_0048,2,40528991,+,39,40528952,,,False,injected; no accepted repair,,,False,False
+scored_0048,2,40530298,+,303,40529995,,,False,injected; no accepted repair,33,,True,False
+scored_0048,2,57714200,-,57714503,303,,,False,injected; no accepted repair,,,False,False
+scored_0048,2,57714444,+,57714409,35,,9,False,injected; no accepted repair,14,9,True,True
+scored_0048,2,115428471,+,75,115428396,,,False,injected; no accepted repair,,,False,False
+scored_0048,2,188364046,+,1876,188362170,,,False,injected; no accepted repair,,,False,False
+scored_0048,2,313924703,-,313936950,12247,,,False,injected; no accepted repair,,,False,False
+scored_0048,2,486359536,*,4,121589884,,375,False,injected; no accepted repair,,376,False,False
+scored_0048,2,9565088024,*,236,40530034,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,111975859040,+,393069,111975465971,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,214289371396,*,59,3632023244,,,False,injected; no accepted repair,1,4,True,True
+scored_0048,2,256391398570,-,367937499195,111546100625,,241,False,injected; no accepted repair,,241,False,False
+scored_0048,2,299348352104,-,299388881056,40528952,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,323379942844,-,323379942858,14,,9,False,injected; no accepted repair,,9,False,False
+scored_0048,2,392828296176,-,549108085472,156279789296,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,493663575407,+,29803031,493633772376,,129,False,injected; no accepted repair,,129,False,False
+scored_0048,2,495549771892,+,493663575407,1886196485,,253,False,injected; no accepted repair,,253,False,False
+scored_0048,2,549108084390,-,549108085472,1082,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,588107550539,-,588107555340,4801,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,832069443702,+,29803031,832039640671,,132,False,injected; no accepted repair,,132,False,False
+scored_0048,2,859640775320,+,15,859640775305,,9,False,injected; no accepted repair,,9,False,False
+scored_0048,2,896121282710,-,896236711716,115429006,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,961877490426,*,27,35625092238,,284,False,injected; no accepted repair,,284,False,False
+scored_0048,2,979877100454,+,860454332062,119422768392,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0048,2,5923398979680,-,5923398992952,13272,,5,False,injected; no accepted repair,6,5,True,False
+scored_0049,2,45792891,+,45792620,271,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,301687525,-,301692978,5453,,,False,injected; no accepted repair,,,False,False
+scored_0049,2,476103396,-,476112400,9004,,5,True,injected; no accepted repair,1,5,True,False
+scored_0049,2,2623660160,*,160,16397876,,209,False,injected; no accepted repair,,209,False,False
+scored_0049,2,3243497224,-,3243508166,10942,,,False,injected; no accepted repair,117,,True,False
+scored_0049,2,5199116480,+,8748,5199107732,,,False,injected; no accepted repair,,,False,False
+scored_0049,2,6116601600,*,699840,8740,,,False,injected; no accepted repair,5,,True,False
+scored_0049,2,7799029955,+,7799018955,11000,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,164983171291,+,6861,164983164430,,79,False,injected; no accepted repair,,79,False,False
+scored_0049,2,170995090184,-,170995100296,10112,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,298912162500,-,298957935780,45773280,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,419088471561,-,733179802896,314091331335,,263,False,injected; no accepted repair,,263,False,False
+scored_0049,2,498086349670,-,498132131832,45782162,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,534545823407,+,534545811520,11887,,,False,injected; no accepted repair,,,False,False
+scored_0049,2,714430636609,-,714430638010,1401,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,827835217854,-,827880980256,45762402,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,857655948144,+,11472,857655936672,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0049,2,869214496110,-,869260278268,45782158,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,2136,+,92,2044,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,124239,-,124260,21,,64,True,injected; no accepted repair,,67,False,False
+scored_0052,1,131465,+,124260,7205,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,186048,*,228,816,,,False,injected; no accepted repair,9,,True,False
+scored_0052,1,186556,-,2081698,1895142,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,292160,*,440,664,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,310177,+,186048,124129,,94,False,injected; no accepted repair,,110,False,False
+scored_0052,1,672791,+,672723,68,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,727815,-,1400538,672723,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,1400900,+,454,1400446,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,2081854,+,664,2081190,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,2849218,-,4744360,1895142,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,3070446,-,6153391,3082945,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,4040685,-,6122383,2081698,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,6824936,-,6825390,454,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,7393555,+,1240980,6152575,,140,False,injected; no accepted repair,,140,False,False
+scored_0052,1,157246063,+,153380844,3865219,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,182518456,+,153380844,29137612,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,521854520,*,4744132,110,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,916273620,+,504670,915768950,,183,False,injected; no accepted repair,,183,False,False
+scored_0052,1,1260781200,*,3090150,408,,3,False,injected; no accepted repair,10,2,True,True
+scored_0052,1,1485268880,*,681316,2180,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,2555256728,-,2555258244,1516,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0052,1,4401227070,*,4752945,926,,,False,injected; no accepted repair,2,,True,False
+scored_0052,1,25856762000,*,4744360,5450,,,False,injected; no accepted repair,,,False,False
+scored_0052,1,93162912576,+,46581456288,46581456288,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0057,2,205947938534710,-,233565585601164,27617647066454,,333,False,injected; no accepted repair,,333,False,False
+scored_0057,2,233565585601164,*,104784919516,2229,,1,True,injected; no accepted repair,1,1,True,True
+scored_0057,2,376300240915847,+,376011428570757,288812345090,,275,False,injected; no accepted repair,,275,False,False
+scored_0057,2,408531690869220,+,408531686551116,4318104,,1,True,injected; no accepted repair,,1,False,False
+scored_0057,2,473742638497643,+,473742632090970,6406673,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,545245951115665,+,288844098375,544957107017290,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,599069046283830,+,599069046283077,753,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,636858532833164,+,44854490348,636813678342816,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0057,2,660244775638595,+,660244775638593,2,,1,False,injected; no accepted repair,,1,False,False
+scored_0057,2,673108898759528,+,12864123120935,660244775638593,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,701866353064663,+,351829871440280,350036481624383,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,793202322095744,-,793202354655962,32560218,,,False,injected; no accepted repair,,,False,False
+scored_0057,2,859237591427085,+,246482543300210,612755048126875,,370,False,injected; no accepted repair,,370,False,False
+scored_0057,2,870825546109348,-,870825546111312,1964,,30,False,injected; no accepted repair,,30,False,False
+scored_0057,2,901351981602951,+,888487858482016,12864123120935,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0084,1,277771,-,455172,177401,,1,True,replayed,3,2,True,True
+scored_0084,1,540958,-,561502,20544,,,False,injected; no accepted repair,,,False,False
+scored_0084,1,839273,+,277771,561502,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0084,1,909960,+,455166,454794,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0084,1,962166,+,455166,507000,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0084,1,6367984,+,6367116,868,,,False,injected; no accepted repair,,,False,False
+scored_0084,1,12734232,+,6367116,6367116,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0105,1,61055526,-,203568350,142512824,,2,True,injected; no accepted repair,6,3,True,True
+scored_0105,1,142476111,+,5142715,137333396,2,1,True,injected; no accepted repair,4,1,False,False
+scored_0105,1,654451692,-,673494552,19042860,,3,True,injected; no accepted repair,6,3,True,True
+scored_0105,1,18775986230,+,18,18775986212,,13,False,injected; no accepted repair,,13,False,False
+scored_0105,1,157763061917,-,157763068055,6138,,3,True,injected; no accepted repair,15,3,True,True
+scored_0105,1,186635626451,+,5218,186635621233,,,False,injected; no accepted repair,,,False,False
+scored_0105,1,221642822601,-,221716801897,73979296,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0105,1,252419099734,+,142476111,252276623623,,165,False,injected; no accepted repair,,165,False,False
+scored_0105,1,339984222007,+,182221161440,157763060567,,,False,injected; no accepted repair,,,False,False
+scored_0105,1,403133263199,-,403133268427,5228,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0105,1,604971330719,+,16982040,604954348679,,122,False,injected; no accepted repair,,122,False,False
+scored_0105,1,697594009898,+,16982040,697577027858,,119,False,injected; no accepted repair,,119,False,False
+scored_0105,1,725914214978,+,19050348,725895164630,,,False,injected; no accepted repair,,,False,False
+scored_0105,1,745268575544,-,745268631488,55944,,,False,injected; no accepted repair,,,False,False
+scored_0105,1,846408229846,+,507924302,845900305544,,3,True,injected; no accepted repair,,3,False,False
+scored_0138,1,9796,-,13628,3832,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,13919,-,16002,2083,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,17299,+,13919,3380,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,26848,+,13660,13188,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,32273,+,26848,5425,,4,True,replayed,19,4,True,True
+scored_0138,1,37663,+,2158,35505,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,48711,+,35523,13188,,,False,injected; no accepted repair,,,False,False
+scored_0138,1,63140,+,15673,47467,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,193905,*,2085,93,,,False,injected; no accepted repair,,,False,False
+scored_0138,1,226401,-,420472,194071,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,478691,+,17452,461239,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,532404,+,481073,51331,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,958098,+,461239,496859,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,2106017,-,5744239,3638222,,129,False,injected; no accepted repair,,132,False,False
+scored_0138,1,3157149,-,3638222,481073,,,False,injected; no accepted repair,,,False,False
+scored_0138,1,3240123,+,3157149,82974,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,5744239,-,6225312,481073,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,7040286,-,7047300,7014,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,17276396,-,17892800,616404,,148,False,injected; no accepted repair,,148,False,False
+scored_0138,1,17892800,*,447320,40,,,False,injected; no accepted repair,,,False,False
+scored_0138,1,34532316,*,2158,16002,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,52813152,*,13668,3864,,,False,replayed,1,,True,False
+scored_0138,1,71479792,-,71479800,8,,11,False,injected; no accepted repair,,11,False,False
+scored_0138,1,73942148,+,73931900,10248,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,131709262,+,131697760,11502,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,382721885,+,226401,382495484,,108,False,injected; no accepted repair,,108,False,False
+scored_0138,1,1337918422,+,1337902749,15673,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0138,1,5713360360,-,5713373536,13176,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,153405,+,49373,104032,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,311518,-,312000,482,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,458868,-,461468,2600,,2,True,replayed,7,2,True,True
+scored_0142,2,2177107,-,2287185,110078,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,2287692,+,25,2287667,,28,False,injected; no accepted repair,,29,False,False
+scored_0142,2,2552193,+,2292670,259523,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,4732247,+,2552393,2179854,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,33855190,+,200,33854990,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,57368745,+,51995,57316750,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,63503803,*,1716319,37,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,81954430,+,51995,81902435,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,109385038,+,109274960,110078,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,123553289,+,121265484,2287805,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,374515301,-,374628577,113276,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,511725326,-,516617556,4892230,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,1192555872,-,1192556332,460,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,9359789209,-,9365252957,5463748,,144,False,injected; no accepted repair,,144,False,False
+scored_0142,2,21928460389,+,37,21928460352,,4,True,injected; no accepted repair,,4,False,False
+scored_0142,2,22782625067,-,22782625120,53,,,False,injected; no accepted repair,,,False,False
+scored_0142,2,157103141904,*,9584,16392231,,6,False,injected; no accepted repair,,6,False,False
+scored_0142,2,269090448997,+,269090397024,51973,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0142,2,656009760684,*,37,17729993532,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,1388888,+,694450,694438,,4,False,injected; no accepted repair,64,4,True,True
+scored_0144,1,2837472,-,3405015,567543,,24,True,injected; no accepted repair,,24,False,False
+scored_0144,1,3405313,+,339,3404974,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,4256202,-,4256235,33,,12,False,injected; no accepted repair,20,10,True,True
+scored_0144,1,8937559,-,25604443,16666884,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,15277996,-,16666884,1388888,,85,False,injected; no accepted repair,,101,False,False
+scored_0144,1,16020902,-,16021586,684,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,16667254,+,339,16666915,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,21364512,+,1135005,20229507,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,25000348,+,3,25000345,,2,True,injected; no accepted repair,,2,False,False
+scored_0144,1,25000355,+,10,25000345,,4,False,injected; no accepted repair,6,3,True,True
+scored_0144,1,33379605,-,70834323,37454718,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,44065305,+,23835798,20229507,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,87501207,+,16666884,70834323,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,112158292,+,169,112158123,,35,False,injected; no accepted repair,,37,False,False
+scored_0144,1,143001348,*,42,3404794,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,200295200,*,25036900,8,,286,False,injected; no accepted repair,,286,False,False
+scored_0144,1,250263468,*,14,17875962,,177,False,injected; no accepted repair,,177,False,False
+scored_0144,1,306252873,+,70834323,235418550,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,442652188,+,12,442652176,,5,True,injected; no accepted repair,,5,False,False
+scored_0144,1,1177099446,/,9416795568,8,,278,False,injected; no accepted repair,,278,False,False
+scored_0144,1,2355365922,-,3701218059,1345852137,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0144,1,5432008714,+,694450,5431314264,,65,False,injected; no accepted repair,,65,False,False
+scored_0144,1,8631614159,-,8657181990,25567831,,,False,injected; no accepted repair,,,False,False
+scored_0144,1,8657184024,+,2034,8657181990,,1,True,replayed,1,1,True,True
+scored_0144,1,75334359072,*,8,9416794884,,269,False,injected; no accepted repair,,269,False,False
+scored_0162,1,548864808031,-,548864808043,12,,16,False,injected; no accepted repair,,17,False,False
+scored_0162,1,767178808699,+,16,767178808683,,21,False,injected; no accepted repair,,23,False,False
+scored_0162,1,767178810408,+,1332,767178809076,,,False,injected; no accepted repair,49,,True,False
+scored_0162,1,855835190471,-,855835191684,1213,,10,False,injected; no accepted repair,62,10,True,True
+scored_0162,1,855835194191,+,855835191684,2507,,10,False,injected; no accepted repair,69,10,True,True
+scored_0162,1,1097729613676,-,1097729616086,2410,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,1646594422381,+,1097729616086,548864806295,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0162,1,5709839407911,+,27,5709839407884,,7,True,injected; no accepted repair,,7,False,False
+scored_0162,1,7223527996653,+,4808,7223527991845,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0162,1,9206145711310,+,9206145708912,2398,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,16877550343737,+,16877550343731,6,,15,False,injected; no accepted repair,3,15,True,True
+scored_0162,1,17806503305497,+,8903251651536,8903251653961,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,19759133070640,+,24472,19759133046168,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,118554798298680,*,6,19759133049780,,8,True,injected; no accepted repair,,8,False,False
+scored_0162,1,128886039931992,+,128886039924768,7224,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0162,1,354315768367716,*,18,19684209353762,,3,True,injected; no accepted repair,,3,False,False
+scored_0162,1,713442743071508,+,713442743066700,4808,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0162,1,1139972475323257,-,1139972475323391,134,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,1893546565540450,-,1893546565547904,7454,,,False,replayed,,,False,False
+scored_0162,1,2697685250440254,*,303,8903251651618,,,False,injected; no accepted repair,,,False,False
+scored_0162,1,4372864516775304,*,968319,4515933816,,3,True,replayed,3,3,True,True
+scored_0162,1,405821272428698544,*,303,1339344133428048,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0162,1,465968574379561800,*,1212,384462520115150,,,False,injected; no accepted repair,,,False,False
+scored_0165,1,283932770580267199,+,2123122822065,283930647457445134,,337,False,injected; no accepted repair,,337,False,False
+scored_0165,1,506001218987341656,-,510270127800841851,4268908813500195,,,False,injected; no accepted repair,,,False,False
+scored_0165,1,659970338130656531,+,149700210329814680,510270127800841851,,,False,injected; no accepted repair,,,False,False
+scored_0165,1,682279030697159446,+,1,682279030697159445,,1,True,injected; no accepted repair,,1,False,False
+scored_0165,1,779023446181417692,+,772323128199138864,6700317982278828,,2,True,injected; no accepted repair,,2,False,False
+scored_0165,1,796685722936352898,+,17662276754935680,779023446181417218,,,False,injected; no accepted repair,,,False,False
+scored_0165,1,860308024318089036,+,117300,860308024317971736,,1,True,injected; no accepted repair,,1,False,False
+scored_0188,2,11110,*,55,202,,,False,injected; no accepted repair,,,False,False
+scored_0188,2,15211,-,48808,33597,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,27740,-,45884,18144,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,33439,-,33597,158,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,36903,+,11199,25704,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,45352,+,33439,11913,,11,False,injected; no accepted repair,140,9,True,True
+scored_0188,2,45884,-,45886,2,,184,False,injected; no accepted repair,,185,False,False
+scored_0188,2,68990,+,48808,20182,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,71918,+,26032,45886,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,241840,-,310830,68990,,122,False,injected; no accepted repair,,122,False,False
+scored_0188,2,599553,+,554778,44775,,84,False,injected; no accepted repair,,84,False,False
+scored_0188,2,1320372,+,1286775,33597,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,2194372,-,3568784,1374412,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,2316848,*,89,26032,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,3014006,-,3568784,554778,,,False,injected; no accepted repair,,,False,False
+scored_0188,2,3568782,-,3568784,2,,13,True,injected; no accepted repair,,13,False,False
+scored_0188,2,3728214,-,4087860,359646,,161,False,injected; no accepted repair,,162,False,False
+scored_0188,2,4087860,+,3568782,519078,,12,True,injected; no accepted repair,,12,False,False
+scored_0188,2,6548499,+,4087860,2460639,,143,False,injected; no accepted repair,,143,False,False
+scored_0188,2,10476514,+,8076970,2399544,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,38155595,+,10476514,27679081,,152,False,injected; no accepted repair,,152,False,False
+scored_0188,2,63629944,+,63581128,48816,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,71441684,-,71469424,27740,,3,True,injected; no accepted repair,,3,False,False
+scored_0188,2,85728414,+,359856,85368558,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,999824175,*,1286775,777,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0188,2,1244461074,+,71918,1244389156,,99,False,injected; no accepted repair,,99,False,False
+scored_0188,2,1871701049,-,1909856644,38155595,1,154,False,injected; no accepted repair,1,154,False,False
+scored_0205,2,925635,-,925650,15,,25,False,injected; no accepted repair,,25,False,False
+scored_0205,2,1384984,-,1395872,10888,,,False,injected; no accepted repair,8,,True,False
+scored_0205,2,1587054,-,1587816,762,,7,False,injected; no accepted repair,33,7,True,True
+scored_0205,2,1918282,+,762,1917520,,,False,injected; no accepted repair,,,False,False
+scored_0205,2,2335244,+,2287814,47430,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,4489901,-,4489904,3,,2,False,injected; no accepted repair,1,1,True,True
+scored_0205,2,5381476,+,88212,5293264,,96,False,injected; no accepted repair,,96,False,False
+scored_0205,2,8975765,-,8992272,16507,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,17586920,*,20,879346,,277,False,injected; no accepted repair,,278,False,False
+scored_0205,2,19656996,-,21574080,1917084,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,31795803,-,33190655,1394852,,119,False,injected; no accepted repair,,119,False,False
+scored_0205,2,47885110,+,8992272,38892838,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,59254639,+,4489904,54764735,,,False,injected; no accepted repair,,,False,False
+scored_0205,2,4962835160,*,17,291931480,,204,False,injected; no accepted repair,,204,False,False
+scored_0205,2,12976411416,+,12973630560,2780856,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,13901859480,*,15810,879308,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,21707993664,*,1916313,11328,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,56992998291,-,56992998960,669,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,66624709112,+,3913268760,62711440352,,,False,injected; no accepted repair,,,False,False
+scored_0205,2,69713903325,*,3,23237967775,,50,True,injected; no accepted repair,,60,False,False
+scored_0205,2,275143212990,-,275143442490,229500,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,328721455206,+,328720941724,513482,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0205,2,345971492675,*,1207,286637525,,,False,injected; no accepted repair,,,False,False
+scored_0205,2,759672404042160,*,32691,23237967760,,2,False,injected; no accepted repair,9,4,True,True
+scored_0229,1,1152948,+,756,1152192,,2,False,injected; no accepted repair,76,6,True,True
+scored_0229,1,104628369637,/,523141848185,5,,232,False,injected; no accepted repair,,232,False,False
+scored_0229,1,523090333761,+,253,523090333508,,1,True,replayed,1,1,True,True
+scored_0229,1,524958616809,+,1871680416,523086936393,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0229,1,799769282227,-,801673901140,1904618913,,,False,replayed,1,,True,False
+scored_0230,3,203532185839575,-,203532188482085,2642510,,,False,injected; no accepted repair,,,False,False
+scored_0230,3,219690085486791,-,219690086753225,1266434,,110,False,injected; no accepted repair,,110,False,False
+scored_0230,3,327421635047512,+,327318140081190,103494966322,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0230,3,362304333813738,+,359585105308458,2719228505280,,,False,injected; no accepted repair,,,False,False
+scored_0230,3,515698876092840,+,253431031543158,262267844549682,,,False,injected; no accepted repair,,,False,False
+scored_0230,3,525149886847433,-,525149886849397,1964,,1,True,injected; no accepted repair,1,1,True,True
+scored_0230,3,579677458687913,+,535104539622875,44572919065038,,,False,injected; no accepted repair,,,False,False
+scored_0230,3,587570606088534,+,501490807630584,86079798457950,,291,False,injected; no accepted repair,,291,False,False
+scored_0230,3,590740041940388,+,587570606087857,3169435852531,,,False,injected; no accepted repair,1,,True,False
+scored_0230,3,765264911518518,+,765264910994883,523635,,3,True,injected; no accepted repair,1,3,True,False
+scored_0230,3,776317061198747,+,11052150203864,765264910994883,,384,False,injected; no accepted repair,,384,False,False
+scored_0230,3,832515211020867,+,777463572306150,55051638714717,,290,False,injected; no accepted repair,,290,False,False
+scored_0230,3,855115564993059,+,854930784060540,184780932519,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0230,3,895469959123594,-,895469959485124,361530,,69,False,injected; no accepted repair,,69,False,False
+scored_0238,1,22800593,-,22801267,674,,4,False,injected; no accepted repair,18,4,True,True
+scored_0238,1,39265670,+,9642,39256028,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0238,1,74476952,+,28447,74448505,,141,False,injected; no accepted repair,,141,False,False
+scored_0238,1,12266647990,-,12289484053,22836063,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0238,1,119567011392,-,378529496900,258962485508,,,False,replayed,,,False,False
+scored_0238,1,166723530476,-,166723558923,28447,,86,False,injected; no accepted repair,,86,False,False
+scored_0238,1,195306471884,-,195329297444,22825560,,2,True,replayed,,2,False,False
+scored_0238,1,321368114762,+,39256028,321328858734,,145,False,injected; no accepted repair,,145,False,False
+scored_0238,1,378529500034,+,22855877,378506644157,,7,False,injected; no accepted repair,145,7,True,True
+scored_0238,1,405577398874,+,405554577120,22821754,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0238,1,437453369572,+,437430546080,22823492,,125,False,replayed,,125,False,False
+scored_0238,1,771972537567,*,2541,303806587,,,False,injected; no accepted repair,,,False,False
+scored_0238,1,918034629038,+,22826374,918011802664,,,False,injected; no accepted repair,,,False,False
+scored_0245,2,668263,-,2009768,1341505,,108,False,injected; no accepted repair,,108,False,False
+scored_0245,2,973647,-,1460455,486808,,97,False,injected; no accepted repair,,104,False,False
+scored_0245,2,1041282,-,1341505,300223,,1,True,replayed,4,1,True,True
+scored_0245,2,1340406,-,1460418,120012,,120,False,injected; no accepted repair,,134,False,False
+scored_0245,2,1341505,+,1340406,1099,,14,False,injected; no accepted repair,87,10,True,True
+scored_0245,2,1460418,-,1460434,16,,21,False,injected; no accepted repair,,44,False,False
+scored_0245,2,1460511,*,219,6669,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0245,2,1497059,-,1497472,413,,60,True,injected; no accepted repair,,60,False,False
+scored_0245,2,1498749,+,1497059,1690,,120,False,injected; no accepted repair,,122,False,False
+scored_0245,2,1947348,+,973674,973674,,,False,injected; no accepted repair,36,,True,False
+scored_0245,2,2010651,-,2010664,13,,67,False,injected; no accepted repair,,72,False,False
+scored_0245,2,2918712,+,1459356,1459356,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0245,2,3651349,+,300223,3351126,,127,False,injected; no accepted repair,,127,False,False
+scored_0245,2,3652249,+,896,3651353,,,False,injected; no accepted repair,21,,True,False
+scored_0245,2,5246422,-,6706856,1460434,,,False,injected; no accepted repair,,,False,False
+scored_0245,2,9739992,*,4,2434998,,142,False,injected; no accepted repair,,142,False,False
+scored_0245,2,29531839,*,36961,799,,,False,injected; no accepted repair,,,False,False
+scored_0245,2,36510542,-,37484216,973674,,,False,injected; no accepted repair,38,,True,False
+scored_0245,2,37484210,-,37484216,6,,2,False,injected; no accepted repair,1,1,True,True
+scored_0245,2,52165780,-,52287482,121702,,,False,injected; no accepted repair,,,False,False
+scored_0245,2,130693147,+,2010651,128682496,,4,True,injected; no accepted repair,,4,False,False
+scored_0245,2,1424767177,-,1431474033,6706856,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0245,2,1780014037,-,1780133250,119213,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0245,2,2757281868,-,2767021860,9739992,,150,False,injected; no accepted repair,,150,False,False
+scored_0245,2,5730618025,*,475,12064459,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0245,2,12949092184,-,12949092800,616,,,False,injected; no accepted repair,,,False,False
+scored_0245,2,33315192288,*,231355502,144,,,False,injected; no accepted repair,,,False,False
+scored_0268,1,29712810631410,-,32684091693822,2971281062412,,2,True,injected; no accepted repair,7,2,True,True
+scored_0268,1,396678653340519070,+,14628719110236472,382049934230282598,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0268,1,467350832685788002,+,221,467350832685787781,,,False,injected; no accepted repair,,,False,False
+scored_0268,1,482351363603674357,-,482351363603674838,481,,3,True,injected; no accepted repair,1,3,True,False
+scored_0268,1,843081114010226707,-,843081114010347516,120809,,92,False,injected; no accepted repair,,92,False,False
+scored_0268,1,847627547663566397,+,495754740,847627547167811657,,159,False,injected; no accepted repair,,159,False,False
+scored_0270,6,2646996,-,2648123,1127,,,False,injected; no accepted repair,55,,True,False
+scored_0270,6,2647967,-,2648123,156,,52,False,injected; no accepted repair,,64,False,False
+scored_0270,6,2649274,+,2648123,1151,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,5100890,+,2649274,2451616,,240,False,injected; no accepted repair,,240,False,False
+scored_0270,6,5295059,-,5296230,1171,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0270,6,5930061,+,70,5929991,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,11943361,-,11943503,142,,49,False,injected; no accepted repair,,51,False,False
+scored_0270,6,16163816,-,16172978,9162,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0270,6,16172642,-,16172694,52,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,16172687,-,16172695,8,,2,False,injected; no accepted repair,2,1,True,True
+scored_0270,6,16172819,-,16172962,143,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,16173845,+,16172694,1151,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,16174969,+,16172695,2274,,,False,injected; no accepted repair,84,,True,False
+scored_0270,6,45178126,+,5287067,39891059,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,49834448,*,16,3114653,,318,False,injected; no accepted repair,,318,False,False
+scored_0270,6,372728555,-,375180171,2451616,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,376022032,-,376031194,9162,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0270,6,441711448,*,142,3110644,,168,False,injected; no accepted repair,,168,False,False
+scored_0270,6,3008249211,-,3008249263,52,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,9250768813,-,9250768956,143,,,False,injected; no accepted repair,1,,True,False
+scored_0270,6,13663204412,-,13663204984,572,,3,False,injected; no accepted repair,198,10,True,False
+scored_0270,6,28541687420,-,28541690856,3436,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0270,6,131146450952,*,71,1847133112,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,468504916930,-,468504917073,143,,,False,injected; no accepted repair,,,False,False
+scored_0270,6,21040760410780,*,142,148174369090,,225,False,injected; no accepted repair,,225,False,False
+scored_0291,1,234160462673,+,13149481,234147313192,,139,False,injected; no accepted repair,,139,False,False
+scored_0291,1,258812940005,-,258812940494,489,,1,True,injected; no accepted repair,,1,False,False
+scored_0291,1,320586918614,-,320951586272,364667658,,,False,injected; no accepted repair,2,,True,False
+scored_0291,1,492062164764,-,492062170044,5280,,1,True,injected; no accepted repair,,1,False,False
+scored_0291,1,681111248447,+,2903458,681108344989,,129,False,injected; no accepted repair,,129,False,False
+scored_0291,1,714100186684,+,714097862640,2324044,,,False,injected; no accepted repair,,,False,False
+scored_0291,1,817508676712,+,583361363520,234147313192,,,False,injected; no accepted repair,1,,True,False
+scored_0291,1,8919379151288,-,8919379152000,712,,1,True,injected; no accepted repair,,1,False,False
+scored_0296,1,67758,+,43050,24708,,,False,injected; no accepted repair,,,False,False
+scored_0296,1,93578,+,9362,84216,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,143443,+,67758,75685,,45,False,injected; no accepted repair,,45,False,False
+scored_0296,1,167987,+,121836,46151,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,452148,-,461510,9362,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,623015,-,707231,84216,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,973638,-,973648,10,,16,False,injected; no accepted repair,,16,False,False
+scored_0296,1,9901934,+,707281,9194653,,,False,injected; no accepted repair,7,,True,False
+scored_0296,1,18389254,-,18389306,52,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,35364890,+,35364050,840,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0296,1,36205050,*,841,43050,,12,True,injected; no accepted repair,,14,False,False
+scored_0316,1,502564,+,868,501696,,6,False,injected; no accepted repair,,17,False,False
+scored_0316,1,984074,+,753641,230433,,9,False,injected; no accepted repair,54,9,True,True
+scored_0316,1,1414368,+,660752,753616,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0316,1,1624962,+,2,1624960,,178,False,injected; no accepted repair,,178,False,False
+scored_0316,1,16884195,-,26676094,9791899,,,False,injected; no accepted repair,,,False,False
+scored_0316,1,25459209,+,3,25459206,,2,False,injected; no accepted repair,176,40,True,False
+scored_0316,1,312010656,*,12,26000888,,200,False,injected; no accepted repair,,200,False,False
+scored_0316,1,936623698,+,15904,936607794,,45,False,injected; no accepted repair,,45,False,False
+scored_0316,1,1069289640,*,18,59404980,,3,True,injected; no accepted repair,,3,False,False
+scored_0316,1,1763196176,*,217,8125328,,,False,injected; no accepted repair,,,False,False
+scored_0316,1,423286506743,-,424257076096,970569353,,,False,replayed,,,False,False
+scored_0321,1,127075134228274801,-,127075134228275508,707,,,False,injected; no accepted repair,,,False,False
+scored_0321,1,169834044983981283,+,169834044023701740,960279543,,,False,injected; no accepted repair,,,False,False
+scored_0321,1,223789454888276408,-,223789454889558816,1282408,,,False,injected; no accepted repair,,,False,False
+scored_0321,1,233474552440568228,+,19,233474552440568209,,16,False,injected; no accepted repair,,16,False,False
+scored_0321,1,258315018273000708,-,258315018280184233,7183525,,1,True,injected; no accepted repair,,1,False,False
+scored_0321,1,334076311382301341,+,52144123,334076311330157218,,214,False,injected; no accepted repair,,214,False,False
+scored_0321,1,412505979665350492,-,412505979681416094,16065602,,160,False,injected; no accepted repair,,160,False,False
+scored_0321,1,437513746284875066,-,441934216896743668,4420470611868602,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0321,1,551541827133889820,-,551541881462918933,54329029113,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0321,1,605332875419279800,+,2570904144,605332872848375656,,,False,injected; no accepted repair,,,False,False
+scored_0321,1,764525167802422324,+,191196305252040,764333971497170284,,,False,injected; no accepted repair,1,,True,False
+scored_0321,1,796894392400264552,-,846806102596813684,49911710196549132,,446,False,injected; no accepted repair,,446,False,False
+scored_0321,1,824921968941184584,+,4387623251971720,820534345689212864,,,False,injected; no accepted repair,,,False,False
+scored_0321,1,907158267660328191,+,11566955,907158267648761236,,139,False,injected; no accepted repair,,139,False,False
+scored_0334,1,303963292106760436,-,303974753278809424,11461172048988,,,False,injected; no accepted repair,,,False,False
+scored_0334,1,608965474532966650,-,608965479403452666,4870486016,,234,False,injected; no accepted repair,,234,False,False
+scored_0334,1,632577363492209857,+,267828,632577363491942029,,135,False,injected; no accepted repair,,135,False,False
+scored_0334,1,812800058042930558,+,812800058042907792,22766,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0334,1,831911681771406543,-,831912697476928660,1015705522117,,,False,injected; no accepted repair,,,False,False
+scored_0375,3,1509559185,+,754779552,754779633,,2,True,injected; no accepted repair,7,2,True,True
+scored_0375,3,2290085071,+,3,2290085068,,1,True,injected; no accepted repair,1,1,True,True
+scored_0375,3,28616431998,-,28616432000,2,,4,True,injected; no accepted repair,1,2,True,True
+scored_0375,3,49702223901,-,49702224000,99,,9,False,injected; no accepted repair,6,13,True,False
+scored_0375,3,77473247787,+,9451368162,68021879625,,234,False,injected; no accepted repair,,234,False,False
+scored_0375,3,7198726723082,-,7198726723101,19,,1,True,injected; no accepted repair,,1,False,False
+scored_0375,3,25510796055548,+,25358,25510796030190,,,False,injected; no accepted repair,,,False,False
+scored_0375,3,210918619330764,-,210918619364640,33876,,4,True,injected; no accepted repair,11,4,True,True
+scored_0375,3,224079934188756,+,218681334485328,5398599703428,,318,False,injected; no accepted repair,,318,False,False
+scored_0375,3,369427778785345,-,372921590436655,3493811651310,,340,False,injected; no accepted repair,,340,False,False
+scored_0375,3,482980324284031,+,61479647262660,421500677021371,,,False,injected; no accepted repair,,,False,False
+scored_0375,3,575202160011737,-,575202306441647,146429910,,6,False,injected; no accepted repair,177,6,True,True
+scored_0375,3,641484188600112,*,16939,37870251408,,5,False,injected; no accepted repair,5,4,True,True
+scored_0375,3,663401025947673,-,669394129497466,5993103549793,,354,False,injected; no accepted repair,,354,False,False
+scored_0375,3,669394129497466,+,47083872,669394082413594,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0375,3,3505528058820108,-,3505528058853926,33818,,,False,injected; no accepted repair,,,False,False
+scored_0375,3,888895250141184264,+,264,888895250141184000,,2,True,injected; no accepted repair,,2,False,False
+scored_0379,1,98541,+,87133,11408,,3,True,replayed,57,3,True,True
+scored_0379,1,92818019,-,92822711,4692,,42,False,injected; no accepted repair,,42,False,False
+scored_0379,1,747018334,+,22,747018312,,15,False,injected; no accepted repair,,15,False,False
+scored_0379,1,168556460436,-,168556463376,2940,,34,False,injected; no accepted repair,,34,False,False
+scored_0379,1,1421827874246,-,1421827970697,96451,,93,False,injected; no accepted repair,,93,False,False
+scored_0391,1,736066556109,+,1470,736066554639,,,False,injected; no accepted repair,,,False,False
+scored_0391,1,1301429554203,+,650714777073,650714777130,,2,True,injected; no accepted repair,18,2,True,True
+scored_0391,1,266793058600742,-,266793058601570,828,,,False,injected; no accepted repair,,,False,False
+scored_0391,1,9330319737187248,*,4,2332579934296812,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,156643306659097214,+,6097442843873,156637209216253341,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,216151744363209447,-,216152053122368232,308759158785,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,225293789048571583,-,225293789049920640,1349057,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,312412213850838894,-,312412213850839710,816,,,False,injected; no accepted repair,,,False,False
+scored_0391,1,340145260665879363,+,56247,340145260665823116,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,438699281462847901,+,59165,438699281462788736,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,582275477123294456,-,609186695880286796,26911218756992340,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,609186693376188836,-,609186693376189768,932,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,645124418285218437,-,645124418285258160,39723,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,714496909101097181,+,2697398256,714496906403698925,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,900076231823158621,-,909358155828362893,9281924005204272,,,False,injected; no accepted repair,,,False,False
+scored_0391,1,909358155828362841,-,909358155828362893,52,,18,False,injected; no accepted repair,,18,False,False
+scored_0391,1,911040648676848492,-,911040648676848600,108,,30,False,injected; no accepted repair,,30,False,False
+scored_0391,1,981947105179959809,-,992880175272607391,10933070092647582,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0391,1,996765762983815261,+,14133537885,996765748850277376,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,746344133684,+,373172066842,373172066842,,,False,injected; no accepted repair,9,,True,False
+scored_0424,2,637072083862582,*,38,16765054838489,,318,False,injected; no accepted repair,,318,False,False
+scored_0424,2,1408777557683724,*,756906,1861231854,,3,False,injected; no accepted repair,6,3,True,True
+scored_0424,2,124550056696237575,+,124550056634208512,62029063,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,174917241477468323,-,174917241477469120,797,,,False,injected; no accepted repair,,,False,False
+scored_0424,2,226232280367497675,-,226232280368754660,1256985,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,248136588462518258,+,232861328,248136588229656930,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,305383535256095576,+,310480956422,305383224775139154,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,338265901336542588,*,92142,3671136955314,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,356324273343013234,+,113196510,356324273229816724,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,408806315480938040,+,367430160145616000,41376155335322040,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,425647833010091735,+,35056534824076477,390591298186015258,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,583162530028230547,-,583162840492965888,310464735341,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,609737128573235253,+,623930873458,609736504642361795,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,637679917519502170,+,637679917519499702,2468,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,854954445033691342,+,271791604540725454,583162840492965888,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,858109502866222624,-,858109813347179008,310480956384,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,893444629669688438,-,893445002608893952,372939205514,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0424,2,946772118243765675,-,946772118244352055,586380,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,12553,+,12529,24,,19,False,injected; no accepted repair,4,11,True,True
+scored_0429,1,53146,+,5984,47162,,12,True,injected; no accepted repair,,12,False,False
+scored_0429,1,116445,-,234418,117973,,62,False,injected; no accepted repair,,65,False,False
+scored_0429,1,117973,+,114994,2979,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,121162,+,184,120978,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,167274,/,501822,3,,331,False,injected; no accepted repair,,331,False,False
+scored_0429,1,235873,+,235840,33,,4,False,injected; no accepted repair,3,3,True,True
+scored_0429,1,281656,+,34,281622,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,296353,+,50853,245500,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,471684,-,1557376,1085692,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,1227790,-,1462208,234418,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,1557728,+,352,1557376,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,1980674,+,1462208,518466,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,2182810,-,2805610,622800,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,2805816,*,184,15249,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,4682872,-,5184311,501439,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,5184334,+,23,5184311,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,20757592,+,9568,20748024,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,66067688,-,66690488,622800,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,69496098,+,2805610,66690488,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,86872288,+,16928,86855360,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,86973383,*,31,2805593,,233,False,injected; no accepted repair,,235,False,False
+scored_0429,1,173881884,*,737,235932,,16,True,injected; no accepted repair,,16,False,False
+scored_0429,1,202365152,*,352,574901,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,695291696,*,2948,235852,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,3232930073,+,16928,3232913145,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,4797768743,+,391,4797768352,,,False,injected; no accepted repair,,,False,False
+scored_0429,1,13202784562,*,47899,275638,,3,False,injected; no accepted repair,12,4,True,True
+scored_0429,1,51209937171,-,51209937184,13,,5,False,injected; no accepted repair,,5,False,False
+scored_0429,1,127912513168,*,184,695176702,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,135841774576,*,92,1476541028,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0429,1,1450327940680,-,1450348698272,20757592,,162,False,injected; no accepted repair,,162,False,False
+scored_0433,2,1741085,-,1741273,188,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,1894586,+,1893916,670,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,2023819,-,3764904,1741085,,115,False,injected; no accepted repair,,128,False,False
+scored_0433,2,2842486,-,6631742,3789256,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,2902636,+,328,2902308,,,False,injected; no accepted repair,4,,True,False
+scored_0433,2,3373387,+,338,3373049,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,3374438,+,3373152,1286,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,4046424,-,4047710,1286,,51,False,injected; no accepted repair,44,64,True,False
+scored_0433,2,6631732,-,6631835,103,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,6742250,-,6746201,3951,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,7082006,+,3764904,3317102,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,30487840,*,1424,21410,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,47017260,-,49919568,2902308,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,145848252,*,3314733,44,,5,True,injected; no accepted repair,,5,False,False
+scored_0433,2,148416422,*,22,6746201,,39,True,injected; no accepted repair,,39,False,False
+scored_0433,2,285590584,+,4182,285586402,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,387899915,-,955755427,567855512,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,473700983,-,951960289,478259306,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,517935944,-,567855512,49919568,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,951966238,+,1340,951964898,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,1331701220,+,1331699880,1340,,6,True,injected; no accepted repair,,6,False,False
+scored_0433,2,1524374124,+,478259306,1046114818,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,2489430784,*,656,3794864,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,3807857308,+,3807856960,348,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,7482862118,+,2,7482862116,,313,False,injected; no accepted repair,,313,False,False
+scored_0433,2,8734052532,+,44,8734052488,,18,False,injected; no accepted repair,,18,False,False
+scored_0433,2,21331431700,*,5270,4047710,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,46119982296,-,46119984928,2632,,,False,injected; no accepted repair,,,False,False
+scored_0433,2,85280800640,-,85282432224,1631584,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,214133905974,-,214133907400,1426,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0433,2,13199342134787200,*,2632,5014947619600,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,173314377631,+,1198,173314376433,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,1676655121738,-,1676655123690,1952,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,4471080329840,*,16,279442520615,,6,True,injected; no accepted repair,,6,False,False
+scored_0438,1,5959450021948,-,5959450022436,488,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,96850571857808,*,68,1424273115556,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,104543140154852,-,104543140154866,14,,1,True,injected; no accepted repair,,1,False,False
+scored_0438,1,156156508699174,+,6,156156508699168,,1,True,injected; no accepted repair,,1,False,False
+scored_0438,1,101148512837791194,-,101148512837791210,16,,10,False,injected; no accepted repair,,10,False,False
+scored_0438,1,195169655088934243,-,195169655089553100,618857,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,237268624966240778,+,95853552156602,237172771414084176,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,310901488658093923,+,393,310901488658093530,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,345570085326616246,-,345574353751272068,4268424655822,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,382604029701308060,*,6595,58014257725748,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,412785392963304832,+,6993,412785392963297839,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,592507321757389358,+,592507321757294736,94622,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,594010940967723894,-,594010940967723960,66,,7,True,injected; no accepted repair,,7,False,False
+scored_0438,1,661497846818161521,+,885959,661497846817275562,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,879925252037653832,*,886447,992642822456,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,883351688055078683,-,883351688055087671,8988,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0438,1,883814279128321310,*,55,16069350529605842,,,False,injected; no accepted repair,,,False,False
+scored_0438,1,889902965827728099,-,889902965836428483,8700384,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0450,1,443124108988005827,-,443124110121747964,1133742137,,,False,injected; no accepted repair,1,,True,False
+scored_0450,1,449754210843978005,-,541405908977948903,91651698133970898,,,False,injected; no accepted repair,,,False,False
+scored_0450,1,604453890348202917,-,604453928197635237,37849432320,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0450,1,621076564760200537,-,621076564760200541,4,,8,False,injected; no accepted repair,,8,False,False
+scored_0450,1,643221489396108382,-,643221489396326292,217910,,73,False,injected; no accepted repair,,73,False,False
+scored_0450,1,683384930567019859,+,683384929925500560,641519299,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0450,1,689954173169168612,+,689954163844320509,9324848103,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,227185,-,227292,107,,6,False,injected; no accepted repair,21,6,True,True
+scored_0451,1,227346,+,227292,54,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,664968,-,1936224,1271256,,,False,injected; no accepted repair,,,False,False
+scored_0451,1,895112,/,2685336,3,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,1074114,-,1074761,647,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,1161809,+,497257,664552,,,False,injected; no accepted repair,,,False,False
+scored_0451,1,1362183,*,3,454061,,14,True,injected; no accepted repair,,14,False,False
+scored_0451,1,1659702,+,497904,1161798,,8,False,injected; no accepted repair,92,8,True,True
+scored_0451,1,1936284,+,1936224,60,,32,False,injected; no accepted repair,,33,False,False
+scored_0451,1,1987863,-,1988487,624,,,False,injected; no accepted repair,,,False,False
+scored_0451,1,2733260,+,2685336,47924,,32,True,injected; no accepted repair,,32,False,False
+scored_0451,1,3977115,+,1988628,1988487,,7,False,injected; no accepted repair,154,7,True,True
+scored_0451,1,46463570,-,48584527,2120957,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,128890480,*,12889048,10,,7,True,injected; no accepted repair,,7,False,False
+scored_0451,1,890222130,-,2432635890,1542413760,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,1308614410,*,10,130861441,,297,False,injected; no accepted repair,,297,False,False
+scored_0451,1,2432635243,-,2432635890,647,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0451,1,2726292120,-,2726301136,9016,,,False,injected; no accepted repair,,,False,False
+scored_0451,1,17929470048,*,1988628,9016,,3,True,replayed,3,3,True,True
+scored_0451,1,18012775024,+,85989896,17926785128,,,False,injected; no accepted repair,7,,True,False
+scored_0451,1,18781040160,*,216,86949260,,,False,injected; no accepted repair,,,False,False
+scored_0451,1,4803275842240,+,12889048,4803262953192,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,861041,+,688872,172169,,25,True,injected; no accepted repair,,26,False,False
+scored_0456,2,1034657,-,1205258,170601,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0456,2,1365097,+,1361520,3577,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,1546467,+,1375866,170601,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0456,2,2573414,-,2745583,172169,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,2775938,-,2780418,4480,,,False,injected; no accepted repair,13,,True,False
+scored_0456,2,2778633,-,2780418,1785,,,False,injected; no accepted repair,19,,True,False
+scored_0456,2,2783761,-,2783995,234,,,False,injected; no accepted repair,25,,True,False
+scored_0456,2,4167063,-,6951060,2783997,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,6951116,+,56,6951060,,253,False,injected; no accepted repair,,260,False,False
+scored_0456,2,27976584,*,6,4662764,,149,False,injected; no accepted repair,,149,False,False
+scored_0456,2,71545224,+,27976584,43568640,,147,False,injected; no accepted repair,,160,False,False
+scored_0456,2,259509142,-,259509376,234,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,387850618,-,390634379,2783761,,122,False,injected; no accepted repair,,122,False,False
+scored_0456,2,2179852416,*,1390212,1568,,,False,injected; no accepted repair,18,,True,False
+scored_0456,2,8648658852,*,100442,86106,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,10348601157,+,10347239637,1361520,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0456,2,18254228651,/,1022236804456,56,,,False,injected; no accepted repair,,,False,False
+scored_0456,2,69124063232,*,100352,688816,,,False,injected; no accepted repair,7,,True,False
+scored_0456,2,232517591040,*,2317020,100352,,,False,injected; no accepted repair,33,,True,False
+scored_0457,1,26842919,+,148,26842771,,26,False,injected; no accepted repair,,26,False,False
+scored_0457,1,426075083,-,426075125,42,,7,False,injected; no accepted repair,20,6,True,True
+scored_0457,1,426075125,/,5112901500,12,,120,False,injected; no accepted repair,,137,False,False
+scored_0457,1,6248771892,-,6248772215,323,,38,False,injected; no accepted repair,,38,False,False
+scored_0457,1,13526176724,-,13526177288,564,,3,True,replayed,13,3,True,True
+scored_0457,1,18746316511,-,18746316553,42,,,False,injected; no accepted repair,,,False,False
+scored_0457,1,37792618040,+,48,37792617992,,4,False,injected; no accepted repair,9,3,True,True
+scored_0457,1,37792618636,+,37792617992,644,,,False,injected; no accepted repair,42,,True,False
+scored_0457,1,62987701151,+,5181,62987695970,,2,True,replayed,7,2,True,True
+scored_0457,1,68172011498,-,68598084647,426073149,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0457,1,69282819274,+,69282819072,202,,2,True,replayed,1,2,True,False
+scored_0457,1,135261799031,+,371,135261798660,,43,False,injected; no accepted repair,,43,False,False
+scored_0457,1,137196278716,+,68598139358,68598139358,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0457,1,149970538966,+,1934,149970537032,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0457,1,149970657120,*,48,3124388690,,12,True,injected; no accepted repair,,12,False,False
+scored_0457,1,1006052114579,-,1006052114900,321,,6,True,injected; no accepted repair,1,6,True,False
+scored_0457,1,2018353437401,-,2018353437723,322,,79,False,injected; no accepted repair,,79,False,False
+scored_0457,1,4036706630608,-,4186677167640,149970537032,,,False,injected; no accepted repair,,,False,False
+scored_0457,1,10141019573440,*,160,63381372334,,205,False,injected; no accepted repair,,205,False,False
+scored_0457,1,10820941825299,-,10820941830400,5101,,2,True,replayed,1,2,True,False
+scored_0457,1,22088583256013,-,22088583256334,321,,,False,injected; no accepted repair,,,False,False
+scored_0457,1,161843199767620,*,5180,31243860959,,8,True,injected; no accepted repair,,8,False,False
+scored_0463,1,81162,+,42,81120,,6,False,injected; no accepted repair,,7,False,False
+scored_0463,1,86503,-,86519,16,,48,True,injected; no accepted repair,,50,False,False
+scored_0463,1,119675,-,200778,81103,,63,False,injected; no accepted repair,,68,False,False
+scored_0463,1,127748,+,14196,113552,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,173087,+,173066,21,,227,False,injected; no accepted repair,,251,False,False
+scored_0463,1,264729,+,676,264053,,45,False,injected; no accepted repair,,49,False,False
+scored_0463,1,374079,+,200778,173301,,16,False,injected; no accepted repair,122,15,True,True
+scored_0463,1,424603,+,81120,343483,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,441945,+,5716,436229,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,459688,+,194672,265016,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,516549,+,173066,343483,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,1115490,-,1120847,5357,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,1298003,+,737584,560419,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,1557987,+,437140,1120847,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,1674225,-,1755387,81162,,149,False,injected; no accepted repair,,149,False,False
+scored_0463,1,2234644,+,1674225,560419,,134,False,injected; no accepted repair,,134,False,False
+scored_0463,1,4591870,-,4597565,5695,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,5718490,*,24334,235,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,7269609,-,7269654,45,,3,True,injected; no accepted repair,1,2,True,True
+scored_0463,1,43877298,+,737584,43139714,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,68152140,*,252,270445,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,173018400,+,16,173018384,,236,False,injected; no accepted repair,,236,False,False
+scored_0463,1,179022996,+,173478072,5544924,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,216158098,*,338,639521,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,292516014,+,24334,292491680,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,563915691,+,436464,563479227,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0463,1,2029860352,*,86528,23459,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,2383720318,+,5408,2383714910,,,False,injected; no accepted repair,,,False,False
+scored_0463,1,188849243520,*,436464,432680,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,6790640,-,13636700,6846060,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,811537714,-,811538030,316,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,10762441770,*,742135,14502,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0468,2,302578177307,+,249216985654,53361191653,,226,False,injected; no accepted repair,,226,False,False
+scored_0468,2,332360162702,+,78963062,332281199640,,155,False,injected; no accepted repair,,155,False,False
+scored_0468,2,338876572650,*,14502,23367575,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0468,2,450902931605,+,282157172033,168745759572,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,477151555811,-,1324233433743,847081877932,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,586379671004,*,43006,13634834,,,False,injected; no accepted repair,1,,True,False
+scored_0468,2,794919196165,+,476134813885,318784382280,,,False,injected; no accepted repair,,,False,False
+scored_0468,2,834101434888,-,847081877932,12980443044,,2,True,injected; no accepted repair,5,2,True,True
+scored_0468,2,847081878549,-,847111201320,29322771,,138,False,injected; no accepted repair,,138,False,False
+scored_0468,2,918279924176,+,806042333252,112237590924,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,108016,-,108177,161,,,False,injected; no accepted repair,,,False,False
+scored_0471,1,137224,-,138400,1176,,1,True,replayed,2,1,True,True
+scored_0471,1,226987,-,254788,27801,,,False,injected; no accepted repair,,,False,False
+scored_0471,1,274594,-,295921,21327,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,287920,+,33164,254756,,65,False,injected; no accepted repair,,74,False,False
+scored_0471,1,329105,-,329310,205,,11,False,injected; no accepted repair,34,10,True,True
+scored_0471,1,329310,-,329346,36,,40,False,injected; no accepted repair,,54,False,False
+scored_0471,1,357147,+,260151,96996,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,378473,+,274594,103879,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,2445521,-,2802668,357147,,124,False,injected; no accepted repair,,124,False,False
+scored_0471,1,5078100,+,5043792,34308,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,5676476,-,5709865,33389,,,False,injected; no accepted repair,,,False,False
+scored_0471,1,65037745,+,287920,64749825,,106,False,injected; no accepted repair,,106,False,False
+scored_0471,1,296919863,+,296912980,6883,,,False,injected; no accepted repair,,,False,False
+scored_0471,1,563546161,+,563250240,295921,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0471,1,599679360,*,2802240,214,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,187,+,43,144,,,False,injected; no accepted repair,15,24,True,True
+scored_0474,1,3901,+,2048,1853,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,5559,-,7412,1853,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,7692,-,12508,4816,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,12368,-,19780,7412,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,12506,-,12508,2,,11,False,injected; no accepted repair,,21,False,False
+scored_0474,1,13616,-,18432,4816,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,34150,-,47542,13392,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,39608,-,40956,1348,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,64729,-,66118,1389,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,133384,-,198113,64729,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,182088,-,194596,12508,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,233983,+,39608,194375,,18,True,injected; no accepted repair,,19,False,False
+scored_0474,1,389480,*,2,194740,,11,True,injected; no accepted repair,,11,False,False
+scored_0474,1,1422345,+,9,1422336,,12,False,injected; no accepted repair,,12,False,False
+scored_0474,1,2535422,-,2539124,3702,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,3752256,+,4816,3747440,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,3858280,+,20,3858260,,17,False,injected; no accepted repair,,17,False,False
+scored_0474,1,9602294,-,9614800,12506,,66,False,injected; no accepted repair,,70,False,False
+scored_0474,1,9622074,+,9602294,19780,,18,True,injected; no accepted repair,,18,False,False
+scored_0474,1,21620586,*,327,66118,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,30326784,*,8192,3702,,,False,injected; no accepted repair,6,,True,False
+scored_0474,1,51241984,+,1024,51240960,,7,True,injected; no accepted repair,,7,False,False
+scored_0474,1,56018176,*,2032,27568,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,103013300,+,103011264,2036,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,438009899,+,43,438009856,,,False,injected; no accepted repair,,,False,False
+scored_0474,1,954114057,+,1849,954112208,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0474,1,50214159224,+,50214140792,18432,,,False,injected; no accepted repair,,,False,False
+scored_0475,3,124411637620,+,124411505460,132160,,141,False,injected; no accepted repair,,141,False,False
+scored_0475,3,9661835509254,*,68523656094,141,,6,True,injected; no accepted repair,,6,False,False
+scored_0475,3,43405853299067,+,43405853299048,19,,16,False,injected; no accepted repair,,16,False,False
+scored_0475,3,149655260940854,+,143252374353,149512008566501,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0475,3,294397556068153,-,294397556068205,52,,24,False,injected; no accepted repair,,24,False,False
+scored_0475,3,407682204869167,+,407481347698620,200857170547,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0475,3,653280433741768,-,653500131816242,219698074474,,256,False,injected; no accepted repair,,256,False,False
+scored_0475,3,670752486074507,+,670746265494317,6220580190,,219,False,injected; no accepted repair,,219,False,False
+scored_0475,3,731199752294412,-,944263370298362,213063618003950,,,False,injected; no accepted repair,,,False,False
+scored_0475,3,742578470365258,+,741989588588352,588881776906,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0476,1,71643001990,*,186530,384083,,1,False,injected; no accepted repair,75,11,True,True
+scored_0476,1,71643002364,+,340,71643002024,,3,True,injected; no accepted repair,16,3,True,True
+scored_0476,1,123220225749,-,123220225765,16,,8,False,injected; no accepted repair,289,44,True,False
+scored_0476,1,253722157100,-,253722157225,125,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0476,1,253722157225,+,253722157136,89,,12,False,injected; no accepted repair,24,11,True,True
+scored_0476,1,716430021660,*,10,71643002166,,5,True,injected; no accepted repair,,5,False,False
+scored_0476,1,1327677734568,-,1327677757919,23351,,2,True,injected; no accepted repair,,2,False,False
+scored_0476,1,13554224834036,-,13554224834150,114,,,False,injected; no accepted repair,,,False,False
+scored_0476,1,460318600824915555,-,460320695568313956,2094743398401,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0476,1,616957461941619488,+,2070070066128,616955391871553360,,267,False,injected; no accepted repair,,267,False,False
+scored_0476,1,729015806164858572,-,729015806165519042,660470,,138,False,injected; no accepted repair,,138,False,False
+scored_0476,1,834081004925357139,+,24417837137,834080980507520002,,,False,injected; no accepted repair,,,False,False
+scored_0476,1,854330006645432749,+,20249026137940840,834080980507491909,,,False,injected; no accepted repair,,,False,False
+scored_0478,3,147228980924,+,147114071774,114909150,,,False,injected; no accepted repair,,,False,False
+scored_0478,3,228740767736,+,228740767430,306,,23,False,injected; no accepted repair,,23,False,False
+scored_0478,3,394825725982,+,394825725882,100,,7,False,injected; no accepted repair,,7,False,False
+scored_0478,3,439150549437,+,439150540762,8675,,39,False,injected; no accepted repair,,39,False,False
+scored_0478,3,512478507252,-,661078579752,148600072500,,,False,injected; no accepted repair,,,False,False
+scored_0478,3,804271326641,+,804256032286,15294355,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0478,3,950454430353,-,954782938866,4328508513,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0478,3,990152699474,+,987965046434,2187653040,,,False,replayed,,,False,False
+scored_0484,1,29173838,-,29174104,266,,2,True,replayed,1,2,True,False
+scored_0484,1,154853802,+,13,154853789,,8,False,injected; no accepted repair,12,6,True,True
+scored_0484,1,211305049,+,211299220,5829,,20,False,injected; no accepted repair,66,16,True,True
+scored_0484,1,269906242,-,269912064,5822,,,False,injected; no accepted repair,38,,True,False
+scored_0484,1,570572352,+,570571456,896,,2,True,replayed,1,2,True,False
+scored_0484,1,875223170,-,990281445,115058275,,,False,injected; no accepted repair,,,False,False
+scored_0484,1,983192965,+,983192937,28,,15,False,injected; no accepted repair,24,14,True,True
+scored_0484,1,1121584715,-,1121587617,2902,,,False,injected; no accepted repair,,,False,False
+scored_0484,1,1148520882,+,354,1148520528,,,False,injected; no accepted repair,,,False,False
+scored_0484,1,5972874452,-,6987447969,1014573517,,,False,injected; no accepted repair,,,False,False
+scored_0484,1,16823814234,-,16823814255,21,,8,True,replayed,1,1,True,True
+scored_0484,1,24230433136,-,24230453520,20384,,69,False,injected; no accepted repair,,69,False,False
+scored_0484,1,62387731389,+,62387731035,354,,3,True,replayed,1,3,True,False
+scored_0484,1,635857765179,*,91,6987447969,,224,False,injected; no accepted repair,,224,False,False
+scored_0484,1,1498209755703002,+,1498209755697200,5802,,2,True,replayed,1,2,True,False
+scored_0486,1,37540,+,7225,30315,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,56951,/,227804,4,,213,False,injected; no accepted repair,,213,False,False
+scored_0486,1,94642,-,94645,3,,23,True,injected; no accepted repair,,23,False,False
+scored_0486,1,122154,-,360315,238161,,6,False,injected; no accepted repair,86,8,True,True
+scored_0486,1,137006,-,285077,148071,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,229961,-,232381,2420,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,242713,-,242757,44,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,286160,-,378540,92380,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,325351,+,232381,92970,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,329946,+,242757,87189,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,360315,+,329946,30369,,128,False,injected; no accepted repair,,141,False,False
+scored_0486,1,456661,-,549631,92970,,9,False,injected; no accepted repair,75,9,True,True
+scored_0486,1,549631,+,462442,87189,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,924892,+,462450,462442,,9,False,injected; no accepted repair,174,8,True,True
+scored_0486,1,2312070,-,2404472,92402,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,6702520,-,6988680,286160,,105,False,injected; no accepted repair,,105,False,False
+scored_0486,1,409958820,*,1083,378540,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,765867340,*,94645,8092,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,1323885902,+,232381,1323653521,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,19457185942,+,19456987424,198518,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,56457264864,*,92488,610428,,5,True,injected; no accepted repair,,5,False,False
+scored_0486,1,945199238672,+,242,945199238430,,,False,injected; no accepted repair,,,False,False
+scored_0486,1,1622700054000,*,1083,1498338000,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0486,1,10825515458956,-,10825515459000,44,,,False,injected; no accepted repair,,,False,False
+scored_0503,1,1999,-,2079,80,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,2669,-,17562,14893,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,3299,+,1999,1300,,46,False,injected; no accepted repair,,47,False,False
+scored_0503,1,9530,-,10445,915,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,16260,-,17424,1164,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,16977,+,15808,1169,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,18666,-,87100,68434,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,18822,+,1300,17522,,,False,injected; no accepted repair,,,False,False
+scored_0503,1,63093,-,87100,24007,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,70860,-,87120,16260,,70,False,injected; no accepted repair,,77,False,False
+scored_0503,1,71949,+,70860,1089,,54,True,injected; no accepted repair,,61,False,False
+scored_0503,1,88269,+,87100,1169,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,89469,+,88269,1200,,14,False,injected; no accepted repair,47,11,True,True
+scored_0503,1,146333,+,59233,87100,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,312091,*,13,24007,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,733247,+,1200,732047,,,False,injected; no accepted repair,,,False,False
+scored_0503,1,1182066,+,1076280,105786,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,1337067,+,18624,1318443,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,7877989,*,59233,133,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,8141393,*,13,626261,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,10037538,-,11374605,1337067,,172,False,injected; no accepted repair,,173,False,False
+scored_0503,1,11286848,-,11358797,71949,,88,False,injected; no accepted repair,,88,False,False
+scored_0503,1,55381504,*,1216,45544,,,False,injected; no accepted repair,,,False,False
+scored_0503,1,115934656,*,1216,95341,,,False,injected; no accepted repair,,,False,False
+scored_0503,1,145797792,*,2128,68514,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,2768600352,*,2128,1301034,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0503,1,28946533078,-,28946550600,17522,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,1125927,*,669,1683,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,1857547,-,1857915,368,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,1859208,*,708,2626,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,1957559,+,1956706,853,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,2851460,+,1425730,1425730,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,4595749,-,4595788,39,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,6816797,-,6927245,110448,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,17108765,-,18534490,1425725,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,17612026,+,17610354,1672,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,21386108,+,8,21386100,,1,True,replayed,,1,False,False
+scored_0506,2,35226439,+,5731,35220708,,8,False,injected; no accepted repair,69,7,True,True
+scored_0506,2,37066533,-,37066548,15,,269,False,injected; no accepted repair,,269,False,False
+scored_0506,2,43993793,-,43993800,7,,1,True,replayed,1,1,True,True
+scored_0506,2,68434092,-,68434800,708,,15,False,injected; no accepted repair,9,18,True,False
+scored_0506,2,120772084,-,120772093,9,,16,False,injected; no accepted repair,,16,False,False
+scored_0506,2,232564548,-,504708420,272143872,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,349329172,+,4645072,344684100,,5,False,injected; no accepted repair,59,4,True,True
+scored_0506,2,504706647,-,504708420,1773,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,1300766040,*,4645593,280,,,False,injected; no accepted repair,,,False,False
+scored_0506,2,2211054272,*,4645072,476,,2,True,replayed,5,4,True,False
+scored_0506,2,3917207952,/,293790596400,75,,1,True,replayed,5,1,True,True
+scored_0506,2,4037695680,*,1425740,2832,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,7344764910,/,293790596400,40,,,False,injected; no accepted repair,8,8,True,True
+scored_0506,2,15719792131,-,15724435260,4643129,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,708673360876,+,2851276,708670509600,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0506,2,3117444638427,*,933646193,3339,,221,False,injected; no accepted repair,,221,False,False
+scored_0509,1,10062278,+,3378,10058900,,64,False,injected; no accepted repair,,64,False,False
+scored_0509,1,19711497,-,19711572,75,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0509,1,19711572,+,19711520,52,,11,False,injected; no accepted repair,32,10,True,True
+scored_0509,1,57054513,+,93,57054420,,19,True,injected; no accepted repair,,19,False,False
+scored_0509,1,228942107,+,1879,228940228,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0509,1,343421150,+,104,343421046,,13,True,injected; no accepted repair,,13,False,False
+scored_0509,1,729845613,/,2545701498144,3488,,262,False,injected; no accepted repair,,262,False,False
+scored_0509,1,1039801788,-,1039801794,6,,1,True,replayed,,1,False,False
+scored_0509,1,1243596376,+,1227782466,15813910,,,False,injected; no accepted repair,,,False,False
+scored_0509,1,1432412616,+,204630150,1227782466,,159,False,injected; no accepted repair,,181,False,False
+scored_0509,1,1803939247,+,75,1803939172,,10,True,injected; no accepted repair,,10,False,False
+scored_0509,1,5323024564,-,5323026213,1649,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0509,1,7049246038,*,32335991,218,,,False,injected; no accepted repair,,,False,False
+scored_0509,1,12891523849,*,109,118270861,,213,False,injected; no accepted repair,,213,False,False
+scored_0509,1,134328926448,*,218,616187736,,,False,injected; no accepted repair,,,False,False
+scored_0509,1,6531603065536,+,94176,6531602971360,,,False,injected; no accepted repair,,,False,False
+scored_0509,1,14687665321824,*,17328861,847584,,,False,injected; no accepted repair,,,False,False
+scored_0509,1,92493855316185,*,3379,27373144515,,,False,injected; no accepted repair,,,False,False
+scored_0510,1,5754,+,14,5740,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,6518,+,5362,1156,,43,False,injected; no accepted repair,,52,False,False
+scored_0510,1,15298,-,21816,6518,,52,False,injected; no accepted repair,,57,False,False
+scored_0510,1,21879,-,21913,34,,28,False,injected; no accepted repair,,35,False,False
+scored_0510,1,68775,+,672,68103,,61,False,injected; no accepted repair,,61,False,False
+scored_0510,1,117976,-,502340,384364,,2,True,replayed,9,2,True,True
+scored_0510,1,215977,+,210721,5256,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,383270,+,172549,210721,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,432815,+,26572,406243,,4,False,injected; no accepted repair,50,4,True,True
+scored_0510,1,897404,+,6475,890929,,102,False,injected; no accepted repair,,103,False,False
+scored_0510,1,1760644,-,5625507,3864863,,132,False,injected; no accepted repair,,132,False,False
+scored_0510,1,2034826,-,2884283,849457,,,False,injected; no accepted repair,,,False,False
+scored_0510,1,2617171,+,897404,1719767,,102,False,injected; no accepted repair,,102,False,False
+scored_0510,1,4105961,+,4082988,22973,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,4880918,-,5730375,849457,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,5556732,-,5941096,384364,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,5625476,-,5625507,31,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,5941096,*,1108,5362,,,False,injected; no accepted repair,,,False,False
+scored_0510,1,22753201,-,23186016,432815,,87,False,injected; no accepted repair,,87,False,False
+scored_0510,1,60569943,*,2884283,21,,152,False,injected; no accepted repair,,152,False,False
+scored_0510,1,519446444,*,1081,480524,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0510,1,1774399179,-,1774784428,385249,,,False,injected; no accepted repair,,,False,False
+scored_0510,1,3598405631,+,3864863,3594540768,,,False,injected; no accepted repair,,,False,False
+scored_0516,2,602719961,+,11,602719950,,2,False,injected; no accepted repair,1,1,True,True
+scored_0516,2,668366220,-,685586761,17220541,,,False,injected; no accepted repair,,,False,False
+scored_0516,2,1200510712,+,579,1200510133,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0516,2,53186662032,-,53186662045,13,,14,False,injected; no accepted repair,,14,False,False
+scored_0516,2,138541860072,+,138368329416,173530656,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0516,2,164934663855,+,164920797504,13866351,,,False,injected; no accepted repair,,,False,False
+scored_0516,2,265141873329,+,261540360734,3601512595,,4,True,replayed,,4,False,False
+scored_0516,2,318973190387,-,1169849670719,850876480332,,,False,injected; no accepted repair,,,False,False
+scored_0516,2,346304619094,-,607844979828,261540360734,,235,False,replayed,,235,False,False
+scored_0516,2,582220552532,-,584865453370,2644900838,,8,False,injected; no accepted repair,79,6,True,True
+scored_0516,2,676196086146,-,678840987240,2644901094,,2,True,replayed,5,2,True,True
+scored_0516,2,754617308363,-,1169849670719,415232362356,,2,True,replayed,,2,False,False
+scored_0516,2,896140581740,+,13866351,896126715389,,,False,injected; no accepted repair,,,False,False
+scored_0533,1,126630,/,5571720,44,,3,True,replayed,4,1,True,True
+scored_0533,1,180717,+,54,180663,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0533,1,219778314,-,822561636,602783322,,2,True,replayed,,2,False,False
+scored_0533,1,724713410,-,724713748,338,,1,True,replayed,,1,False,False
+scored_0533,1,798850976,+,80641,798770335,,49,False,replayed,,49,False,False
+scored_0533,1,422546932372,+,216946257,422329986115,,2,True,replayed,,2,False,False
+scored_0562,1,8942,+,8732,210,,30,False,injected; no accepted repair,,44,False,False
+scored_0562,1,8966,-,17908,8942,,10,False,injected; no accepted repair,68,33,True,False
+scored_0562,1,17059,+,132,16927,,65,False,injected; no accepted repair,20,28,True,True
+scored_0562,1,17919,+,11,17908,,3,False,injected; no accepted repair,4,2,True,True
+scored_0562,1,20704,-,20716,12,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0562,1,26997,-,27009,12,,18,False,injected; no accepted repair,,24,False,False
+scored_0562,1,33986,+,17059,16927,,9,False,injected; no accepted repair,82,8,True,True
+scored_0562,1,41664,*,12,3472,,67,False,injected; no accepted repair,,67,False,False
+scored_0562,1,77316,-,79704,2388,,101,False,injected; no accepted repair,,102,False,False
+scored_0562,1,79494,+,16927,62567,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,79704,+,79494,210,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0562,1,107723,-,107844,121,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,171900,-,171932,32,,4,True,injected; no accepted repair,,4,False,False
+scored_0562,1,207373,-,284689,77316,,92,False,injected; no accepted repair,,92,False,False
+scored_0562,1,292174,-,319171,26997,,18,True,injected; no accepted repair,,18,False,False
+scored_0562,1,351710,+,66525,285185,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,456670,+,284689,171981,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,908884,+,16,908868,,214,False,injected; no accepted repair,,214,False,False
+scored_0562,1,1106064,+,41664,1064400,,132,False,injected; no accepted repair,,132,False,False
+scored_0562,1,1493844,*,132,11317,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,3065968,*,148,20716,,2,False,injected; no accepted repair,6,3,True,True
+scored_0562,1,15964156,+,3244,15960912,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0562,1,28326608,*,8732,3244,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,47517509,-,47836680,319171,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,190838206,-,785704756,594866550,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,785704768,*,16,49106548,,215,False,injected; no accepted repair,,215,False,False
+scored_0562,1,1067118924,-,1067287644,168720,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,1116605224,*,17423,64088,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0562,1,2017389564,*,2388,844803,,,False,injected; no accepted repair,,,False,False
+scored_0562,1,2532451680,+,8880,2532442800,,2,False,injected; no accepted repair,,3,False,False
+scored_0563,1,11860,+,8097,3763,,71,False,injected; no accepted repair,,71,False,False
+scored_0563,1,18833,-,30693,11860,,8,False,injected; no accepted repair,104,7,True,True
+scored_0563,1,51330,-,97980,46650,,,False,injected; no accepted repair,,,False,False
+scored_0563,1,55470,-,55534,64,,,False,injected; no accepted repair,,,False,False
+scored_0563,1,69436,+,69091,345,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0563,1,192821,*,61,3161,,107,False,injected; no accepted repair,,108,False,False
+scored_0563,1,195070,-,195388,318,,38,False,injected; no accepted repair,,38,False,False
+scored_0563,1,200914,+,8097,192817,,6,False,injected; no accepted repair,71,6,True,True
+scored_0563,1,294528,+,264161,30367,,,False,injected; no accepted repair,13,,True,False
+scored_0563,1,358378,+,264161,94217,,,False,injected; no accepted repair,,,False,False
+scored_0563,1,993487,+,898183,95304,,11,True,injected; no accepted repair,,11,False,False
+scored_0563,1,2583361,-,2616186,32825,,,False,injected; no accepted repair,,,False,False
+scored_0563,1,5657496,*,156,36266,,9,True,injected; no accepted repair,,9,False,False
+scored_0563,1,12512518,-,12543230,30712,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0563,1,49145649,-,49145774,125,,,False,injected; no accepted repair,,,False,False
+scored_0563,1,58611428,-,61227614,2616186,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0563,1,235152004,+,4,235152000,,5,False,injected; no accepted repair,,5,False,False
+scored_0563,1,562316804,+,602,562316202,,3,True,replayed,1,3,True,False
+scored_0563,1,15283978072,+,5558,15283972514,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0563,1,3178545405264,-,3178545409152,3888,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0568,1,48512694,-,48514377,1683,,,False,injected; no accepted repair,,,False,False
+scored_0568,1,48514092,-,48514143,51,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0568,1,48514143,-,48514658,515,,,False,injected; no accepted repair,228,,True,False
+scored_0568,1,48514144,-,48514658,514,,16,False,injected; no accepted repair,91,14,True,True
+scored_0568,1,68141403,+,504,68140899,,,False,injected; no accepted repair,,,False,False
+scored_0568,1,68149113,+,68140899,8214,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0568,1,75219752,+,28,75219724,,1,True,replayed,2,1,True,True
+scored_0568,1,83028028,-,83028801,773,,7,False,injected; no accepted repair,45,6,True,True
+scored_0568,1,485149644,+,8214,485141430,,,False,injected; no accepted repair,,,False,False
+scored_0568,1,4814035712,*,32,150438616,,175,False,injected; no accepted repair,,175,False,False
+scored_0568,1,12468062254,-,12468062534,280,,3,True,injected; no accepted repair,,3,False,False
+scored_0568,1,200170328261,+,200170319502,8759,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0568,1,342577924253,*,2063,166058131,,192,False,injected; no accepted repair,,192,False,False
+scored_0568,1,79453288445440,*,128,620728815980,,206,False,injected; no accepted repair,,206,False,False
+scored_0568,1,87720657038848,*,128,685317633116,,203,False,injected; no accepted repair,,203,False,False
+scored_0568,1,734809217297475,*,4127,178049240925,,207,False,injected; no accepted repair,,207,False,False
+scored_0570,1,8985,-,17186,8201,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0570,1,16331,+,3,16328,,8,False,injected; no accepted repair,,33,False,False
+scored_0570,1,17078,+,6,17072,,165,False,injected; no accepted repair,,169,False,False
+scored_0570,1,17186,+,108,17078,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0570,1,23958,-,81884,57926,,114,False,injected; no accepted repair,,119,False,False
+scored_0570,1,25024,-,42778,17754,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,32659,+,16331,16328,,15,False,injected; no accepted repair,188,14,True,True
+scored_0570,1,32741,-,40942,8201,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0570,1,34042,+,8780,25262,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,41004,+,62,40942,,18,False,injected; no accepted repair,21,14,True,True
+scored_0570,1,42886,+,40942,1944,,14,False,injected; no accepted repair,25,14,True,True
+scored_0570,1,50969,+,8191,42778,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,56724,-,99610,42886,,104,False,injected; no accepted repair,,105,False,False
+scored_0570,1,82532,+,81884,648,,111,False,injected; no accepted repair,,111,False,False
+scored_0570,1,121562,-,1153628,1032066,,160,False,injected; no accepted repair,,160,False,False
+scored_0570,1,141882,+,25262,116620,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,1032066,*,21,49146,,3,False,injected; no accepted repair,2,2,True,True
+scored_0570,1,2554692,-,2561592,6900,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,8375332,-,9528960,1153628,,3,True,replayed,4,3,True,True
+scored_0570,1,13102320,*,11,1191120,,2,False,injected; no accepted repair,2,2,True,True
+scored_0570,1,27373500,*,330,82950,,142,False,injected; no accepted repair,,144,False,False
+scored_0570,1,38951080,*,334,116620,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,71097136,*,62,1146728,,,False,injected; no accepted repair,,,False,False
+scored_0570,1,788623880,*,17765,44392,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0570,1,8463190346,+,8780,8463181566,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0570,1,12229040208,*,682,17931144,,,False,injected; no accepted repair,,,False,False
+scored_0588,1,26926397,+,26925903,494,,5,True,injected; no accepted repair,,5,False,False
+scored_0588,1,46087140,-,1211551557,1165464417,,,False,injected; no accepted repair,,,False,False
+scored_0588,1,61339779,+,36337500,25002279,,150,False,injected; no accepted repair,,150,False,False
+scored_0588,1,61340257,+,36337978,25002279,,10,False,injected; no accepted repair,257,9,True,True
+scored_0588,1,61342669,+,2436,61340233,,12,False,injected; no accepted repair,62,12,True,True
+scored_0588,1,261338232,+,261338160,72,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,1114980385,-,1187681425,72701040,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,1211272509,+,23591084,1187681425,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,20562560000,*,11875,1731584,,,False,injected; no accepted repair,,,False,False
+scored_0588,1,140218448164,+,4603,140218443561,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,196736954886,+,8081630,196728873256,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,257952310178,-,257952329400,19222,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,291883196357,+,291883193280,3077,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,334647729168,-,334647729476,308,,,False,injected; no accepted repair,,,False,False
+scored_0588,1,334940739990,*,4607,72702570,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,400086411948,-,400086703368,291420,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,505961030871,+,1212687840,504748343031,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,547572650130,-,547572650724,594,,,False,injected; no accepted repair,,,False,False
+scored_0588,1,639700362338,+,1212690826,638487671512,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,647407422772,+,8919752166,638487670606,,3,True,injected; no accepted repair,,3,False,False
+scored_0588,1,834563053426,+,196730604840,637832448586,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0588,1,977173730465,-,977173732968,2503,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0591,1,1523413,-,4209070,2685657,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,1994014,-,3580278,1586264,,4,False,injected; no accepted repair,91,5,True,True
+scored_0591,1,2685750,-,2997114,311364,,3,False,injected; no accepted repair,11,2,True,True
+scored_0591,1,3580278,-,3580686,408,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,3856645,*,5,771329,,13,False,injected; no accepted repair,122,51,True,False
+scored_0591,1,3856676,+,3856645,31,,11,False,injected; no accepted repair,18,10,True,True
+scored_0591,1,3992380,+,1291770,2700610,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,5371171,+,1218022,4153149,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,6853759,+,3856645,2997114,,110,False,injected; no accepted repair,,111,False,False
+scored_0591,1,37593103,+,37593024,79,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,51890713,-,68804822,16914109,,155,False,injected; no accepted repair,,155,False,False
+scored_0591,1,58645312,-,58646238,926,,,False,injected; no accepted repair,,,False,False
+scored_0591,1,70961597,-,70961992,395,,15,False,injected; no accepted repair,44,14,True,True
+scored_0591,1,137767652,+,136908090,859562,,3,True,replayed,1,3,True,True
+scored_0591,1,212885977,/,425771954,2,,337,False,injected; no accepted repair,,339,False,False
+scored_0591,1,425774273,+,1395,425772878,,61,False,injected; no accepted repair,,61,False,False
+scored_0591,1,1144647797,+,13,1144647784,,2,False,injected; no accepted repair,1,1,True,True
+scored_0591,1,1145913294,+,1218022,1144695272,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0591,1,3433943792,+,6,3433943786,,28,False,injected; no accepted repair,,28,False,False
+scored_0591,1,23608385024,+,23570792000,37593024,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0591,1,112565121246204,*,771326,145937154,,4,False,injected; no accepted repair,8,4,True,True
+scored_0592,1,207217111706,-,207217112337,631,,11,False,injected; no accepted repair,51,11,True,True
+scored_0592,1,207217112090,-,207217112370,280,,,False,injected; no accepted repair,52,,True,False
+scored_0592,1,29863191573880,-,29863191574020,140,,3,True,injected; no accepted repair,2,3,True,False
+scored_0592,1,1034865142611836,+,136836,1034865142475000,,103,False,injected; no accepted repair,,103,False,False
+scored_0592,1,146653096181936912,-,146653096181976660,39748,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0592,1,319304719427862920,+,6621254395605,319298098173467315,,,False,injected; no accepted repair,,,False,False
+scored_0592,1,570142157064762805,+,18216817747883381,551925339316879424,,359,False,injected; no accepted repair,,359,False,False
+scored_0592,1,593722458972590381,-,593798121322402104,75662349811723,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0592,1,734262255594989925,-,734262270105510759,14510520834,,188,False,injected; no accepted repair,,188,False,False
+scored_0592,1,763478188499696798,*,1454,525088162654537,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0592,1,932171090985092784,+,207217112329,932170883767980455,,221,False,injected; no accepted repair,,221,False,False
+scored_0592,1,935040897056304187,+,115569202088001,934925327854216186,,307,False,injected; no accepted repair,,307,False,False
+scored_0601,5,193257,-,567456,374199,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,281517,-,283728,2211,,,False,injected; no accepted repair,,,False,False
+scored_0601,5,422885,-,1000561,577676,,,False,injected; no accepted repair,,,False,False
+scored_0601,5,565503,-,567456,1953,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,570961,-,589729,18768,,,False,injected; no accepted repair,,,False,False
+scored_0601,5,912786,-,1502515,589729,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,992942,-,1428002,435060,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,1144274,+,1000561,143713,,97,False,injected; no accepted repair,,97,False,False
+scored_0601,5,1160136,*,262,4428,,3,False,injected; no accepted repair,7,3,True,True
+scored_0601,5,1375867,+,1374760,1107,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,1834427,-,1905635,71208,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,4147427,-,30215510,26068083,,167,False,injected; no accepted repair,,167,False,False
+scored_0601,5,23315836,+,22880776,435060,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,24792481,-,26120440,1327959,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,24837258,-,26121547,1284289,,,False,injected; no accepted repair,101,,True,False
+scored_0601,5,111374701,-,111374848,147,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,213389400,*,276,773150,,,False,injected; no accepted repair,,,False,False
+scored_0601,5,1721969784,-,1724249637,2279853,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,2539551512,-,2539766136,214624,,71,False,injected; no accepted repair,,71,False,False
+scored_0601,5,3143741686,+,435058,3143306628,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,5996163583,+,1327959,5994835624,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0601,5,26414296806,-,26414580534,283728,,,False,injected; no accepted repair,,,False,False
+scored_0624,1,85613,+,3,85610,,10,False,injected; no accepted repair,,10,False,False
+scored_0624,1,102781,-,113581,10800,,,False,injected; no accepted repair,,,False,False
+scored_0624,1,279507,-,279552,45,,,False,injected; no accepted repair,,,False,False
+scored_0624,1,492056,+,10634,481422,,67,False,injected; no accepted repair,,68,False,False
+scored_0624,1,1021253,+,332,1020921,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,1216840,-,1220108,3268,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,1480001,+,1335,1478666,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,1701533,+,481425,1220108,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,2957218,-,2957325,107,,142,False,injected; no accepted repair,,153,False,False
+scored_0624,1,3596775,+,3585600,11175,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,4211104,+,199194,4011910,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,5610277,+,10020,5600257,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,26637004,+,2957325,23679679,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,42889315,-,42889358,43,,40,False,injected; no accepted repair,,40,False,False
+scored_0624,1,68488340,-,69508940,1020600,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,177439599,-,177439920,321,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,596875598,+,2678,596872920,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0624,1,1117885104,*,378,2957368,,6,False,injected; no accepted repair,16,8,True,True
+scored_0624,1,1355773792,*,1020914,1328,,7,True,replayed,7,6,True,True
+scored_0624,1,10309383192,-,10309384848,1656,,3,True,replayed,1,3,True,False
+scored_0624,1,40492251090,*,23679679,1710,,,False,replayed,1,,True,False
+scored_0624,1,41269027672,-,41607918000,338890328,,,False,injected; no accepted repair,,,False,False
+scored_0624,1,211236140088,*,2658,79471836,,2,True,replayed,,2,False,False
+scored_0624,1,4889593956480,*,490923088,9960,,6,False,injected; no accepted repair,19,7,True,True
+scored_0626,2,5144184828,+,2,5144184826,,17,False,injected; no accepted repair,2,16,True,True
+scored_0626,2,5362779849,+,488,5362779361,,9,False,injected; no accepted repair,51,9,True,True
+scored_0626,2,2299477238624,-,2299477240712,2088,,69,False,injected; no accepted repair,,69,False,False
+scored_0626,2,135255623005606,-,135255623005650,44,,,False,injected; no accepted repair,,,False,False
+scored_0626,2,224769761128389,+,224769760701969,426420,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,380380076683863,+,377982886446352,2397190237511,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,463708818802289,+,461409341559725,2299477242564,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,534256235268246,+,469558239475980,64697995792266,,279,False,injected; no accepted repair,,279,False,False
+scored_0626,2,535924549745258,+,534256235268246,1668314477012,,278,False,injected; no accepted repair,,278,False,False
+scored_0626,2,577460540700246,+,46902201,577460493798045,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,581316599120224,+,45481984,581316553638240,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,598775842816798,+,2059,598775842814739,,,False,injected; no accepted repair,,,False,False
+scored_0626,2,663002744654622,-,1115572788906486,452570044251864,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,708728712128372,+,5144184828,708723567943544,,177,False,injected; no accepted repair,,177,False,False
+scored_0626,2,932511020112822,-,935701636477007,3190616364185,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,935701636358948,-,935701636432233,73285,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0626,2,945212688918336,*,466,2028353409696,,2,True,replayed,4,2,True,True
+scored_0626,2,5005333215887472,*,2088,2397190237494,,3,False,injected; no accepted repair,2,2,True,True
+scored_0667,1,101118275877,*,3,33706091959,,330,False,injected; no accepted repair,,330,False,False
+scored_0667,1,229331608554,+,68,229331608486,,,False,injected; no accepted repair,7,17,True,True
+scored_0667,1,570910764717,+,285455382330,285455382387,,2,True,replayed,9,2,True,True
+scored_0667,1,1501247198764,-,1501247198808,44,,2,True,replayed,,2,False,False
+scored_0667,1,1780150473743,-,1780150474095,352,,1,True,replayed,2,1,True,True
+scored_0667,1,2966917453972,+,593383491365,2373533962607,,2,True,replayed,11,2,True,True
+scored_0667,1,5490773413674,-,5490773418075,4401,,,False,injected; no accepted repair,,,False,False
+scored_0667,1,14834587284637,-,14834587284800,163,,,False,injected; no accepted repair,,,False,False
+scored_0667,1,31186831722318,-,31379343020788,192511298470,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0667,1,36673655819328,*,92610241968,396,,6,False,injected; no accepted repair,19,9,True,True
+scored_0667,1,835483955827840,*,1408,593383491355,,4,False,injected; no accepted repair,9,5,True,True
+scored_0667,1,47722782936273984,*,192511306904,247896,,3,True,replayed,8,3,True,True
+scored_0675,1,127166519,+,2047,127164472,,,False,injected; no accepted repair,,,False,False
+scored_0675,1,2258399173,-,2258399428,255,,4,False,injected; no accepted repair,10,3,True,True
+scored_0675,1,2258400172,-,2258400698,526,,15,False,injected; no accepted repair,44,13,True,True
+scored_0675,1,61751801286,+,6630,61751794656,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0675,1,165351312559,-,165351313008,449,,2,True,replayed,1,2,True,False
+scored_0675,1,274228175216,+,961,274228174255,,,False,injected; no accepted repair,18,,True,False
+scored_0675,1,477926125915,+,477926123868,2047,,55,True,injected; no accepted repair,,56,False,False
+scored_0675,1,832931850341,+,6630,832931843711,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0675,1,1151785794706,+,526,1151785794180,,,False,injected; no accepted repair,,,False,False
+scored_0675,1,1307079592592,*,127,10291965296,,2,True,replayed,1,1,True,True
+scored_0675,1,7168891868336,+,7168891858020,10316,,,False,injected; no accepted repair,,,False,False
+scored_0675,1,14815709842327,+,14815709835103,7224,,,False,injected; no accepted repair,,,False,False
+scored_0675,1,186793977713338,+,254,186793977713084,,23,False,injected; no accepted repair,,23,False,False
+scored_0675,1,487577693774209,*,127,3839194439167,,225,False,injected; no accepted repair,,225,False,False
+scored_0707,1,6797,-,12191,5394,,57,False,injected; no accepted repair,,72,False,False
+scored_0707,1,10842,-,16545,5703,,72,False,injected; no accepted repair,,75,False,False
+scored_0707,1,12191,+,11220,971,,21,False,injected; no accepted repair,37,14,True,True
+scored_0707,1,15441,+,14309,1132,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,16545,*,15,1103,,70,False,injected; no accepted repair,,85,False,False
+scored_0707,1,18996,+,971,18025,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,23353,+,12191,11162,,16,False,injected; no accepted repair,189,14,True,True
+scored_0707,1,26681,+,25587,1094,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0707,1,29884,-,31987,2103,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,30382,+,1764,28618,,9,False,injected; no accepted repair,18,8,True,True
+scored_0707,1,39059,+,29884,9175,,8,False,injected; no accepted repair,47,8,True,True
+scored_0707,1,65008,-,66028,1020,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0707,1,73246,-,73372,126,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0707,1,84650,+,73372,11278,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,1090656,*,126,8656,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0707,1,1666602,-,1666670,68,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,1668982,+,1666670,2312,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0707,1,3868293,-,5608209,1739916,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,5608194,-,5608209,15,,17,False,injected; no accepted repair,,17,False,False
+scored_0707,1,11061841,-,11062920,1079,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,12400280,-,224360994,211960714,,,False,injected; no accepted repair,7,,True,False
+scored_0707,1,56425068,*,1764,31987,,,False,injected; no accepted repair,,,False,False
+scored_0707,1,60514977,-,60520680,5703,,,False,injected; no accepted repair,,,False,False
+scored_0710,1,1215480,-,1216732,1252,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0710,1,1311271,-,2528003,1216732,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0710,1,1663533,-,1665161,1628,,1,True,replayed,13,1,True,True
+scored_0710,1,2431326,+,202,2431124,,17,True,injected; no accepted repair,,19,False,False
+scored_0710,1,2526847,-,2528003,1156,,,False,injected; no accepted repair,,,False,False
+scored_0710,1,2766531,-,2767687,1156,,,False,injected; no accepted repair,32,,True,False
+scored_0710,1,4278273,+,872520,3405753,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0710,1,5207485,+,25,5207460,,5,True,injected; no accepted repair,2,2,True,True
+scored_0710,1,5532345,+,2126592,3405753,,,False,injected; no accepted repair,,,False,False
+scored_0710,1,56658208,+,56656575,1633,,,False,injected; no accepted repair,,,False,False
+scored_0710,1,65783212,+,64566480,1216732,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0710,1,105303882,+,553520,104750362,,83,False,injected; no accepted repair,,89,False,False
+scored_0710,1,143741382,-,149003280,5261898,,,False,injected; no accepted repair,6,,True,False
+scored_0710,1,1010395516,+,20,1010395496,,12,False,injected; no accepted repair,,12,False,False
+scored_0710,1,2707500310,-,2707502380,2070,,2,True,replayed,1,2,True,False
+scored_0710,1,2980065600,*,20,149003280,,2,False,injected; no accepted repair,2,1,True,True
+scored_0710,1,44676504024,*,106537,419352,,,False,replayed,1,,True,False
+scored_0710,1,365667326640,/,2194003959840,6,,3,False,injected; no accepted repair,1,1,True,True
+scored_0710,1,4875397426592,-,4876095682304,698255712,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0710,1,10444581692160,*,5207460,2005696,,,False,injected; no accepted repair,,,False,False
+scored_0711,1,1247,-,5378,4131,,31,False,injected; no accepted repair,,51,False,False
+scored_0711,1,4131,-,4158,27,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0711,1,86536,+,5574,80962,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0711,1,158760,*,405,392,,,False,injected; no accepted repair,6,,True,False
+scored_0711,1,295704,*,27,10952,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0732,1,2873972,+,4,2873968,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0732,1,2874027,-,2876068,2041,,,False,injected; no accepted repair,,,False,False
+scored_0732,1,4107671,-,4107931,260,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0732,1,4579087,+,96,4578991,,,False,injected; no accepted repair,19,,True,False
+scored_0732,1,27486120,*,3390,8108,,,False,injected; no accepted repair,17,,True,False
+scored_0732,1,31546783,+,192,31546591,,50,False,injected; no accepted repair,,50,False,False
+scored_0732,1,833376161,-,833376362,201,,,False,injected; no accepted repair,,,False,False
+scored_0732,1,1481687640,*,54,27438660,,205,False,injected; no accepted repair,,214,False,False
+scored_0732,1,4560816074,-,4687002438,126186364,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0732,1,174810239313,+,2873968,174807365345,,1,True,replayed,,1,False,False
+scored_0732,1,8012724902784,*,673111971,11904,,,False,injected; no accepted repair,8,,True,False
+scored_0739,2,1520348,-,1521004,656,,57,False,injected; no accepted repair,,60,False,False
+scored_0739,2,25866178,+,1198568,24667610,,,False,injected; no accepted repair,,,False,False
+scored_0739,2,990017168,*,826,1198568,,195,False,injected; no accepted repair,,195,False,False
+scored_0739,2,2256970274,+,41,2256970233,,2,True,injected; no accepted repair,,2,False,False
+scored_0739,2,213719447763,+,2256970233,211462477530,,,False,injected; no accepted repair,,,False,False
+scored_0739,2,281684602342,-,281684604391,2049,,,False,injected; no accepted repair,,,False,False
+scored_0739,2,412975817442,+,777902871,412197914571,,2,True,replayed,,2,False,False
+scored_0739,2,433988911206,+,276431225,433712479981,,2,True,replayed,,2,False,False
+scored_0739,2,737169653787,+,324193836345,412975817442,,238,False,injected; no accepted repair,,238,False,False
+scored_0739,2,821332128287,-,821332128624,337,,,False,injected; no accepted repair,,,False,False
+scored_0739,2,920160427625,+,182990773838,737169653787,,257,False,replayed,,257,False,False
+scored_0747,1,7674193,+,7672938,1255,,14,False,injected; no accepted repair,65,14,True,True
+scored_0747,1,23160246,-,23160309,63,,44,False,injected; no accepted repair,,55,False,False
+scored_0747,1,231611700,-,231611709,9,,2,False,injected; no accepted repair,1,1,True,True
+scored_0747,1,391105544641,-,391105545072,431,,38,False,injected; no accepted repair,,38,False,False
+scored_0747,1,435204676483,-,435214130945,9454462,,132,False,injected; no accepted repair,,132,False,False
+scored_0747,1,469287971063,-,469287972493,1430,,1,True,injected; no accepted repair,2,1,True,True
+scored_0747,1,480147444943,-,489174302810,9026857867,,268,False,injected; no accepted repair,,268,False,False
+scored_0747,1,806752296824,+,560043810222,246708486602,,272,False,injected; no accepted repair,,272,False,False
+scored_0747,1,851632538558,-,928522463440,76889924882,,289,False,injected; no accepted repair,,289,False,False
+scored_0760,1,2194708,+,1300,2193408,,63,False,injected; no accepted repair,,63,False,False
+scored_0760,1,2195769,+,2194708,1061,,7,False,injected; no accepted repair,59,7,True,True
+scored_0760,1,3659671,-,3660385,714,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0760,1,3660200,+,529,3659671,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0760,1,4393558,-,4395346,1788,,68,False,injected; no accepted repair,,68,False,False
+scored_0760,1,11017865,-,11017888,23,,72,False,injected; no accepted repair,,72,False,False
+scored_0760,1,35163274,+,35162768,506,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0760,1,46245568,-,46248640,3072,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0760,1,50893455,+,3855,50889600,,2,True,injected; no accepted repair,2,2,True,False
+scored_0760,1,88095600,*,8,11011950,,2,True,replayed,,2,False,False
+scored_0760,1,382789999,+,3,382789996,,2,True,injected; no accepted repair,,2,False,False
+scored_0760,1,3311604960,*,94,35229840,,4,False,injected; no accepted repair,4,3,True,True
+scored_0760,1,31379577072,-,31414739840,35162768,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0760,1,122996303021001,-,122996317702323,14681322,,,False,replayed,,,False,False
+scored_0785,1,107416,-,324802,217386,,13,False,injected; no accepted repair,139,15,True,True
+scored_0785,1,157417,-,324802,167385,,64,False,injected; no accepted repair,,65,False,False
+scored_0785,1,165128,-,167504,2376,,4,False,injected; no accepted repair,24,4,True,True
+scored_0785,1,217414,+,28,217386,,3,False,injected; no accepted repair,4,2,True,True
+scored_0785,1,220597,+,361,220236,,,False,injected; no accepted repair,,,False,False
+scored_0785,1,326032,-,326040,8,,16,False,injected; no accepted repair,,19,False,False
+scored_0785,1,811188,-,811544,356,,5,False,injected; no accepted repair,9,4,True,True
+scored_0785,1,2190116,+,356,2189760,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0785,1,2737223,-,2905083,167860,,,False,injected; no accepted repair,,,False,False
+scored_0785,1,148874584,+,2848,148871736,,53,False,injected; no accepted repair,,53,False,False
+scored_0785,1,283428244,-,283428288,44,,20,False,injected; no accepted repair,,20,False,False
+scored_0785,1,1195804425,*,475,2517483,,,False,injected; no accepted repair,,,False,False
+scored_0785,1,11351700800,*,220,51598640,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0785,1,1112433591617,-,1112717019905,283428288,,,False,injected; no accepted repair,,,False,False
+scored_0804,1,228622,-,228628,6,,18,False,injected; no accepted repair,,23,False,False
+scored_0804,1,1101261,-,1114670,13409,,8,False,injected; no accepted repair,57,7,True,True
+scored_0804,1,1949896,-,5845508,3895612,,139,False,injected; no accepted repair,,139,False,False
+scored_0804,1,2918988,-,3066052,147064,,,False,injected; no accepted repair,14,,True,False
+scored_0804,1,4777924,+,882312,3895612,,,False,injected; no accepted repair,,,False,False
+scored_0804,1,5845508,-,5992560,147052,,,False,injected; no accepted repair,,,False,False
+scored_0804,1,28093216,+,1268,28091948,,7,False,injected; no accepted repair,37,6,True,True
+scored_0804,1,29146558,+,1021492,28125066,,,False,injected; no accepted repair,43,,True,False
+scored_0804,1,30099840,+,1124312,28975528,,13,True,injected; no accepted repair,,13,False,False
+scored_0804,1,38177976,+,1949896,36228080,,125,False,injected; no accepted repair,,125,False,False
+scored_0804,1,49011776,-,50397806,1386030,,,False,injected; no accepted repair,,,False,False
+scored_0804,1,90918215,-,91146843,228628,,,False,injected; no accepted repair,,,False,False
+scored_0804,1,155857892,+,3360,155854532,,2,True,injected; no accepted repair,,2,False,False
+scored_0804,1,242288430,+,240902400,1386030,,3,True,replayed,1,3,True,False
+scored_0804,1,6744390973,+,42,6744390931,,17,False,injected; no accepted repair,,17,False,False
+scored_0811,1,14069,-,23285,9216,,62,False,injected; no accepted repair,,62,False,False
+scored_0811,1,16726,-,20939,4213,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,18142,/,308414,17,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,37541,-,37734,193,,,False,injected; no accepted repair,,,False,False
+scored_0811,1,41947,+,20995,20952,,,False,injected; no accepted repair,,,False,False
+scored_0811,1,43924,+,43723,201,,,False,injected; no accepted repair,,,False,False
+scored_0811,1,44186,+,43924,262,,6,False,injected; no accepted repair,14,6,True,True
+scored_0811,1,129117,*,193,669,,,False,injected; no accepted repair,,,False,False
+scored_0811,1,254175,-,254182,7,,8,False,injected; no accepted repair,1,8,True,True
+scored_0811,1,305773,*,13,23521,,206,False,injected; no accepted repair,,208,False,False
+scored_0811,1,627316,-,627497,181,,25,False,injected; no accepted repair,,25,False,False
+scored_0811,1,988271,+,339606,648665,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,3974004,-,4297529,323525,,24,True,injected; no accepted repair,,24,False,False
+scored_0811,1,4297529,+,82944,4214585,,92,False,injected; no accepted repair,,92,False,False
+scored_0811,1,4539257,+,325140,4214117,,,False,injected; no accepted repair,,,False,False
+scored_0811,1,6193521,+,43723,6149798,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,6908138,+,6149798,758340,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,13802460,*,236,58485,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,16368525,+,5501133,10867392,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,118863852,+,118859832,4020,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0811,1,636399036,+,9,636399027,,5,False,injected; no accepted repair,,5,False,False
+scored_0811,1,925921790,-,925921971,181,,2,False,injected; no accepted repair,3,1,True,True
+scored_0811,1,971655074,+,856769246,114885828,,,False,injected; no accepted repair,,,False,False
+scored_0824,1,1471825,-,3346565,1874740,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0824,1,1869008,-,1874488,5480,,,False,injected; no accepted repair,37,,True,False
+scored_0824,1,1975004,+,57,1974947,,2,False,injected; no accepted repair,4,1,True,True
+scored_0824,1,1976775,+,1828,1974947,,53,False,injected; no accepted repair,,53,False,False
+scored_0824,1,2225506,-,6687649,4462143,,10,False,injected; no accepted repair,142,8,True,True
+scored_0824,1,2974723,-,26772515,23797792,,,False,injected; no accepted repair,,,False,False
+scored_0824,1,5925228,/,284410944,48,,,False,injected; no accepted repair,4,5,True,True
+scored_0824,1,6597206,-,13290328,6693122,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0824,1,33679452,+,33460164,219288,,9,True,injected; no accepted repair,,9,False,False
+scored_0824,1,125262110,+,100380492,24881618,,3,True,replayed,8,3,True,True
+scored_0824,1,20347071966,-,20380532130,33460164,,2,True,replayed,,2,False,False
+scored_0824,1,36624778176,*,3648,10039687,,,False,injected; no accepted repair,,,False,False
+scored_0824,1,1858732439508,*,57,32609341044,,1,True,replayed,1,1,True,True
+scored_0824,1,38454872809752,+,38454872806707,3045,,1,True,replayed,,1,False,False
+scored_0824,1,98884344128952,-,98884344136032,7080,,39,False,injected; no accepted repair,,39,False,False
+scored_0834,2,111308943136567,+,111308803385317,139751250,,,False,injected; no accepted repair,,,False,False
+scored_0834,2,149326944152626,-,149326944171808,19182,,1,True,injected; no accepted repair,,1,False,False
+scored_0834,2,240298309652358,+,240298260129878,49522480,,,False,injected; no accepted repair,1,,True,False
+scored_0834,2,337305026666557,+,337305018092640,8573917,,3,True,injected; no accepted repair,1,3,True,False
+scored_0834,2,392244910921725,+,240304418299421,151940492622304,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0834,2,454475227986648,+,454475227984305,2343,,,False,injected; no accepted repair,,,False,False
+scored_0834,2,485625712498084,-,486239175023568,613462525484,,,False,injected; no accepted repair,,,False,False
+scored_0834,2,597655751908746,-,597655751910140,1394,,30,False,injected; no accepted repair,,30,False,False
+scored_0834,2,639248631354786,+,348422534553042,290826096801744,,299,False,injected; no accepted repair,,299,False,False
+scored_0834,2,702924776375572,-,702924776397696,22124,,,False,injected; no accepted repair,,,False,False
+scored_0834,2,716794070742964,+,143165920238650,573628150504314,,349,False,injected; no accepted repair,,349,False,False
+scored_0834,2,733553620284881,+,366776811595327,366776808689554,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0834,2,787104344531699,+,786325736950475,778607581224,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0834,2,806841966782457,+,785712274424991,21129692357466,,,False,injected; no accepted repair,,,False,False
+scored_0835,1,241831,-,243048,1217,,4,False,injected; no accepted repair,10,3,True,True
+scored_0835,1,335485,+,92432,243053,,,False,injected; no accepted repair,,,False,False
+scored_0835,1,561785,+,29555,532230,,9,False,injected; no accepted repair,85,9,True,True
+scored_0835,1,620665,-,679752,59087,,6,False,injected; no accepted repair,42,6,True,True
+scored_0835,1,896605,+,1217,895388,,15,False,injected; no accepted repair,,16,False,False
+scored_0835,1,3231880,+,92432,3139448,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0835,1,12074762,+,5991180,6083582,,142,False,injected; no accepted repair,,142,False,False
+scored_0835,1,69148637,+,69131790,16847,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0835,1,149648304,*,312,479642,,160,False,injected; no accepted repair,,160,False,False
+scored_0835,1,285121826,+,679752,284442074,,115,False,injected; no accepted repair,,115,False,False
+scored_0835,1,1140572160,*,18720,60928,,,False,injected; no accepted repair,26,,True,False
+scored_0835,1,1413929090,+,19970,1413909120,,57,False,injected; no accepted repair,,57,False,False
+scored_0835,1,11905773044,*,79882,149042,,4,True,injected; no accepted repair,,4,False,False
+scored_0835,1,12724957752,-,12725200800,243048,,8,True,injected; no accepted repair,,8,False,False
+scored_0835,1,13687797617,+,1222,13687796395,,4,True,injected; no accepted repair,,4,False,False
+scored_0835,1,27570741120,*,365040,75528,,26,False,injected; no accepted repair,,36,False,False
+scored_0835,1,110487939120,/,2762198478000,25,,2,True,replayed,1,1,True,True
+scored_0835,1,746461820840,+,241496,746461579344,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0838,1,142674427224,*,30408,4692003,,,False,injected; no accepted repair,,,False,False
+scored_0838,1,144212091310,-,617290701342,473078610032,,6,False,injected; no accepted repair,247,6,True,True
+scored_0838,1,284594319292,-,945755634294,661161315002,,253,False,replayed,,253,False,False
+scored_0838,1,405531344713,-,405531372718,28005,,76,False,injected; no accepted repair,,76,False,False
+scored_0838,1,460802494474,-,460802524882,30408,,,False,injected; no accepted repair,,,False,False
+scored_0838,1,473078610032,+,460731565028,12347045004,,211,False,injected; no accepted repair,,211,False,False
+scored_0838,1,945755634294,+,938059121984,7696512310,,262,False,replayed,,262,False,False
+scored_0846,1,747763,+,3,747760,,14,False,injected; no accepted repair,,33,False,False
+scored_0846,1,1495636,+,1495285,351,,,False,injected; no accepted repair,,,False,False
+scored_0846,1,3912109,-,3912535,426,,57,False,injected; no accepted repair,54,62,True,False
+scored_0846,1,3912744,-,3912750,6,,107,False,injected; no accepted repair,,109,False,False
+scored_0846,1,4486563,+,747763,3738800,,5,False,injected; no accepted repair,65,5,True,True
+scored_0846,1,6480383,+,1246271,5234112,,9,True,injected; no accepted repair,,9,False,False
+scored_0846,1,7042569,+,7042563,6,,19,False,injected; no accepted repair,6,16,True,True
+scored_0846,1,7825058,+,3912529,3912529,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0846,1,13958010,+,3738827,10219183,,,False,injected; no accepted repair,,,False,False
+scored_0846,1,16432344,-,16432846,502,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0846,1,20343028,+,16432846,3910182,,5,True,replayed,,5,False,False
+scored_0846,1,26380165,-,28264440,1884275,,,False,injected; no accepted repair,,,False,False
+scored_0846,1,28264080,-,28264440,360,,,False,injected; no accepted repair,,,False,False
+scored_0846,1,47107690,+,319,47107371,,51,False,injected; no accepted repair,,54,False,False
+scored_0846,1,94211220,+,47107008,47104212,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0846,1,150743334,-,150743760,426,,13,True,injected; no accepted repair,3,13,True,False
+scored_0846,1,538735440,*,80,6734193,,,False,injected; no accepted repair,,,False,False
+scored_0852,1,6245794092,-,6245794159,67,,30,False,injected; no accepted repair,,30,False,False
+scored_0852,1,19423863634,-,19423863656,22,,27,False,injected; no accepted repair,18,21,True,True
+scored_0852,1,34030605324,-,34030615320,9996,,,False,injected; no accepted repair,,,False,False
+scored_0852,1,402803385956,+,201401692978,201401692978,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0852,1,557780470749,+,557780470529,220,,11,False,injected; no accepted repair,37,10,True,True
+scored_0852,1,557780470967,+,557780470749,218,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0852,1,858404103000,+,4,858404102996,,4,False,injected; no accepted repair,4,2,True,True
+scored_0852,1,1172677872115,-,1172677872132,17,1,17,False,injected; no accepted repair,1,17,False,False
+scored_0852,1,3313455869388,+,220897058382,3092558811006,,157,False,injected; no accepted repair,,157,False,False
+scored_0852,1,62663499519506,+,62663499519073,433,,4,True,injected; no accepted repair,2,4,True,False
+scored_0852,1,79161969574373,-,79161969574666,293,,1,True,replayed,1,1,True,True
+scored_0878,2,19981547,+,656,19980891,,2,False,injected; no accepted repair,62,6,True,True
+scored_0878,2,599426732,+,2,599426730,,1,True,replayed,1,1,True,True
+scored_0878,2,5536129170,/,11072258340,2,,2,False,injected; no accepted repair,1,1,True,True
+scored_0878,2,68272276800,*,7,9753182400,,1,True,replayed,1,1,True,True
+scored_0878,2,123364299421,+,1277568270,122086731151,,1,True,replayed,,1,False,False
+scored_0878,2,263083812653,-,263083812714,61,,30,False,injected; no accepted repair,,30,False,False
+scored_0878,2,422819915306,+,1965429929,420854485377,,,False,replayed,3,,True,False
+scored_0878,2,578814931953,+,237,578814931716,,1,True,replayed,1,1,True,True
+scored_0878,2,609196801154,-,952011605654,342814804500,,3,True,replayed,6,2,True,True
+scored_0878,2,773846670862,-,838159441079,64312770217,,,False,replayed,,,False,False
+scored_0878,2,821877416831,+,2739100,821874677731,,85,False,injected; no accepted repair,,85,False,False
+scored_0878,2,837144603043,-,844046316459,6901713416,,,False,replayed,3,,True,False
+scored_0878,2,843937341578,-,843974853818,37512240,,98,False,injected; no accepted repair,,98,False,False
+scored_0890,1,8021,-,11614,3593,,53,False,injected; no accepted repair,,54,False,False
+scored_0890,1,11601,+,21,11580,,37,False,injected; no accepted repair,120,60,True,False
+scored_0890,1,11622,+,11601,21,,9,False,injected; no accepted repair,16,9,True,True
+scored_0890,1,37279,+,5607,31672,,,False,injected; no accepted repair,,,False,False
+scored_0890,1,42374,-,43304,930,,41,False,injected; no accepted repair,,41,False,False
+scored_0890,1,101326,+,11614,89712,,59,False,injected; no accepted repair,,59,False,False
+scored_0890,1,123860,-,131310,7450,,,False,injected; no accepted repair,12,,True,False
+scored_0890,1,140028,-,229740,89712,,,False,injected; no accepted repair,100,,True,False
+scored_0890,1,230670,+,229740,930,,4,False,injected; no accepted repair,7,3,True,True
+scored_0890,1,376330,+,146590,229740,,6,False,injected; no accepted repair,70,5,True,True
+scored_0890,1,529430,+,146590,382840,,3,False,injected; no accepted repair,42,2,True,True
+scored_0890,1,594816,+,7458,587358,,49,False,injected; no accepted repair,,49,False,False
+scored_0890,1,627323,+,529430,97893,,37,True,injected; no accepted repair,,37,False,False
+scored_0890,1,721086,+,97893,623193,,,False,injected; no accepted repair,,,False,False
+scored_0890,1,1010302,+,382964,627338,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0890,1,4587568,-,5361496,773928,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0890,1,16165758,*,21,769798,,281,False,injected; no accepted repair,,281,False,False
+scored_0890,1,55454036,+,1010302,54443734,,2,True,replayed,6,2,True,True
+scored_0890,1,64806163,+,16,64806147,,3,False,injected; no accepted repair,4,2,True,True
+scored_0890,1,129611773,+,64806147,64805626,,,False,injected; no accepted repair,,,False,False
+scored_0890,1,19433332080,*,25110,773928,,,False,injected; no accepted repair,,,False,False
+scored_0891,1,196586,+,42462,154124,,,False,injected; no accepted repair,,,False,False
+scored_0891,1,196612,+,196586,26,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0891,1,482672,+,328548,154124,,3,False,injected; no accepted repair,97,3,True,True
+scored_0891,1,493367,+,5,493362,,15,False,injected; no accepted repair,,16,False,False
+scored_0891,1,688144,+,328548,359596,,100,False,injected; no accepted repair,,114,False,False
+scored_0891,1,726123,+,330732,395391,3,2,True,replayed,18,2,True,True
+scored_0891,1,1151178,*,54818,21,,42,True,injected; no accepted repair,4,5,True,True
+scored_0891,1,1699673,+,4732,1694941,,1,True,replayed,2,1,True,True
+scored_0891,1,5180191,-,5180373,182,,1,True,replayed,3,1,True,True
+scored_0891,1,7731709,+,7569450,162259,,9,False,injected; no accepted repair,77,9,True,True
+scored_0891,1,15442226,+,15032544,409682,,,False,injected; no accepted repair,,,False,False
+scored_0891,1,89459831,-,89509896,50065,,,False,injected; no accepted repair,,,False,False
+scored_0891,1,109791568,/,548957840,5,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0891,1,3572729756,-,3573305452,575696,,120,False,injected; no accepted repair,,120,False,False
+scored_0891,1,6587496494,+,6587496298,196,,,False,injected; no accepted repair,,,False,False
+scored_0891,1,642720156394,-,642720156792,398,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0895,2,489892,*,13,37684,,12,True,injected; no accepted repair,,12,False,False
+scored_0895,2,2805575,+,28,2805547,,19,False,injected; no accepted repair,,29,False,False
+scored_0895,2,2939429,+,99,2939330,,33,False,injected; no accepted repair,,45,False,False
+scored_0895,2,4081337,-,4904041,822704,,7,False,injected; no accepted repair,116,7,True,True
+scored_0895,2,4904041,-,4905040,999,,6,False,injected; no accepted repair,35,6,True,True
+scored_0895,2,4904988,-,4905040,52,,20,False,injected; no accepted repair,,20,False,False
+scored_0895,2,16325690,+,6307494,10018196,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0895,2,37758456,*,906,41676,,2,False,injected; no accepted repair,5,2,True,True
+scored_0895,2,49022349,-,49022610,261,,36,False,injected; no accepted repair,,36,False,False
+scored_0895,2,53006099,+,50200192,2805907,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0895,2,145760671,-,145786762,26091,,76,False,injected; no accepted repair,,86,False,False
+scored_0895,2,277831632,+,277831620,12,,14,False,injected; no accepted repair,5,13,True,True
+scored_0895,2,538825024,+,52,538824972,,21,False,injected; no accepted repair,,21,False,False
+scored_0895,2,840186144,*,29232,28742,,2,True,replayed,,2,False,False
+scored_0895,2,1585639222,+,6278216,1579361006,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0895,2,1853740706,-,1854253296,512590,,96,False,injected; no accepted repair,,96,False,False
+scored_0895,2,3083187477,+,3083186736,741,,1,True,replayed,,1,False,False
+scored_0895,2,8946700985,+,105473,8946595512,,,False,injected; no accepted repair,,,False,False
+scored_0907,2,77211,-,138023,60812,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,97288,-,158097,60809,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,199057,+,158097,40960,,,False,injected; no accepted repair,,,False,False
+scored_0907,2,255675,+,15,255660,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,342808,+,171404,171404,,,False,injected; no accepted repair,88,,True,False
+scored_0907,2,464471,-,480855,16384,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,917964,+,37324,880640,,74,False,injected; no accepted repair,,74,False,False
+scored_0907,2,13582720,+,12333812,1248908,,16,True,injected; no accepted repair,,16,False,False
+scored_0907,2,41743222,+,364898,41378324,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,120086899,+,138023,119948876,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,312829730,+,364898,312464832,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0907,2,1421197312,+,40960,1421156352,,2,True,injected; no accepted repair,3,2,True,False
+scored_0907,2,4722286912,*,4144,1139548,,,False,injected; no accepted repair,,,False,False
+scored_0907,2,3502745442084,-,3502745447588,5504,,,False,injected; no accepted repair,,,False,False
+scored_0907,2,13673550621696,*,7104,1924767824,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0918,1,118521062640098,-,118521063161072,520974,,2,True,injected; no accepted repair,,2,False,False
+scored_0918,1,194497557185211,-,194497557187897,2686,,54,False,injected; no accepted repair,,54,False,False
+scored_0918,1,349589537266200,-,349589539787502,2521302,,3,True,injected; no accepted repair,,3,False,False
+scored_0918,1,550762735444687,-,928937980021711,378175244577024,,,False,injected; no accepted repair,,,False,False
+scored_0918,1,561617110187715,+,8,561617110187707,,13,False,injected; no accepted repair,,13,False,False
+scored_0918,1,832446833448242,+,4810516656,832442022931586,,,False,injected; no accepted repair,,,False,False
+scored_0918,1,837238146860053,-,837300511071361,62364211308,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0918,1,868067935162589,-,868070162456572,2227293983,,2,True,injected; no accepted repair,,2,False,False
+scored_0918,1,928946829777091,-,928946830079500,302409,,3,True,injected; no accepted repair,1,3,True,False
+scored_0918,1,981829120016108,-,981829270642232,150626124,,190,False,injected; no accepted repair,,190,False,False
+scored_0924,1,1122714,+,55245,1067469,,74,False,injected; no accepted repair,,74,False,False
+scored_0924,1,1562639,-,2342596,779957,,95,False,injected; no accepted repair,,106,False,False
+scored_0924,1,2342596,*,23,101852,,121,False,injected; no accepted repair,,121,False,False
+scored_0924,1,3124765,+,2342596,782169,,117,False,injected; no accepted repair,,117,False,False
+scored_0924,1,3906958,+,3124765,782193,,9,True,injected; no accepted repair,,9,False,False
+scored_0924,1,4623089,-,4623470,381,,4,False,injected; no accepted repair,13,3,True,True
+scored_0924,1,4679197,+,782164,3897033,,,False,injected; no accepted repair,,,False,False
+scored_0924,1,18715302,-,28072950,9357648,,,False,injected; no accepted repair,,,False,False
+scored_0924,1,21269388,*,23,924756,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0924,1,25015645,+,1872309,23143336,,103,False,injected; no accepted repair,,103,False,False
+scored_0924,1,28072532,-,28072950,418,,6,False,injected; no accepted repair,30,6,True,True
+scored_0924,1,534448104,-,711174560,176726456,,183,False,injected; no accepted repair,,183,False,False
+scored_0924,1,2096113600,*,9357650,224,,,False,injected; no accepted repair,17,,True,False
+scored_0924,1,4868012661,+,2774319,4865238342,,107,False,injected; no accepted repair,,107,False,False
+scored_0924,1,50138288602,-,50138288621,19,,13,False,injected; no accepted repair,,13,False,False
+scored_0924,1,170841898183440,*,7398184,23092410,,3,True,replayed,5,3,True,True
+scored_0927,1,17770462,+,1904,17768558,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0927,1,22721909,-,22722528,619,,9,False,injected; no accepted repair,63,9,True,True
+scored_0927,1,22722563,-,26937589,4215026,,,False,injected; no accepted repair,,,False,False
+scored_0927,1,26936826,+,26936818,8,,13,False,injected; no accepted repair,6,13,True,True
+scored_0927,1,26937566,-,26937589,23,,26,False,injected; no accepted repair,,34,False,False
+scored_0927,1,90892403,-,90892444,41,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0927,1,146923052,+,8,146923044,,17,True,injected; no accepted repair,,17,False,False
+scored_0927,1,272671487,+,272670720,767,,,False,injected; no accepted repair,,,False,False
+scored_0927,1,1333100535,-,1333101154,619,,,False,injected; no accepted repair,,,False,False
+scored_0927,1,1753630844,+,1753629696,1148,,9,False,injected; no accepted repair,47,8,True,True
+scored_0927,1,2137908348,+,21983584,2115924764,,103,False,injected; no accepted repair,,103,False,False
+scored_0927,1,2558600064,*,17768056,144,,,False,replayed,1,,True,False
+scored_0927,1,10688659308,*,291,36730788,,3,False,injected; no accepted repair,9,3,True,True
+scored_0927,1,47031942054,*,291,161621794,,7,True,injected; no accepted repair,,7,False,False
+scored_0927,1,552662092224,-,552662092800,576,,,False,injected; no accepted repair,,,False,False
+scored_0927,1,1070577053568,*,184,5818353552,,,False,injected; no accepted repair,,,False,False
+scored_0927,1,1318395561743260,+,2332,1318395561740928,,55,False,replayed,,55,False,False
+scored_0960,2,673379,+,672799,580,,,False,injected; no accepted repair,13,,True,False
+scored_0960,2,935612,/,5613672,6,,38,True,injected; no accepted repair,,38,False,False
+scored_0960,2,1176005,-,1193525,17520,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,2691196,*,4,672799,,84,False,injected; no accepted repair,,104,False,False
+scored_0960,2,2807024,+,292,2806732,,49,False,injected; no accepted repair,,68,False,False
+scored_0960,2,2821315,-,2824235,2920,,102,False,injected; no accepted repair,,102,False,False
+scored_0960,2,3274066,-,3274406,340,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,4035036,*,6,672506,,2,True,replayed,,2,False,False
+scored_0960,2,4678354,-,4678579,225,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,9123031,+,4678579,4444452,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,20174983,-,23538851,3363868,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,23546121,+,262,23545859,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,47078093,+,329,47077764,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0960,2,121111092,*,36,3364197,,,False,injected; no accepted repair,,,False,False
+scored_0960,2,161185405,+,1193525,159991880,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0960,2,477537732,-,484396992,6859260,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0960,2,3278673521,-,3278673532,11,,11,False,injected; no accepted repair,,11,False,False
+scored_0960,2,12295305612,*,2628,4678579,,2,True,injected; no accepted repair,,2,False,False
+scored_0960,2,90162702960,*,17520,5146273,,,False,injected; no accepted repair,14,,True,False
+scored_0960,2,3573752074656,-,3573754898880,2824224,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0960,2,5115265792512,*,217248,23545744,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0973,3,490835,-,490840,5,,12,False,injected; no accepted repair,1,8,True,True
+scored_0973,3,564294,-,1057654,493360,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0973,3,1058535,+,1057654,881,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,2456056,-,2945134,489078,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,2708313,+,73,2708240,,31,False,injected; no accepted repair,,31,False,False
+scored_0973,3,2911011,+,72,2910939,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,2945139,+,55,2945084,,,False,injected; no accepted repair,25,34,True,True
+scored_0973,3,4417704,+,1472570,2945134,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0973,3,6093642,+,102,6093540,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,14828898,*,14,1059207,,8,True,injected; no accepted repair,,8,False,False
+scored_0973,3,17796398,+,14553835,3242563,,154,False,injected; no accepted repair,,171,False,False
+scored_0973,3,26505756,*,18,1472542,,156,False,injected; no accepted repair,,166,False,False
+scored_0973,3,31188317,-,31188345,28,,21,False,injected; no accepted repair,,21,False,False
+scored_0973,3,31597478,-,36015280,4417802,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0973,3,36853190,*,55,670058,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,38657202,+,36853190,1804012,,5,False,injected; no accepted repair,39,5,True,True
+scored_0973,3,54336284,+,2945084,51391200,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,209573476,-,209575224,1748,,37,False,injected; no accepted repair,,37,False,False
+scored_0973,3,365937412,-,365937440,28,,22,False,injected; no accepted repair,,22,False,False
+scored_0973,3,1491224650,*,338530,4405,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,2681125975,+,55,2681125920,,,False,injected; no accepted repair,,,False,False
+scored_0973,3,6057678578,*,3436006,1763,,2,True,replayed,1,2,True,False
+scored_0973,3,12823170845,*,2911049,4405,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0973,3,665963962392,*,3524,188979558,,,False,injected; no accepted repair,,,False,False
+scored_0988,1,59956912734,+,59956909312,3422,,6,False,injected; no accepted repair,47,6,True,True
+scored_0988,1,834622352507,-,834622358838,6331,,,False,injected; no accepted repair,,,False,False
+scored_0988,1,834622359040,+,834622358838,202,,,False,injected; no accepted repair,30,,True,False
+scored_0988,1,834622359325,+,834622359130,195,,15,False,injected; no accepted repair,42,15,True,True
+scored_0988,1,834622362242,+,3404,834622358838,,2,True,replayed,27,2,True,True
+scored_0988,1,910547257010,-,910547259107,2097,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0988,1,910547260799,+,910547259076,1723,,143,False,injected; no accepted repair,,147,False,False
+scored_0988,1,3640887919195,+,1927528896591,1713359022604,,,False,injected; no accepted repair,,,False,False
+scored_0988,1,4069227674388,+,3636,4069227670752,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0988,1,4439401883338,+,19,4439401883319,,275,False,injected; no accepted repair,,275,False,False
+scored_0988,1,5007734153170,-,5842356512167,834622358997,,,False,injected; no accepted repair,,,False,False
+scored_0988,1,5782586688708,-,17133590192604,11351003503896,,186,False,injected; no accepted repair,,186,False,False
+scored_0988,1,6676978871313,-,6676978871472,159,,36,False,injected; no accepted repair,2,36,True,False
+scored_0988,1,11837114368403,+,12,11837114368391,,9,False,injected; no accepted repair,,9,False,False
+scored_0988,1,17347760069355,*,9,1927528896595,,176,False,injected; no accepted repair,,187,False,False
+scored_0988,1,20560308227616,*,12,1713359018968,,9,False,injected; no accepted repair,,12,False,False
+scored_0988,1,99536064078151,-,99536064081778,3627,,,False,injected; no accepted repair,46,,True,False
+scored_0988,1,1596315469027939,-,1596315469029824,1885,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0988,1,9377816805971538,+,426,9377816805971112,,2,True,injected; no accepted repair,,2,False,False
+scored_0990,1,169970860950,*,138350,1228557,,2,True,injected; no accepted repair,,2,False,False
+scored_0990,1,274780478195,-,618225524160,343445045965,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0990,1,341872469247,-,343445030621,1572561374,,3,True,injected; no accepted repair,9,3,True,True
+scored_0990,1,343445045965,+,15344,343445030621,,,False,no eligible orientation in surviving pool,,,False,False
+scored_0990,1,361857752293,-,794284576569,432426824276,,3,True,injected; no accepted repair,10,2,True,True
+scored_0990,1,405818697633,-,974486319394,568667621761,,3,True,injected; no accepted repair,10,2,True,True
+scored_0990,1,501508897475,-,568666637382,67157739907,,3,True,injected; no accepted repair,,3,False,False
+scored_0990,1,626989726151,+,283544833880,343444892271,,2,True,injected; no accepted repair,11,2,True,True
+scored_0990,1,701192322503,+,283577835912,417614486591,,243,False,injected; no accepted repair,,243,False,False
+scored_0990,1,715985929025,+,14409600,715971519425,,157,False,injected; no accepted repair,,157,False,False
+scored_0990,1,792687550505,-,792687614144,63639,,1,True,injected; no accepted repair,1,1,True,True
