@@ -1,0 +1,62 @@
+{"id": "scored_0067", "base": 248, "strategy": "all", "D": 248, "R": 30, "cands": 339, "recipes": 369, "status": "OPTIMAL", "obj": 248, "time": 0.9, "new_len": 248}
+{"id": "scored_0060", "base": 248, "strategy": "all", "D": 248, "R": 29, "cands": 303, "recipes": 330, "status": "OPTIMAL", "obj": 248, "time": 0.9, "new_len": 248}
+{"id": "scored_0074", "base": 201, "strategy": "all", "D": 201, "R": 29, "cands": 423, "recipes": 475, "status": "OPTIMAL", "obj": 201, "time": 0.9, "new_len": 201}
+{"id": "scored_0051", "base": 273, "strategy": "all", "D": 273, "R": 32, "cands": 365, "recipes": 412, "status": "OPTIMAL", "obj": 273, "reason": "unscheduled", "time": 1.0, "new_len": 273}
+{"id": "scored_0033", "base": 201, "strategy": "all", "D": 201, "R": 29, "cands": 408, "recipes": 451, "status": "OPTIMAL", "obj": 201, "reason": "unscheduled", "time": 1.0, "new_len": 201}
+{"id": "scored_0020", "base": 235, "strategy": "all", "D": 235, "R": 28, "cands": 517, "recipes": 610, "status": "OPTIMAL", "obj": 235, "time": 1.0, "new_len": 235}
+{"id": "scored_0069", "base": 267, "strategy": "all", "D": 267, "R": 32, "cands": 348, "recipes": 393, "status": "OPTIMAL", "obj": 267, "reason": "unscheduled", "time": 1.1, "new_len": null}
+{"id": "scored_0163", "base": 240, "strategy": "all", "D": 240, "R": 29, "cands": 334, "recipes": 372, "status": "OPTIMAL", "obj": 240, "time": 0.0, "new_len": 240}
+{"id": "scored_0218", "base": 271, "strategy": "all", "D": 271, "R": 32, "cands": 336, "recipes": 381, "status": "OPTIMAL", "obj": 271, "time": 0.0, "new_len": 271}
+{"id": "scored_0269", "base": 267, "strategy": "all", "D": 267, "R": 32, "cands": 343, "recipes": 375, "status": "OPTIMAL", "obj": 267, "reason": "unscheduled", "time": 0.1, "new_len": null}
+{"id": "scored_0255", "base": 263, "strategy": "all", "D": 263, "R": 32, "cands": 588, "recipes": 676, "status": "OPTIMAL", "obj": 263, "time": 0.1, "new_len": 263}
+{"id": "scored_0293", "base": 186, "strategy": "all", "D": 186, "R": 32, "cands": 244, "recipes": 279, "status": "OPTIMAL", "obj": 186, "time": 0.0, "new_len": 186}
+{"id": "scored_0166", "base": 197, "strategy": "all", "D": 197, "R": 28, "cands": 414, "recipes": 474, "status": "OPTIMAL", "obj": 197, "reason": "unscheduled", "time": 0.3, "new_len": 197}
+{"id": "scored_0279", "base": 251, "strategy": "all", "D": 251, "R": 30, "cands": 529, "recipes": 598, "status": "OPTIMAL", "obj": 251, "time": 0.2, "new_len": 251}
+{"id": "scored_0003", "base": 186, "strategy": "all", "D": 186, "R": 28, "cands": 362, "recipes": 457, "status": "OPTIMAL", "obj": 186, "reason": "unscheduled", "time": 1.5, "new_len": 186}
+{"id": "scored_0331", "base": 240, "strategy": "all", "D": 240, "R": 28, "cands": 358, "recipes": 418, "status": "OPTIMAL", "obj": 240, "time": 0.1, "new_len": 240}
+{"id": "scored_0398", "base": 197, "strategy": "all", "D": 197, "R": 28, "cands": 292, "recipes": 337, "status": "OPTIMAL", "obj": 197, "time": 0.0, "new_len": 197}
+{"id": "scored_0405", "base": 262, "strategy": "all", "D": 262, "R": 31, "cands": 348, "recipes": 381, "status": "OPTIMAL", "obj": 262, "time": 0.0, "new_len": 262}
+{"id": "scored_0444", "base": 233, "strategy": "all", "D": 233, "R": 28, "cands": 296, "recipes": 336, "status": "OPTIMAL", "obj": 233, "time": 0.0, "new_len": 233}
+{"id": "scored_0454", "base": 203, "strategy": "all", "D": 203, "R": 28, "cands": 238, "recipes": 267, "status": "OPTIMAL", "obj": 203, "time": 0.0, "new_len": 203}
+{"id": "scored_0249", "base": 248, "strategy": "all", "D": 248, "R": 30, "cands": 527, "recipes": 589, "status": "OPTIMAL", "obj": 248, "reason": "unscheduled", "time": 0.8, "new_len": null}
+{"id": "scored_0445", "base": 227, "strategy": "all", "D": 227, "R": 32, "cands": 318, "recipes": 381, "status": "OPTIMAL", "obj": 227, "reason": "unscheduled", "time": 0.3, "new_len": null}
+{"id": "scored_0285", "base": 199, "strategy": "all", "D": 199, "R": 29, "cands": 496, "recipes": 573, "status": "OPTIMAL", "obj": 199, "time": 0.7, "new_len": 199}
+{"id": "scored_0610", "base": 261, "strategy": "all", "D": 261, "R": 31, "cands": 382, "recipes": 438, "status": "OPTIMAL", "obj": 261, "time": 0.1, "new_len": 261}
+{"id": "scored_0470", "base": 247, "strategy": "all", "D": 247, "R": 30, "cands": 502, "recipes": 569, "status": "OPTIMAL", "obj": 247, "time": 0.5, "new_len": 247}
+{"id": "scored_0581", "base": 241, "strategy": "all", "D": 241, "R": 29, "cands": 537, "recipes": 627, "status": "OPTIMAL", "obj": 241, "time": 0.4, "new_len": 241}
+{"id": "scored_0638", "base": 262, "strategy": "all", "D": 262, "R": 31, "cands": 345, "recipes": 378, "status": "OPTIMAL", "obj": 262, "reason": "unscheduled", "time": 0.1, "new_len": null}
+{"id": "scored_0612", "base": 247, "strategy": "all", "D": 247, "R": 30, "cands": 550, "recipes": 644, "status": "OPTIMAL", "obj": 247, "time": 0.3, "new_len": 247}
+{"id": "scored_0647", "base": 205, "strategy": "all", "D": 205, "R": 28, "cands": 276, "recipes": 317, "status": "OPTIMAL", "obj": 205, "reason": "unscheduled", "time": 0.1, "new_len": null}
+{"id": "scored_0636", "base": 242, "strategy": "all", "D": 242, "R": 29, "cands": 487, "recipes": 559, "status": "OPTIMAL", "obj": 242, "time": 0.2, "new_len": 242}
+{"id": "scored_0661", "base": 215, "strategy": "all", "D": 215, "R": 32, "cands": 451, "recipes": 515, "status": "OPTIMAL", "obj": 215, "time": 0.1, "new_len": 215}
+{"id": "scored_0664", "base": 202, "strategy": "all", "D": 202, "R": 29, "cands": 260, "recipes": 296, "status": "OPTIMAL", "obj": 202, "time": 0.0, "new_len": 202}
+{"id": "scored_0687", "base": 219, "strategy": "all", "D": 219, "R": 32, "cands": 313, "recipes": 347, "status": "OPTIMAL", "obj": 219, "time": 0.0, "new_len": 219}
+{"id": "scored_0690", "base": 254, "strategy": "all", "D": 254, "R": 30, "cands": 372, "recipes": 431, "status": "OPTIMAL", "obj": 254, "time": 0.1, "new_len": 254}
+{"id": "scored_0655", "base": 249, "strategy": "all", "D": 249, "R": 30, "cands": 528, "recipes": 590, "status": "OPTIMAL", "obj": 249, "reason": "unscheduled", "time": 0.5, "new_len": 249}
+{"id": "scored_0334", "base": 211, "strategy": "all", "D": 211, "R": 31, "cands": 497, "recipes": 637, "status": "OPTIMAL", "obj": 211, "time": 1.8, "new_len": 211}
+{"id": "scored_0702", "base": 205, "strategy": "all", "D": 205, "R": 28, "cands": 264, "recipes": 300, "status": "OPTIMAL", "obj": 205, "time": 0.0, "new_len": 205}
+{"id": "scored_0729", "base": 268, "strategy": "all", "D": 268, "R": 32, "cands": 355, "recipes": 393, "status": "OPTIMAL", "obj": 268, "time": 0.0, "new_len": 268}
+{"id": "scored_0748", "base": 220, "strategy": "all", "D": 220, "R": 32, "cands": 440, "recipes": 500, "status": "OPTIMAL", "obj": 220, "time": 0.1, "new_len": 220}
+{"id": "scored_0536", "base": 238, "strategy": "all", "D": 238, "R": 28, "cands": 491, "recipes": 580, "status": "OPTIMAL", "obj": 238, "reason": "unscheduled", "time": 2.0, "new_len": 238}
+{"id": "scored_0719", "base": 240, "strategy": "all", "D": 240, "R": 29, "cands": 499, "recipes": 564, "status": "OPTIMAL", "obj": 240, "reason": "unscheduled", "time": 0.7, "new_len": null}
+{"id": "scored_0744", "base": 268, "strategy": "all", "D": 268, "R": 32, "cands": 529, "recipes": 605, "status": "OPTIMAL", "obj": 268, "time": 0.6, "new_len": 268}
+{"id": "scored_0780", "base": 252, "strategy": "all", "D": 252, "R": 30, "cands": 350, "recipes": 402, "status": "OPTIMAL", "obj": 252, "time": 0.0, "new_len": 252}
+{"id": "scored_0781", "base": 235, "strategy": "all", "D": 235, "R": 28, "cands": 331, "recipes": 371, "status": "OPTIMAL", "obj": 235, "time": 0.0, "new_len": 235}
+{"id": "scored_0808", "base": 243, "strategy": "all", "D": 243, "R": 28, "cands": 332, "recipes": 401, "status": "OPTIMAL", "obj": 243, "time": 0.0, "new_len": 243}
+{"id": "scored_0692", "base": 186, "strategy": "all", "D": 186, "R": 31, "cands": 546, "recipes": 660, "status": "OPTIMAL", "obj": 186, "time": 1.0, "new_len": 186}
+{"id": "scored_0837", "base": 218, "strategy": "all", "D": 218, "R": 32, "cands": 345, "recipes": 400, "status": "OPTIMAL", "obj": 218, "time": 0.1, "new_len": 218}
+{"id": "scored_0848", "base": 242, "strategy": "all", "D": 242, "R": 28, "cands": 326, "recipes": 355, "status": "OPTIMAL", "obj": 242, "time": 0.0, "new_len": 242}
+{"id": "scored_0865", "base": 223, "strategy": "all", "D": 223, "R": 32, "cands": 308, "recipes": 348, "status": "OPTIMAL", "obj": 223, "time": 0.0, "new_len": 223}
+{"id": "scored_0912", "base": 203, "strategy": "all", "D": 203, "R": 29, "cands": 299, "recipes": 333, "status": "OPTIMAL", "obj": 203, "time": 0.0, "new_len": 203}
+{"id": "scored_0844", "base": 243, "strategy": "all", "D": 243, "R": 29, "cands": 452, "recipes": 517, "status": "OPTIMAL", "obj": 243, "time": 0.3, "new_len": 243}
+{"id": "scored_0941", "base": 227, "strategy": "all", "D": 227, "R": 32, "cands": 312, "recipes": 344, "status": "OPTIMAL", "obj": 227, "reason": "unscheduled", "time": 0.1, "new_len": 227}
+{"id": "scored_0946", "base": 202, "strategy": "all", "D": 202, "R": 30, "cands": 314, "recipes": 365, "status": "OPTIMAL", "obj": 202, "time": 0.1, "new_len": 202}
+{"id": "scored_0902", "base": 203, "strategy": "all", "D": 203, "R": 29, "cands": 321, "recipes": 384, "status": "OPTIMAL", "obj": 203, "time": 0.4, "new_len": 203}
+{"id": "scored_0959", "base": 221, "strategy": "all", "D": 221, "R": 32, "cands": 454, "recipes": 510, "status": "OPTIMAL", "obj": 221, "time": 0.1, "new_len": 221}
+{"id": "scored_0982", "base": 266, "strategy": "all", "D": 266, "R": 31, "cands": 343, "recipes": 380, "status": "OPTIMAL", "obj": 266, "time": 0.0, "new_len": 266}
+{"id": "scored_1000", "base": 225, "strategy": "all", "D": 225, "R": 32, "cands": 292, "recipes": 338, "status": "OPTIMAL", "obj": 225, "time": 0.0, "new_len": 225}
+{"id": "scored_0592", "base": 191, "strategy": "all", "D": 191, "R": 28, "cands": 467, "recipes": 559, "status": "OPTIMAL", "obj": 191, "time": 3.2, "new_len": 191}
+{"id": "scored_0031", "base": 236, "strategy": "all", "D": 236, "R": 28, "cands": 646, "recipes": 737, "status": "OPTIMAL", "obj": 236, "time": 7.2, "new_len": 236}
+{"id": "scored_0774", "base": 264, "strategy": "all", "D": 263, "R": 32, "cands": 395, "recipes": 466, "status": "OPTIMAL", "obj": 263, "reason": "unscheduled", "time": 4.8, "new_len": null}
+{"id": "scored_0992", "base": 245, "strategy": "all", "D": 245, "R": 30, "cands": 608, "recipes": 713, "status": "OPTIMAL", "obj": 245, "reason": "unscheduled", "time": 4.6, "new_len": 245}
+{"id": "scored_0036", "base": 223, "strategy": "all", "D": 223, "R": 32, "cands": 453, "recipes": 551, "status": "OPTIMAL", "obj": 223, "time": 13.5, "new_len": 223}
