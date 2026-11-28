@@ -1,0 +1,3 @@
+Running as unit: run-r32c7f09df7d0496c949f687106fb6ee9.scope; invocation ID: b0a75f31156340de883e1664b5db1b4b
+Experiment 0: passed {'bank': {'puzzles': 1000, 'saved': 0, 'cpu_hours': 0.0005277777777777777, 'historical_rows_without_cpu': 1062, 'accepted_sources': [], 'selected_recipe_counts': {}, 'matched': 1000}}
+Experiment 1: gate closed {'control': {'puzzles': 1, 'saved': 0, 'cpu_hours': 0.25020000000000003, 'historical_rows_without_cpu': 0, 'accepted_sources': [], 'selected_recipe_counts': {'orig': 2563}, 'matched': 0}}

@@ -106,9 +106,9 @@ def run_puzzle(job):
             else:
                 strategy = STRATEGIES[iteration % len(STRATEGIES)]
                 seconds = min(args.nb_seconds, budget-spent)
-                # The control exercises sources 4 and 5 without a bank or later generators.
-                args.ratio = stage >= 2
-                args.native_source = ("", "mitm", "finisher")[iteration % 3] if stage >= 2 else ""
+                # The control uses every generator, without a bank.
+                args.ratio = stage >= 1
+                args.native_source = ("", "mitm", "finisher")[iteration % 3] if stage >= 1 else ""
                 args.native_timeout = False
                 args.native_seconds = max(.01, seconds / 2)
                 new, _ = L.neighbourhood(p, prog, strategy, rules, args, rng, seconds, row)
@@ -125,8 +125,13 @@ def run_puzzle(job):
                 return
 
 
-def import_exp0(db, base):
-    if db.execute("SELECT 1 FROM manifest WHERE name='imported'").fetchone():
+def import_exp0(db, base, reuse):
+    imported = db.execute("SELECT 1 FROM manifest WHERE name='imported'").fetchone()
+    if not reuse:
+        if imported:
+            raise SystemExit("Checkpoint holds imported historical rows; pass --reuse-cache or use a fresh CPSAT_OUT")
+        return
+    if imported:
         return
     with db:
         for filename in ("exp0-first.jsonl", "exp0.jsonl"):
@@ -155,9 +160,9 @@ def write_csv(path, fields, rows):
 
 def export_logs(db):
     rows = (json.loads(data) for data, in db.execute("SELECT data FROM attempts ORDER BY stage,arm,id,iteration"))
-    path = L.EXP / "cpsat-lns-log.csv"
+    path = L.OUT / "cpsat-lns-log.csv"
     write_csv(path, LOG, rows).replace(path)
-    path = L.EXP / "cpsat-lns-improvements.csv"
+    path = L.OUT / "cpsat-lns-improvements.csv"
     rows = (dict(r, old=r["base"], new=r["new_len"], sources=r.get("used_sources", ""))
             for data, in db.execute("SELECT data FROM attempts WHERE program IS NOT NULL ORDER BY stage,arm,id,iteration")
             for r in [json.loads(data)])
@@ -277,7 +282,9 @@ def metrics(db, stage, arm):
 
 def gate(stage, arms):
     first = next(iter(arms.values()))
-    if stage == 0: return first["matched"] == 1000
+    if stage == 0:
+        return (first["matched"] == 1000 and first["cpu_hours"] >= .05 and first["selected_recipe_counts"]
+                and not first["historical_rows_without_cpu"])
     if stage == 1: return first["saved"] >= 1
     if stage == 2: return first["saved"] >= 1
     if stage == 3: return first["saved"] >= 10
@@ -298,8 +305,9 @@ def parser():
     p.add_argument("--budget", type=float, default=600, help="CPU seconds per puzzle, experiments 2-5")
     p.add_argument("--control-budget", type=float, default=900)
     p.add_argument("--seed", type=int, default=1)
+    p.add_argument("--reuse-cache", action="store_true", help="import historical exp0 rows instead of recomputing")
     p.add_argument("--chain-cap", type=int, default=32, help="native witnesses per target")
-    p.set_defaults(max_values=5000,max_recipes=50000,max_residual=3000,hubs=200,residual=True,dmin=10,dmax=25)
+    p.set_defaults(max_values=5000,max_recipes=50000,max_residual=3000,hubs=200,residual=True,dmin=10,dmax=25,deep=True,deep_budget=2000,deep_pairs=True)
     return p
 
 
@@ -343,9 +351,9 @@ def run():
             db.execute("INSERT OR IGNORE INTO manifest VALUES('configuration',?)",(signature,))
             if db.execute("SELECT value FROM manifest WHERE name='configuration'").fetchone()[0]!=signature:
                 raise ValueError("Checkpoint configuration differs. Use the original search settings.")
-        import_exp0(db,base)
+        import_exp0(db,base,args.reuse_cache)
         export_logs(db)
-        summary_path = L.EXP/"cpsat-lns-summary.json"
+        summary_path = L.OUT/"cpsat-lns-summary.json"
         previous = db.execute("SELECT value FROM manifest WHERE name='summary'").fetchone()
         summary = json.loads(previous[0]) if previous else {"experiments":{}}
         summary["ranking"] = str(args.priority or "priority.csv") if args.priority or (L.ROOT/"priority.csv").exists() else "baseline length minus non-start target count"
@@ -366,7 +374,7 @@ def run():
             run = args.mode=="suite" or stage==end
             if run:
                 if cache is None: cache = L.prepare_banks(puzzles)
-                if stage>=2:
+                if stage>=1:
                     args.helper = str(build_helper())
                 if stage==1:
                     initial = L.read_progs(L.ROOT/"public/ishankarnick/submission.csv",puzzles)

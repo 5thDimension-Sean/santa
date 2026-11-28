@@ -1,0 +1,12 @@
+### sample=0
+  sampled candidates: 30
+  solve: OPTIMAL obj 18 total 108 12.1s {'true': 13, 'orig': 5}
+### sample=300
+  sampled candidates: 330
+  solve: OPTIMAL obj 18 total 108 5.5s {'true': 13, 'orig': 5}
+### sample=1000
+  sampled candidates: 1030
+  solve: OPTIMAL obj 18 total 108 5.9s {'true': 13, 'orig': 5}
+### sample=3000
+  sampled candidates: 3030
+  solve: FEASIBLE obj 18 total 108 65.6s {'true': 13, 'orig': 5}

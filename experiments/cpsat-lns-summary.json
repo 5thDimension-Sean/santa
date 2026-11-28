@@ -1,0 +1,35 @@
+{
+  "experiments": {
+    "0": {
+      "passed": true,
+      "arms": {
+        "bank": {
+          "puzzles": 1000,
+          "saved": 0,
+          "cpu_hours": 0.0005277777777777777,
+          "historical_rows_without_cpu": 1062,
+          "accepted_sources": [],
+          "selected_recipe_counts": {},
+          "matched": 1000
+        }
+      }
+    },
+    "1": {
+      "passed": false,
+      "arms": {
+        "control": {
+          "puzzles": 1,
+          "saved": 0,
+          "cpu_hours": 0.25020000000000003,
+          "historical_rows_without_cpu": 0,
+          "accepted_sources": [],
+          "selected_recipe_counts": {
+            "orig": 2563
+          },
+          "matched": 0
+        }
+      }
+    }
+  },
+  "ranking": "baseline length minus non-start target count"
+}

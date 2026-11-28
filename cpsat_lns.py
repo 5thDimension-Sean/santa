@@ -3,7 +3,7 @@
 Modes: exp0 through exp6, suite (all gates in order), publish (dual replay).
 Never writes submission.csv or banks; outputs go to experiments/ and submission-cpsat*.csv.
 """
-import pickle, sys, time
+import os, pickle, sys, time
 import subprocess
 import hashlib
 from near_reductions import canonical, convergents
@@ -18,7 +18,8 @@ sys.path.insert(0, str(ROOT / "public" / "goodpjw2008"))
 from elf import load_puzzles, replay  # noqa: E402
 
 EXP = ROOT / "experiments"
-WORK = EXP / "cpsat-lns-work"
+OUT = Path(os.environ["CPSAT_OUT"]).resolve() if os.environ.get("CPSAT_OUT") else EXP
+WORK = OUT / "cpsat-lns-work"
 BASE = EXP / "cp-sat-rebuild.csv"
 BANK_FILES = [
     "experiments/submission-notebook-merge.csv", "experiments/native-candidate.csv",
@@ -225,6 +226,203 @@ def pair_closure(A, limit, cap=400_000):
     return res
 
 
+def inverse_steps(X, k, limit):
+    """Yield (x, r, op, a, b): for each r in X and kept k, every x with r = x op k (or k op x)."""
+    X = np.asarray(X, dtype=np.int64); out = []
+    def emit(xs, rs, op, left_is_x):
+        for x, r in zip(xs.tolist(), rs.tolist()):
+            if x >= 1 and x != r:
+                out.append((x, r, op, x if left_is_x else k, k if left_is_x else x))
+    emit(X - k, X, "+", True)
+    emit(k - X, X, "-", False)
+    emit(X + k, X, "-", True)
+    m = X % k == 0
+    emit(X[m] // k, X[m], "*", True)
+    m = X <= limit // k
+    emit(X[m] * k, X[m], "/", True)
+    m = (k % X == 0)
+    emit(k // X[m], X[m], "/", False)
+    return out
+
+
+def forward_steps(F, k, limit):
+    """Arrays (value, op_code, a, b) for k op f and f op k over f in F (numpy int64, values only if in range)."""
+    F = np.asarray(F, dtype=np.int64); parts = []
+    def push(v, op, a, b, ok):
+        ok &= (v >= 1) & (v <= limit)
+        parts.append((v[ok], np.full(ok.sum(), "+-*/".index(op), dtype=np.int8), a[ok], b[ok]))
+    kk = np.full_like(F, k)
+    push(F + kk, "+", F, kk, np.ones(len(F), bool))
+    push(F - kk, "-", F, kk, np.ones(len(F), bool))
+    push(kk - F, "-", kk, F, np.ones(len(F), bool))
+    prod_ok = F <= limit // k
+    push(F * kk, "*", F, kk, prod_ok.copy())
+    push(F // kk, "/", F, kk, (F % kk == 0))
+    safe = np.where(F > 0, F, 1)
+    push(kk // safe, "/", kk, F, (kk % safe == 0))
+    return parts
+
+
+def deep_chains(C, Kl, Rl, one, limit, args):
+    """Source 'deep': routes of up to 4 steps from K, found by meeting backward sets from R with
+    forward sets F1 = K op K and F2 = K op F1. Whole routes are added so none is pruned alone."""
+    Ka = np.asarray(Kl, dtype=np.int64)
+    B1 = {}
+    for k in Kl:
+        for x, r, op, a, b in inverse_steps(Rl, k, limit):
+            B1.setdefault(x, (r, op, a, b))
+    B2 = {}
+    b1keys = np.fromiter(B1, dtype=np.int64, count=len(B1))
+    b1keys = b1keys[:getattr(args, "deep_cap", 3000)]
+    for k in Kl:
+        for x, r, op, a, b in inverse_steps(b1keys, k, limit):
+            if x not in B1:
+                B2.setdefault(x, (r, op, a, b))
+    F1 = np.asarray(sorted(v for v in one if v not in set(Kl)), dtype=np.int64)
+    if not len(F1):
+        return
+    pieces = [[], [], [], []]
+    for k in Kl:
+        for part in forward_steps(F1, k, limit):
+            for i in range(4): pieces[i].append(part[i])
+    V, O, A, Bv = (np.concatenate(p) for p in pieces)
+    order = np.argsort(V, kind="stable")
+    V, O, A, Bv = V[order], O[order], A[order], Bv[order]
+    first = np.concatenate(([True], V[1:] != V[:-1]))
+    V, O, A, Bv = V[first], O[first], A[first], Bv[first]
+    def forward_chain(v):
+        """Recipes (v,op,a,b) for a value in F1 or F2, including the F1 operand's own recipe."""
+        if v in one:
+            return [(v, *one[v])]
+        i = int(np.searchsorted(V, v))
+        if i >= len(V) or V[i] != v:
+            return []
+        op, a, b = "+-*/"[O[i]], int(A[i]), int(Bv[i])
+        chain = [(v, op, a, b)]
+        for u in (a, b):
+            if u in one and u not in Kl_set:
+                chain.append((u, *one[u]))
+        return chain
+    Kl_set = set(Kl)
+    back = {}
+    back.update(B2); back.update(B1)
+    Rl_set = set(Rl)
+    routes = {}
+    def route(recs):
+        recs = list(dict.fromkeys(recs))
+        key = frozenset(recs)
+        routes[key] = recs
+    def backward_recs(x):
+        recs = []
+        while x in back:
+            r, op, a, b = back[x]
+            recs.append((r, op, a, b))
+            if r in Kl_set or r in Rl_set: break
+            x = r
+        return recs
+    keys = np.asarray(sorted(back), dtype=np.int64)
+    def meet_with(arr):
+        idx = np.minimum(np.searchsorted(keys, arr), len(keys) - 1)
+        for v in arr[keys[idx] == arr].tolist():
+            if v not in Kl_set:
+                route(forward_chain(v) + backward_recs(v))
+    meet_with(V)
+    meet_with(np.asarray(sorted(one), dtype=np.int64))
+    if getattr(args, "deep_pairs", True) and len(B1):
+        X = np.asarray(sorted(B1), dtype=np.int64)[:getattr(args, "deep_cap", 3000)]
+        Xs = np.where(X > 0, X, 1)
+        for f1 in F1.tolist():
+            for kind in range(6):
+                if kind == 0: cand, ok = X - f1, X > f1
+                elif kind == 1: cand, ok = X + f1, X + f1 <= limit
+                elif kind == 2: cand, ok = f1 - X, f1 > X
+                elif kind == 3: cand, ok = X // f1, X % f1 == 0
+                elif kind == 4: cand, ok = X * f1, X <= limit // f1
+                else: cand, ok = f1 // Xs, f1 % Xs == 0
+                cand = np.where(ok, cand, 0)
+                idx = np.minimum(np.searchsorted(V, cand), len(V) - 1)
+                for xi in np.nonzero((V[idx] == cand) & (cand > 0))[0].tolist():
+                    x, f2 = int(X[xi]), int(cand[xi])
+                    rec = [("+", f2, f1), ("-", f2, f1), ("-", f1, f2), ("*", f2, f1), ("/", f2, f1), ("/", f1, f2)][kind]
+                    route([(x, *rec)] + forward_chain(f2) + forward_chain(f1) + backward_recs(x))
+    args.deep_all = routes
+    voters = defaultdict(set)
+    for recs in routes.values():
+        target = next((v for v, *_ in reversed(recs) if v in Rl_set), None)
+        for v, *_ in recs:
+            if v not in Kl_set:
+                voters[v].add(target)
+    votes = {v: len(t) for v, t in voters.items()}
+    args.deep_votes = votes
+    force = getattr(args, "deep_force", None)
+    auto = getattr(args, "deep_auto", 0)
+    if force is None and auto:
+        force = [v for v in sorted(votes, key=lambda v: (-votes[v], v)) if v not in Rl_set][:auto]
+    if force is not None:
+        hubs = [force] if isinstance(force, int) else list(force)
+        used, budget = set(), getattr(args, "deep_budget", 2000)
+        per_hub = getattr(args, "deep_hub_budget", None)
+        for hub in hubs:
+            hub_used = set()
+            through = sorted((r for r in routes.values() if any(v == hub for v, *_ in r)), key=len)
+            for recs in through[:getattr(args, "deep_routes", 400)]:
+                for rec in recs:
+                    C.add(*rec, "deep")
+                used |= {v for v, *_ in recs}
+                hub_used |= {v for v, *_ in recs}
+            par, level = {}, np.asarray([hub], dtype=np.int64)
+            for depth in range(3):
+                nxt = {}
+                for k in Kl:
+                    for v, o, a, b in forward_steps(level, k, limit):
+                        if depth == 2:
+                            i = np.minimum(np.searchsorted(keys, v), len(keys) - 1)
+                            m = keys[i] == v
+                            v, o, a, b = v[m], o[m], a[m], b[m]
+                        for vv, oo, aa, bb in zip(v.tolist(), o.tolist(), a.tolist(), b.tolist()):
+                            if vv not in par and vv not in Kl_set and vv != hub and vv not in nxt:
+                                nxt[vv] = ("+-*/"[oo], aa, bb)
+                par.update(nxt)
+                level = np.asarray(sorted(nxt), dtype=np.int64)
+                if not len(level):
+                    break
+            def forward_recs(v, par=par, hub=hub):
+                recs = []
+                while v in par:
+                    op, a, b = par[v]
+                    recs.append((v, op, a, b))
+                    v = a if a in par else b if b in par else hub
+                return recs
+            meets = sorted((forward_recs(m) + forward_chain(hub) + backward_recs(m) for m in par if m in back), key=len)
+            for recs in meets:
+                new = {v for v, *_ in recs} - used
+                if len(used) + len(new) > budget or (per_hub and len(hub_used | new) > per_hub):
+                    continue
+                used |= new; hub_used |= new
+                for rec in recs:
+                    C.add(*rec, "deep")
+        args.deep_rank, args.deep_stats = {}, Counter()
+        return
+    def score(recs):
+        new = {v for v, *_ in recs} - Kl_set - Rl_set
+        return sum(votes[v] - 1 for v in new) - .5*len(new)
+    ranked = sorted(routes.values(), key=score, reverse=True)
+    args.deep_rank = {frozenset(r): i for i, r in enumerate(ranked[:20000])}
+    used, budget = set(), getattr(args, "deep_budget", 2000)
+    taken = Counter()
+    for recs in ranked:
+        new = {v for v, *_ in recs} - used - Kl_set
+        if len(used) + len(new) > budget:
+            continue
+        used |= new
+        taken[len(new)] += 1
+        for rec in recs:
+            C.add(*rec, "deep")
+        if len(used) >= budget:
+            break
+    args.deep_stats = taken
+
+
 def generate(p, K, R, bank_vals_rec, orig_rec, args, rng, global_search=False):
     """Return Cands and source counters. K: dict kept+starts value->recipe|None."""
     limit = p.limit
@@ -328,6 +526,10 @@ def generate(p, K, R, bank_vals_rec, orig_rec, args, rng, global_search=False):
 
     if args.native_source:
         native_chains(C, args, Kl, Rl)
+    if getattr(args, "deep", False):
+        extra = getattr(args, "deep_budget", 2000)
+        C.max_values += extra; C.max_recipes += 8*extra
+        deep_chains(C, Kl, Rl, one, limit, args)
     Ul = U()
     for x, op, a, b in one_step_hits(Rl, Kl, Ul, limit):
         C.add(x, op, a, b, "closure")
@@ -437,6 +639,10 @@ def solve_model(p, K, cands, R, hint, tl, nogoods=(), log=None):
     s = cp_model.CpSolver()
     s.parameters.max_time_in_seconds = tl
     s.parameters.num_workers = 1
+    if os.environ.get("CPSAT_SOLVER_PARAMS"):
+        for item in os.environ["CPSAT_SOLVER_PARAMS"].split(","):
+            key, val = item.split("=")
+            setattr(s.parameters, key, {"true": True, "false": False}.get(val, None) if val in ("true", "false") else int(val))
     st = s.Solve(m)
     name = s.StatusName(st)
     if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE): return None, name, None
@@ -637,6 +843,7 @@ def full_rebuild(p, prog, bank_rec, args, rng, seconds, row):
         chosen, status, obj = solve_model(p, K, C.rec, R, g, max(.01, deadline - time.monotonic()), nogoods)
         row.update(status=status, obj=obj)
         if chosen is None: return None
+        row["selected_sources"] = dict(Counter(tag for _, tag in chosen.values()))
         new = schedule(p, {v: r for v, (r, t) in chosen.items()}, rank, prog)
         if new is not None and len(new) <= len(prog):
             row.pop("reason", None)
