@@ -70,8 +70,8 @@ class RunnerTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch.object(E,"DB",Path(temp)/"test.db"):
             with E.connect() as db:
                 E.initialize(db)
-                E.import_exp0(db,base)
-                E.import_exp0(db,base)
+                E.import_exp0(db,base,True)
+                E.import_exp0(db,base,True)
                 stats = E.metrics(db,0,"bank")
                 self.assertEqual((stats["puzzles"],stats["matched"]),(1000,992))
                 self.assertFalse(E.gate(0,{"bank":stats}))
@@ -80,7 +80,7 @@ class RunnerTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             with (patch.object(E,"DB",root/"test.db"),patch.object(L,"ROOT",root),
-                  patch.object(L,"EXP",root),patch.object(L,"BASE",root/"base.csv")):
+                  patch.object(L,"EXP",root),patch.object(L,"OUT",root),patch.object(L,"BASE",root/"base.csv")):
                 p = Puzzle("toy",[2,3],[5],100,4)
                 prog = [["+",0,1,2]]
                 args = E.parser().parse_args(["exp1"])
