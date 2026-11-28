@@ -1,0 +1,6 @@
+109 values 109 108 values 108 |D| (old values changed/removed) 19 108-only or changed values 18
+108 values missing from 109: [948, 11408, 11827, 787994, 1707449, 1712137, 92822711, 93610705, 747018312, 168556463376, 1421827970697]
+recipe of 11827 ('+', 34, 11793) in K? False in Dc? False recipe of 787994 ('-', 1259665, 471671)
+baseline: |K|=91 |R|=7 routes=1318784 candidates-voted=324681 787994 rank=172 votes=5 top5=[(1, 6), (131, 6), (131863, 6), (357378, 6), (2, 5)] 16s
+hub chain added: [(11827, ('+', 34, 11793))]
+with-hub: |K|=92 |R|=7 routes=1472843 candidates-voted=355068 787994 rank=201 votes=5 top5=[(1, 6), (131, 6), (11861, 6), (131863, 6), (357378, 6)] 17s
